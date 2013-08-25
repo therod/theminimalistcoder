@@ -2,7 +2,7 @@
 layout: post
 title: "Rails Girls Zurich, personal thoughts"
 permalink: "/railsgirlszurich"
-image: "/assets/posts/railsgirlszurich.jpg"
+image: "railsgirlszurich.jpg"
 ---
 
 Last weekend I attended the first Rails Girls event in Zurich,

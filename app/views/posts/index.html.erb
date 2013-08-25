@@ -7,7 +7,7 @@
     </div>
 
     <%= link_to post.permalink do %>
-      <div class="post-image" style="background-image: url(<%= post.image %>);"></div>
+      <div class="post-image" style="background-image: url(<%= asset_path(post.image) %>);"></div>
     <% end %>
 
     <div class="post-summary">

@@ -3,7 +3,7 @@
   <span class="post-date"><%= formatted_date(@post.date) %></span>
 </div>
 
-<div class="show-post-image" style="background-image: url(<%= @post.image %>);"></div>
+<div class="show-post-image" style="background-image: url(<%= asset_path(@post.image) %>);"></div>
 
 <div class="post-body">
   <%= @post.content_html %>
