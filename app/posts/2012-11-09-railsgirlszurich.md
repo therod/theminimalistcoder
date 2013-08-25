@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Rails Girls Zurich, personal thoughts"
-permalink: "/railsgirlszurich"
 image: "railsgirlszurich.jpg"
 ---
 

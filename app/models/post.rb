@@ -1,5 +1,4 @@
 class Post
-
   attr_reader :slug
 
   FILENAME_FORMAT = /^(\d+-\d+-\d+)-(.*)(\.[^.]+)$/
@@ -10,11 +9,15 @@ class Post
   end
 
   def id
-    date.to_s + "-" + permalink[1..-1]
+    date.strftime("%Y%m%d").to_i
   end
 
-  def permalink
-    metadata[:permalink]
+  def created_at
+    date
+  end
+
+  def updated_at
+    date
   end
 
   def to_key

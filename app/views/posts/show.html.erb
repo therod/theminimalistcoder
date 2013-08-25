@@ -15,13 +15,13 @@
 <% if @post.previous_post %>
   <div class="previous-post">
     <h1>Previous Post</h1>
-    <%= link_to @post.previous_post.title, @post.previous_post.permalink %>
+    <%= link_to @post.previous_post.title, post_url(@post.previous_post.slug) %>
   </div>
 <% end %>
 <% if @post.next_post %>
   <div class="next-post">
     <h1>Next Post</h1>
-    <%= link_to @post.next_post.title, @post.next_post.permalink %>
+    <%= link_to @post.next_post.title, post_url(@post.next_post.slug) %>
   </div>
 <% end %>
 <div style="clear: both;"></div>

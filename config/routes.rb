@@ -5,8 +5,11 @@ RodrigohaenggiCom::Application.routes.draw do
   # Static Pages
   get '/archives'  => 'pages#archives'
 
+  # ATOM
+  get '/feed' => 'posts#feed', :defaults => { :format => 'xml' }
+
   # Posts
-  get '/:slug'  => 'posts#show'
+  get '/:slug'  => 'posts#show', as: :post
 
   # 301s from the old page
   get '/posts/rails-girls-zurich-thoughts/', to: redirect('/railsgirlszurich')

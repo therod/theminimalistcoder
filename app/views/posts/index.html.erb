@@ -1,12 +1,12 @@
 <ul class="listing">
 <% @posts.each do |post| %>
-  <li>
-    <div id="<%= post.id %>" class="post-header">
-      <h1><%= link_to post.title, post.permalink %></h1>
+  <li id="<%= post.id %>">
+    <div class="post-header">
+      <h1><%= link_to post.title, post_url(post.slug) %></h1>
       <span class="post-date"><%= formatted_date(post.date) %></span>
     </div>
 
-    <%= link_to post.permalink do %>
+    <%= link_to post_url(post.slug) do %>
       <div class="post-image" style="background-image: url(<%= asset_path(post.image) %>);"></div>
     <% end %>
 
@@ -14,7 +14,7 @@
       <%= post.summary_html %>
     </div>
 
-    <%= link_to "READ ON...", post.permalink, class: "readon" %>
+    <%= link_to "READ ON...", post_url(post.slug), class: "readon" %>
     <div style="clear: both;"></div>
   </li>
 <% end %>

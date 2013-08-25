@@ -7,7 +7,7 @@
   <ul>
   <% @posts.each do |post| %>
     <li>
-        <%= link_to post.title, post.permalink %>
+        <%= link_to post.title, post_url(post.slug) %>
     </li>
   <% end %>
   </ul>
