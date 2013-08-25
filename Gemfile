@@ -10,6 +10,9 @@ gem 'compass-rails', github: 'milgner/compass-rails', ref: '1749c06f15dc4b058427
 #RDiscount
 gem 'rdiscount'
 
+# Rails 4 Support for Heroku
+gem 'rails_12factor', group: :production
+
 # Font Awesome is awesome
 gem 'font-awesome-rails'
 
