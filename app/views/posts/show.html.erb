@@ -1,0 +1,28 @@
+<div id="<%= @post.id %>" class="post-header">
+  <h1><%= link_to @post.title, root_url %></h1>
+  <span class="post-date"><%= formatted_date(@post.date) %></span>
+</div>
+
+<div class="show-post-image" style="background-image: url(<%= @post.image %>);"></div>
+
+<div class="post-body">
+  <%= @post.content_html %>
+</div>
+
+<%= render 'whoring' %>
+
+<div class="post-navigation">
+<% if @post.previous_post %>
+  <div class="previous-post">
+    <h1>Previous Post</h1>
+    <%= link_to @post.previous_post.title, @post.previous_post.permalink %>
+  </div>
+<% end %>
+<% if @post.next_post %>
+  <div class="next-post">
+    <h1>Next Post</h1>
+    <%= link_to @post.next_post.title, @post.next_post.permalink %>
+  </div>
+<% end %>
+<div style="clear: both;"></div>
+</div>

@@ -1,0 +1,8 @@
+<div class="whoring">
+  <span class="whoring-title">SHARE:</span> 
+
+  <%= link_to "mailto:?subject=#{@post.title}&body=I found this article interesting: #{request.original_url}" do %>
+    <i class="icon-envelope-alt"></i> <span class="whoring-type">Email a Friend</span>
+  <% end %>
+
+</div>

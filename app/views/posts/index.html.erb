@@ -1,0 +1,21 @@
+<ul class="listing">
+<% @posts.each do |post| %>
+  <li>
+    <div id="<%= post.id %>" class="post-header">
+      <h1><%= link_to post.title, post.permalink %></h1>
+      <span class="post-date"><%= formatted_date(post.date) %></span>
+    </div>
+
+    <%= link_to post.permalink do %>
+      <div class="post-image" style="background-image: url(<%= post.image %>);"></div>
+    <% end %>
+
+    <div class="post-summary">
+      <%= post.summary_html %>
+    </div>
+
+    <%= link_to "READ ON...", post.permalink, class: "readon" %>
+    <div style="clear: both;"></div>
+  </li>
+<% end %>
+</ul>

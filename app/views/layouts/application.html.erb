@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>rodrigohaenggi.com</title>
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <%= render 'shared/analytics' %>
+    <script type="text/javascript" src="//use.typekit.net/fjr3bxd.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+
+  <body>
+    <%= render 'layouts/navigation' %>
+    <div class="content">
+      <%= yield %>
+      <footer>
+      &copy; Rodrigo Haenggi
+      </footer>
+    </div>
+
+  </body>
+
+</html>

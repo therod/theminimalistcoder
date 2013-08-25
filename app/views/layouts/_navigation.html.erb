@@ -1,0 +1,25 @@
+<header class="main-header">
+
+  <h1>
+    <%= link_to root_url do %>
+      rodrigo<span class="light">haenggi</span>
+    <% end %>
+  </h1>
+
+  <nav class="main-navigation">
+  <ul>
+    <li><%= link_to "ARCHIVES", archives_url, class: "#{'active' if action_name == 'archives'}"  %></li>
+  </ul>
+  </nav>
+
+  <section class="about">
+    <div class="left">
+      <%= image_tag "avatarone.jpg" %>
+    </div>
+    <div class="right">
+      My name is Rodrigo Haenggi, I design user interfaces, write code at <a href="http://codegestalt.com">Codegestalt</a> and love helping people.
+      I am currently trying to figure out how to live a meaningful life and will be sharing my
+      insights here.
+    </div>
+  </section>
+</header>
