@@ -5,7 +5,7 @@ $black1: black
 $black2: #333
 $black3: #555
 
-$light: #cecece
+$light: #aaa
 $lighter: #ccc
 
 $red1: #EF0D0C
@@ -89,15 +89,15 @@ nav.main-navigation
       display: inline-block
       line-height: 17px
       margin: 0 10px
-      padding: 5px 0
+      padding: 10px 0
       width: auto
 
       a 
         border-top: 1px solid transparent
-        padding: 6px 0
+        padding: 11px 0
         color: $light
         font-size: 13px
-        font-weight: lighter
+        font-weight: normal
         text-decoration: none
 
         &.active
@@ -110,6 +110,7 @@ nav.main-navigation
           border-top: 1px solid $black2
           font-weight: normal
           color: $black1
+          @include transition(color 0.6s)
 
         a
           display: inline
