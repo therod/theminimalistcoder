@@ -1,6 +1,5 @@
 ---
-layout: post
-title: "Rails Girls Zurich, personal thoughts"
+title: "Rails Girls Zurich, thoughts"
 image: "railsgirlszurich.jpg"
 ---
 
