@@ -3,7 +3,7 @@
   <head>
     <title>rodrigohaenggi.com</title>
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-    <meta name="viewport" content="width=device-width, initial-scale=0.55" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.50" />
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
     <%= render 'shared/analytics' %>
@@ -17,7 +17,12 @@
       <div class="content">
         <%= yield %>
         <footer>
-        &copy; 2013 Rodrigo Haenggi
+          <span class="copyright">
+            &copy; 2013 Rodrigo Haenggi
+          </span>
+          <div class="social_navigation">
+            <%= render 'layouts/social' %>
+          </div>
         </footer>
       </div>
     </div>

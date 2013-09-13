@@ -4,7 +4,7 @@ module PostsHelper
   end
 
   def formatted_date(date)
-    date.strftime("%A, %d. %B %Y")
+    date.strftime("Written on %A, %d. %B %Y")
   end
 
 end

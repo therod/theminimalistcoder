@@ -2,9 +2,6 @@ RodrigohaenggiCom::Application.routes.draw do
 
   root 'posts#index'
 
-  # Static Pages
-  get '/archives'  => 'pages#archives'
-
   # ATOM
   get '/feed' => 'posts#feed', :defaults => { :format => 'xml' }
 

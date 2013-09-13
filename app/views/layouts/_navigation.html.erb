@@ -1,63 +1,20 @@
 <header class="main-header">
 
-  <h1>
+  <div class="circle">
     <%= link_to root_url do %>
-      rodrigo<span class="light">haenggi</span>
+     <%= image_tag "avatarone.jpg" %>
     <% end %>
-  </h1>
+  </div>
 
-  <nav class="main-navigation">
-  <ul>
-    <li><%= link_to "ARCHIVES", archives_url, class: "#{'active' if action_name == 'archives'}"  %></li>
-  </ul>
-  </nav>
+  <% if params[:action] == "index" %>
+  <div class="summary">
+    Hi, I'm Rodrigo. I design software and help people at <%= link_to "Codegestalt", "http://codegestalt.com" %>.<br>
+    I am currently trying to figure out how to live a meaningful life
+    and will be sharing my experiences and insights here.<br>
+    Have a great <%= Date.today.strftime("%A") %>!
+    <%# I will be sharing my experiences and insights here. %>
+  </div>
 
-  <section class="about">
-    <div class="left">
-      <%= image_tag "avatarone.jpg" %>
-    </div>
-    <div class="right">
-      My name is Rodrigo Haenggi, I design user interfaces, write code at <a href="http://codegestalt.com">Codegestalt</a> and love helping people.
-      I am currently trying to figure out how to live a meaningful life and will be sharing my
-      insights here.
-    </div>
-  </section>
-
-  <nav class="social-navigation">
-  <ul>
-    <li>
-      <%= link_to raw("<i class='icon-twitter'></i>"), "https://twitter.com/therod", title: "Twitter", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-facebook-sign'></i>"), "https://www.facebook.com/rodrigo.haenggi", title: "Facebook", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-google-plus'></i>"), "https://plus.google.com/105879682427060064347", title: "Google +", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-instagram'></i>"), "http://instagram.com/rodrigohaenggi", title: "Instagram", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-flickr'></i>"), "http://www.flickr.com/photos/rodrigohaenggi/", title: "Flickr", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-youtube-play'></i>"), "https://vimeo.com/therod", title: "Vimeo", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-music'></i>"), "http://www.last.fm/user/rodrigohaenggi", title: "last.fm", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-github'></i>"), "https://github.com/therod", title: "GitHub", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-envelope'></i>"), "mailto:rodrigo@codegestalt.com", title: "Email", class: "tooltip downward"  %>
-    </li>
-    <li>
-      <%= link_to raw("<i class='icon-rss'></i>"), feed_url, title: "RSS Feed", class: "tooltip downward"  %>
-    </li>
-  </ul>
-  </nav>
-
-
+  <% end %>
 
 </header>

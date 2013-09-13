@@ -1,4 +1,4 @@
-$body-font-family: "Times New Roman", "Georgia", serif
+$body-font-family: "kepler-std", serif
 $main-font-family: "proxima-nova", "lucida grande", helvetica, arial, tahoma, sans-serif
 
 $black1: black
@@ -8,15 +8,13 @@ $black3: #555
 $light: #aaa
 $lighter: #ccc
 
+$blue-link: #477b96
+
 $red1: #EF0D0C
 
 body 
   border-top: 3px solid #444
   color: $black3
-  font-family: $body-font-family
-  font-weight: normal
-  font-size: 15px
-  line-height: 24px
   margin: 0
 
   h1,h2,h3,h4
@@ -45,12 +43,12 @@ body
     -webkit-margin-end: 0
 
   a 
-    color: $black1
+    color: $blue-link
     text-decoration: none
     text-decoration: underline
 
     &:hover 
-      color: $black2
+      color: $blue-link
       @include transition(color 0.6s)
 
   .light 
@@ -58,12 +56,13 @@ body
 
   .tipsy
     font-family: $main-font-family
-    font-size: 10px
-    font-weight: normal
+    font-size: 11px
+    font-weight: light
     letter-spacing: 1px
+    line-height: 15px
 
   .container
-    width: 550px
+    width: 600px
     margin: 0 auto 0 auto
 
 // HEADER
@@ -71,21 +70,26 @@ body
 header.main-header 
   margin: 40px 0 0 0
   font-family: $main-font-family
-  border-bottom: 1px solid $light
+  text-align: center
 
-  p 
-    margin: 0
+  .circle
+    img
+      width: 200px
+      height: 200px
+      +border-radius(100%)
 
-  h1
-    font-size: 36px
-    text-align: center
-    a
-      text-decoration: none
+  .summary
+    padding: 20px 0
+    font-size: 1.30em
+    line-height: 1.5em
+    font-family: $body-font-family
+    font-weight: 300
+
 
 // NAVIGATION
 
-nav.main-navigation 
-  margin: 45px 0 0 0
+.main-navigation 
+  margin: 25px 0 0 0
   padding: 0
   border-top: 1px solid $light
   border-bottom: 1px solid $light
@@ -107,51 +111,31 @@ nav.main-navigation
         padding: 11px 0
         color: $light
         font-size: 13px
-        font-weight: normal
+        font-weight: light
         text-decoration: none
 
         &.active
           color: $black1
-          font-weight: normal
+          font-weight: light
           display: inline
           border-top: 1px solid $black2
 
         &:hover 
           border-top: 1px solid $black2
-          font-weight: normal
+          font-weight: light
           color: $black1
 
         a
           display: inline
           color: $black1
 
-nav.social-navigation
-  text-align: center
-  margin: 0 0 0 0
-  border-top: 1px solid $light
-  border-bottom: 1px solid transparent
-
-  ul
-    padding: 0
-    margin: 0
-  li
-    display: inline-block
-    padding: 5px 12px 5px 0
-    a
-      font-size: 20px
-      line-height: 28px
-      text-decoration: none
-      color: $lighter
-
-      &:hover
-        color: $black1
 
 // ABOUT SECTION
 
 section.about 
   margin: 20px 0
   display: inline-block
-  width: 550px
+  width: 600px
 
   .left 
     text-align: left
@@ -174,22 +158,25 @@ section.about
 // CONTENT
 
 .content
-  margin: 0 0 0 0
-  padding: 20px 0 20px 0
+  margin: 40px 0 0 0
+  padding: 0 0 20px 0
 
 .show-post-image 
   background-size: cover
   height: 320px
-  width: 550px
+  width: 600px
 
 ul.listing 
   margin: 0
 
   li 
-    padding: 20px 0 25px 0
+    padding: 40px 0 35px 0
     list-style: none
     min-height: 200px
     border-bottom: 1px solid $light
+    font-size: 1.35em
+    line-height: 1.6em
+    font-weight: light
 
     &:first-child 
       padding: 0 0 25px 0
@@ -197,10 +184,11 @@ ul.listing
       .post-image 
         background-size: cover
         height: 320px
-        width: 550px
+        width: 600px
 
     &:not(:first-child) 
       .post-image 
+        display: none
         background-size: cover
         height: 230px
         width: 230px
@@ -215,63 +203,49 @@ ul.listing
 
     .readon 
       font-size: 13px
-      color: $black3
+      color: $blue-link
       text-decoration: underline
 
+      &:hover
+        color: $blue-link
+        text-decoration: underline
+
 .post-header
-  margin: 0 0 10px 0
+  margin: 0 0 20px 0
+  text-align: center
+  font-family: $body-font-family
 
   h1 
     width: inherit
-    color: $black1
     margin: 0 0 0 0
     padding: 0
-    text-transform: uppercase
 
     a
-      line-height: 22px
-      font-size: 16px
-      text-transform: uppercase
-      font-weight: normal
+      color: $black2
+      line-height: 50px
+      font-size: 45px
+      font-weight: 300
       text-decoration: none
-      border-bottom: 1px solid $lighter
-      padding: 4px 0 4px 0
+      padding: 2px 0 2px 0
+      
+      &:hover
+        color: $blue-link
+        text-decoration: underline
 
   .post-date
     font-style: italic
     font-weight: 100
-    font-size: 14px
-    line-height: 18px
+    font-size: 16px
+    line-height: 22px
     color: #aaa
 
 .post-summary
   margin: 10px 0 10px 0
+  font-family: $body-font-family
+  color: $black3
+  font-weight: 300
 
   p
-    font-size: 15px
-
-.archives
-
-  h1
-    font-family: $body-font-family
-    text-transform: uppercase
-    font-weight: normal
-    font-size: 16px
-    color: $black1
-    margin: 10px 0 10px 0
-    padding: 0
-
-  h2
-    font-weight: normal
-    font-size: 18px
-    text-transform: uppercase
-    margin: 20px 0 20px 0
-
-  ul
-    padding: 0
-    margin: 0
-
-    li
 
 .whoring
   border-top: 1px solid $lighter
@@ -307,7 +281,7 @@ ul.listing
   h1
     margin: 0
     font-size: 18px
-    font-weight: normal
+    font-weight: light
     font-family: $main-font-family
     text-transform: uppercase
 
@@ -332,3 +306,29 @@ footer
   font-size: 13px
   font-family: $main-font-family
   color: $light
+
+  .copyright
+    display: inline-block
+    margin: 4px 0 0 0 
+
+  .social_navigation
+    display: inline-block
+    float: right
+    text-align: right
+    padding: 0
+    margin: 0 0 0 0
+
+    ul
+      padding: 0
+      margin: 0
+    li
+      display: inline-block
+      padding: 0 12px 0 0
+      a
+        font-size: 16px
+        line-height: 24px
+        text-decoration: none
+        color: $lighter
+
+        &:hover
+          color: $black1

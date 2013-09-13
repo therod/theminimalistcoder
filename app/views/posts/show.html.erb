@@ -1,5 +1,5 @@
 <div id="<%= @post.id %>" class="post-header">
-  <h1><%= link_to @post.title, root_url %></h1>
+  <h1><%= link_to @post.title, post_url(@post.slug) %></h1>
   <span class="post-date"><%= formatted_date(@post.date) %></span>
 </div>
 
@@ -14,14 +14,18 @@
 <div class="post-navigation">
 <% if @post.previous_post %>
   <div class="previous-post">
-    <h1>Previous Post</h1>
-    <%= link_to @post.previous_post.title, post_url(@post.previous_post.slug) %>
+    <%= link_to @post.previous_post.slug do %>
+      <h1>Previous Post</h1>
+      <%= link_to @post.previous_post.title, post_url(@post.previous_post.slug) %>
+    <% end %>
   </div>
 <% end %>
 <% if @post.next_post %>
   <div class="next-post">
-    <h1>Next Post</h1>
-    <%= link_to @post.next_post.title, post_url(@post.next_post.slug) %>
+    <%= link_to @post.next_post.slug do %>
+      <h1>Next Post</h1>
+      <%= link_to @post.next_post.title, post_url(@post.next_post.slug) %>
+    <% end %>
   </div>
 <% end %>
 <div style="clear: both;"></div>
