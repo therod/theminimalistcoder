@@ -68,7 +68,7 @@ class Post
   delegate :year, :month, :day, :to => :date
 
   def timestamp
-    metadata[:timestamp] || date.to_time_in_current_zone
+    metadata[:timestamp] || date.in_time_zone("Paris")
   end
   alias_method :last_modified, :timestamp
 
