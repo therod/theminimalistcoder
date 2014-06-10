@@ -2,28 +2,22 @@
 
   <div class="circle">
     <%= link_to root_url do %>
-      <% if params[:action] == "books" %>
-        <%= image_tag "books.png" %>
-      <% else %>
-        <%= image_tag "avatarone.jpg" %>
-      <% end %>
+      <%= image_tag "avatarone.jpg" %>
     <% end %>
   </div>
 
-  <% if params[:action] == "index" %>
   <div class="summary">
-    Hi, I'm Rodrigo. I design software and help people at <%= link_to "Codegestalt", "http://codegestalt.com" %>.<br>
+    Hi, I'm Rodrigo. I design software and help people at <%= link_to "Codegestalt", "http://codegestalt.com" %>.
     I am currently trying to figure out how to live a meaningful life
     and will be sharing my experiences and insights here.<br>
-    Have a great <%= Date.today.strftime("%A") %>!
+    <%# Have a great <%= Date.today.strftime("%A") %1>! %>
     <%# I will be sharing my experiences and insights here. %>
   </div>
-  <% end %>
 
-  <% if params[:action] == "books" %>
-  <div class="summary">
-    Welcome to my Library. Here you'll find a list off all the Books I'm currently reading and the ones I've read.
+  <div class="main-navigation">
+    <ul>
+      <li class="<%= "active" if params[:action] == "books" %>"><%= link_to "Library", books_url %></li>
+    </ul>
   </div>
-  <% end %>
 
 </header>

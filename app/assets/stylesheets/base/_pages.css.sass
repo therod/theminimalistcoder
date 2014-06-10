@@ -9,6 +9,7 @@ $light: #aaa
 $lighter: #ccc
 
 $blue-link: #477b96
+$blue1: #758795
 
 $red1: #EF0D0C
 
@@ -70,20 +71,23 @@ body
 header.main-header
   margin: 40px 0 0 0
   font-family: $main-font-family
-  text-align: center
 
   .circle
+    float: left
     img
-      width: 200px
-      height: 200px
+      width: 160px
+      height: 160px
       +border-radius(100%)
 
   .summary
     padding: 20px 0
+    margin-left: 190px
     font-size: 1.30em
     line-height: 1.5em
     font-family: $body-font-family
     font-weight: 300
+    height: 130px
+    vertical-align: middle
 
 
 // NAVIGATION
@@ -106,19 +110,22 @@ header.main-header
       padding: 10px 0
       width: auto
 
-      a
-        border-top: 1px solid transparent
-        padding: 11px 0
-        color: $light
-        font-size: 13px
-        font-weight: light
-        text-decoration: none
-
-        &.active
+      &.active
+        a
           color: $black1
           font-weight: light
           display: inline
           border-top: 1px solid $black2
+
+      a
+        text-transform: uppercase
+        border-top: 1px solid transparent
+        padding: 9px 0
+        color: $light
+        font-size: 16px
+        font-weight: 300
+        text-decoration: none
+
 
         &:hover
           border-top: 1px solid $black2
