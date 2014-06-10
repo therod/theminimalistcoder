@@ -12,6 +12,7 @@ gem 'rdiscount'
 
 # Various
 gem 'nokogiri'
+gem 'goodreads'
 
 # Javascript
 gem 'uglifier', '>= 1.3.0'
@@ -21,6 +22,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 # HTML / CSS
+gem 'tipsy-rails'
 gem 'font-awesome-rails'
 gem 'sass-rails', '~> 4.0.3'
 gem "compass-rails", "~> 1.1.7"

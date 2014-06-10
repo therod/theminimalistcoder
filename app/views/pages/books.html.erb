@@ -1,0 +1,16 @@
+<div class="books">
+  <h1>Currently Reading</h1>
+  <ul class="book-listing">
+  <% @current.each do |book| %>
+    <%= render 'pages/book', book: book %>
+  <% end %>
+  </ul>
+
+  <h1>Read Books</h1>
+
+  <ul class="book-listing">
+  <% @read.each do |book| %>
+    <%= render 'pages/book', book: book %>
+  <% end %>
+  </ul>
+</div>

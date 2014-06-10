@@ -1,0 +1,14 @@
+<li class="book">
+  <div class="book-image">
+    <%= link_to book.link do %>
+      <%= image_tag book.image_url %>
+    <% end %>
+  </div>
+  <div class="book-title"><%= book.title %></div>
+  <div class="book-author">by <%= link_to book.authors.author.name, book.authors.author.name %></div>
+
+  <p><%=raw book.description.to_s.truncate(400, separator: /\s/) %> <%= link_to "read on...", book.link %> </p>
+
+  <div style="clear: both;"></div>
+
+</li>
