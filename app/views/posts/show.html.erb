@@ -5,25 +5,25 @@
 
 <div class="show-post-image" style="background-image: url(<%= asset_path(@post.image) %>);"></div>
 
-<div class="post-body default-font-size">
+<div class="post-body medium tf">
   <%= @post.content_html %>
 </div>
 
 <%= render 'whoring' %>
 
-<div class="post-navigation">
+<div class="post-navigation df">
 <% if @post.previous_post %>
-  <div class="previous-post">
+  <div class="previous-post normal">
     <%= link_to @post.previous_post.slug do %>
-      <h1>Previous Post</h1>
+      <h1>Previous Article</h1>
       <%= link_to @post.previous_post.title, post_url(@post.previous_post.slug) %>
     <% end %>
   </div>
 <% end %>
 <% if @post.next_post %>
-  <div class="next-post">
+  <div class="next-post normal">
     <%= link_to @post.next_post.slug do %>
-      <h1>Next Post</h1>
+      <h1>Next Article</h1>
       <%= link_to @post.next_post.title, post_url(@post.next_post.slug) %>
     <% end %>
   </div>
