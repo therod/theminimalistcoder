@@ -4,11 +4,10 @@
       <%= image_tag book.image_url %>
     <% end %>
   </div>
-  <div class="book-title"><%= book.title %></div>
+  <div class="book-title medium fw-bold"><%= link_to book.title, book.link %></div>
   <div class="book-author">by <%= link_to book.authors.author.name, book.authors.author.name %></div>
 
-  <p><%=raw book.description.to_s.truncate(400, separator: /\s/) %> <%= link_to "read on...", book.link %> </p>
+  <p class="tf normal fw-light"><%=raw book.description.to_s.truncate(400, separator: /\s/) %> <%= link_to "read on...", book.link %> </p>
 
   <div style="clear: both;"></div>
-
 </li>

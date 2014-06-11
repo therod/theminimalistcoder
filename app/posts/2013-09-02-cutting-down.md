@@ -8,7 +8,7 @@ Three weeks ago, I returned from my trip to Japan. After cycling across the coun
 
 *I almost need nothing to survive, even less to enjoy life and be happy...*
 
-Consumerism got me tricked all these years, and it only took a little more than a month of living on the road to realise it. 
+Consumerism got me tricked all these years, and it only took a little more than a month of living on the road to realise this. 
 Like so many others before me I stared my journey with too much. A full 32 litre backpack and two carry-on bike bags filled with stuff. 
 
 *Stuff I didn't need...*

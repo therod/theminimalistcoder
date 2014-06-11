@@ -1,9 +1,12 @@
 .books
   h1
-    border-bottom: 1px solid #cecece
-    font-size: 26px
+    font-size: 25px
+    line-height: 32px
+    font-family: $default-font-family
+    text-transform: uppercase
     padding-bottom: 10px
     font-weight: normal
+
 
   .book-listing
     display: block
@@ -12,13 +15,19 @@
     .book
       padding: 20px 0
       font-weight: normal
-      font-family: $default-font-family
 
       .book-title
         border: none
-        font-size: 18px
-        line-height: 24px
         margin-left: 140px
+
+        a
+          color: $black2
+          text-decoration: none
+          font-weight: 400
+          &:hover
+            color: $blue-link
+            text-decoration: underline
+
 
       .book-author
         margin: 0 0 15px 0
@@ -27,10 +36,6 @@
 
       p
         margin-left: 140px
-        font-family: $text-font-family
-        font-weight: 200
-        line-height: 20px
-        font-size: 16px
 
       .book-image
         float: left
