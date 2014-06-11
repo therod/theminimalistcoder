@@ -13,6 +13,7 @@ gem 'rdiscount'
 # Various
 gem 'nokogiri'
 gem 'goodreads'
+gem 'active_link_to'
 
 # Javascript
 gem 'uglifier', '>= 1.3.0'

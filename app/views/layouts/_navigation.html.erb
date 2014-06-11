@@ -6,18 +6,19 @@
     <% end %>
   </div>
 
-  <div class="summary">
+  <div class="summary medium tf">
     Hi, I'm Rodrigo. I design software and help people at <%= link_to "Codegestalt", "http://codegestalt.com" %>.
     I am currently trying to figure out how to live a meaningful life
-    and will be sharing my experiences and insights here.<br>
-    <%# Have a great <%= Date.today.strftime("%A") %1>! %>
-    <%# I will be sharing my experiences and insights here. %>
+    and will be sharing my experiences and insights here.
+
+    <div class="main-navigation small df">
+      <ul>
+        <li><%= active_link_to 'Essays', root_url, active: [['posts'], ['index', 'show']] %></li>
+        <li><%= active_link_to "Library", books_url, active: [['pages'], ['books']]  %></li>
+      </ul>
+    </div>
   </div>
 
-  <div class="main-navigation">
-    <ul>
-      <li class="<%= "active" if params[:action] == "books" %>"><%= link_to "Library", books_url %></li>
-    </ul>
-  </div>
+  <div style="clear: both;"></div>
 
 </header>

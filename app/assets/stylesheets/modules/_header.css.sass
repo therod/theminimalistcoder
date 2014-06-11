@@ -1,0 +1,67 @@
+header.main-header
+  margin: 40px 0 40px 0
+  padding: 0 0 20px 0
+  border-bottom: 1px solid #cecece
+
+  .circle
+    float: left
+    img
+      width: 160px
+      height: 160px
+      +border-top-right-radius(50%)
+      // +border-top-left-radius(50%)
+      +border-bottom-left-radius(50%)
+
+  .summary
+    padding: 10px 0 20px 20px
+    margin-left: 160px
+    vertical-align: bottom
+
+.main-navigation
+  margin: 15px 0 0 0
+  padding: 0
+  // border-top: 1px solid $light
+  // border-bottom: 1px solid $light
+  text-align: left
+
+  ul
+    padding: 0
+    margin: 0
+
+    li
+      display: inline-block
+      margin: 0 10px
+      padding: 7px 0
+      width: auto
+      
+      &:first-child
+        margin-left: 0px
+
+      &:hover
+        font-weight: light
+
+        a
+          color: $blue-link
+          font-weight: light
+          display: inline
+
+      .active
+        background-color: #3A6A83
+        color: white
+        +border-radius(35px)
+
+        a
+          color: white
+          font-weight: 300
+          display: inline
+
+        &:hover
+          color: white
+
+      a
+        text-transform: uppercase
+        border-top: 1px solid transparent
+        padding: 5px 9px
+        color: $light
+        font-weight: 300
+        text-decoration: none
