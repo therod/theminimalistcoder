@@ -4,6 +4,7 @@
     <title>rodrigohaenggi.com</title>
     <% if @post %>
       <meta property="og:image" content="<%= image_url asset_path(@post.image) %>"/>
+      <meta property="og:title" content="<%= @post.title %>" />
       <link rel="image_src" href="<%= image_url asset_path(@post.image) %>"/>
     <% end %>
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
