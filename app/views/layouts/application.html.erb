@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>rodrigohaenggi.com</title>
+    <% if @post %>
+      <meta property="og:image" content="<%= image_url asset_path(@post.image) %>"/>
+      <link rel="image_src" href="<%= image_url asset_path(@post.image) %>"/>
+    <% end %>
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
     <meta name="viewport" content="width=device-width, initial-scale=0.50" />
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -10,7 +14,6 @@
     <script type="text/javascript" src="//use.typekit.net/fjr3bxd.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
-
   <body>
     <div class="container">
       <%= render 'layouts/navigation' %>
