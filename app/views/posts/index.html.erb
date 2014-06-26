@@ -14,7 +14,7 @@
       <%= post.summary_html %>
     </div>
 
-    <%= link_to "READ ON...", post_url(post.slug), class: "readon" %>
+    <%= link_to raw("#{fa_icon "caret-right"} READ ON"), post_url(post.slug), class: "readon" %>
     <div style="clear: both;"></div>
   </li>
 <% end %>

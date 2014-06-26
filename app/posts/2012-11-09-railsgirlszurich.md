@@ -7,6 +7,7 @@ Last weekend I attended the first Rails Girls event in Zurich,
 Switzerland as a coach.
 I was blown away by the amazing organisation, huge amount of
 motivation and passion.
+
 After getting over my hangover on Sunday, I instantly knew that I wanted
 to stay involved and try to improve the quality of future Rails Girls happenings
 around the world.
