@@ -1,7 +1,7 @@
 <ul class="listing">
 <% @posts.each do |post| %>
   <li id="<%= post.id %>">
-    <div class="post-header">
+    <div class="post-header index-header">
       <h1><%= link_to post.title, post_url(post.slug) %></h1>
       <span class="post-date"><%= formatted_date(post.date) %></span>
     </div>
@@ -14,7 +14,7 @@
       <%= post.summary_html %>
     </div>
 
-    <%= link_to raw("#{fa_icon "caret-right"} READ ON"), post_url(post.slug), class: "readon" %>
+    <%= link_to raw("#{fa_icon "plus-square-o"} READ ON"), post_url(post.slug), class: "readon" %>
     <div style="clear: both;"></div>
   </li>
 <% end %>
