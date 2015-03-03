@@ -9,9 +9,6 @@ Theminimalistcoder::Application.routes.draw do
 
   root 'posts#index'
 
-  # Books
-  get '/books' => 'pages#books', as: :books
-
   # ATOM
   get '/feed' => 'posts#feed', :defaults => { :format => 'xml' }
 
@@ -21,6 +18,5 @@ Theminimalistcoder::Application.routes.draw do
   # 301s from the old page
   get '/posts/rails-girls-zurich-thoughts/', to: redirect('/railsgirlszurich')
   get 'posts/waking-up-early-10-tips-that-work/', to: redirect('/wake')
-
 
 end

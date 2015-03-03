@@ -12,7 +12,6 @@ gem 'rdiscount'
 
 # Various
 gem 'nokogiri'
-gem 'goodreads'
 gem 'active_link_to'
 
 # Javascript
