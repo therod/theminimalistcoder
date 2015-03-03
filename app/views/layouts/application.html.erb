@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>rodrigohaenggi.com</title>
+    <title>The Minimalist Coder</title>
     <% if @post %>
       <meta property="og:image" content="<%= image_url asset_path(@post.image) %>"/>
       <meta property="og:title" content="<%= @post.title %>" />
       <link rel="image_src" href="<%= image_url asset_path(@post.image) %>"/>
     <% end %>
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-    <meta name="viewport" content="width=device-width, initial-scale=0.50" />
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.50" />
     <%= render 'shared/analytics' %>
     <script type="text/javascript" src="//use.typekit.net/fjr3bxd.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -22,10 +23,10 @@
         <%= yield %>
         <footer>
           <span class="copyright df">
-            &copy; 2013 - 2014 Rodrigo Haenggi
+            &copy; 2015 theminimalistcoder
           </span>
           <div class="social_navigation">
-            <%= render 'layouts/social' %>
+            <%# <%= render 'layouts/social' %1> %>
           </div>
         </footer>
       </div>

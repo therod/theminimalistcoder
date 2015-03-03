@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-RodrigohaenggiCom::Application.load_tasks
+Theminimalistcoder::Application.load_tasks

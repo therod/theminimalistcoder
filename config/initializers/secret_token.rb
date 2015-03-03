@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-RodrigohaenggiCom::Application.config.secret_key_base = '09f85e36369ecc3f05553e8d23df571a798e9d9607d5cdf359ba050712663f6cd6500c31865652331706729d95fdbd711db2edd388b90c48921410207b877cac'
+Theminimalistcoder::Application.config.secret_key_base = '09f85e36369ecc3f05553e8d23df571a798e9d9607d5cdf359ba050712663f6cd6500c31865652331706729d95fdbd711db2edd388b90c48921410207b877cac'

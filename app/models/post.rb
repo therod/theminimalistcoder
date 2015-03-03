@@ -84,17 +84,13 @@ class Post
     RDiscount.new(content).to_html.html_safe
   end
 
-  class Sanitizer < HTML::WhiteListSanitizer
-    self.allowed_tags -= %w(img a)
-  end
-
   TagHelper = Class.new.extend ActionView::Helpers::TagHelper
 
   def summary_html
     if metadata[:summary].present?
       TagHelper.content_tag :p, metadata[:summary]
     else
-      html = Sanitizer.new.sanitize(content_html)
+      html = content_html
       doc = Nokogiri::HTML.fragment(html)
       para = doc.search('p').detect { |p| p.text.present? }
       para.try(:to_html).try(:html_safe)

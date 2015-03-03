@@ -1,4 +1,4 @@
-RodrigohaenggiCom::Application.routes.draw do
+Theminimalistcoder::Application.routes.draw do
 
   # we don't want www
   constraints(:host => /^www\./) do

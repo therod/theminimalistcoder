@@ -8,7 +8,7 @@ class PostsController < ApplicationController
   end
 
   def feed
-    @title = "rodrigohaenggi.com"
+    @title = "theminimalistcoder"
     @posts = Post.all
 
     respond_to do |format|
