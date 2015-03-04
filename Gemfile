@@ -28,6 +28,7 @@ gem 'sass-rails', '~> 5.0'
 gem "compass-rails", "~> 2.0.4"
 
 group :development, :test do
+  gem 'thin'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
