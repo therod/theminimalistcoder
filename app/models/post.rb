@@ -42,6 +42,14 @@ class Post
     metadata[:image]
   end
 
+  def promoted?
+    metadata[:promoted]
+  end
+
+  def title_color
+    metadata[:title_color] || "white"
+  end
+
   def next_post
     index = Post.all.find_index { |p| p.date == date } - 1
     if index == -1

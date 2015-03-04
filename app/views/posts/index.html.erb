@@ -1,21 +1,19 @@
-<ul class="listing">
-<% @posts.each do |post| %>
-  <li id="<%= post.id %>">
-    <div class="post-header index-header">
-      <h1><%= link_to post.title, post_url(post.slug) %></h1>
-      <span class="post-date"><%= formatted_date(post.date) %></span>
-    </div>
+<div class="latest-post">
+  <%= render "post", post: @latest_post %>
+</div>
 
-    <%= link_to post_url(post.slug) do %>
-      <div class="post-image" style="background-image: url(<%= asset_path(post.image) %>);"></div>
-    <% end %>
+<div class="divider"></div>
 
-    <div class="post-summary medium tf">
-      <%= post.summary_html %>
-    </div>
 
-    <%= link_to raw("#{fa_icon "plus-square-o"} READ ON"), post_url(post.slug), class: "readon" %>
-    <div style="clear: both;"></div>
-  </li>
-<% end %>
+<ul class="listing large-block-grid-2">
+  <% @posts.each do |post| %>
+    <li id="<%= post.id %>" class="<%= "promoted large-2 columns" if post.promoted? %>">
+      <%= link_to post_url(post.slug) do %>
+        <%= image_tag post.image %>
+        <div class="legend">
+          <div class="post-title <%= post.title_color %>"><%= post.title %></div>
+        </div>
+      <% end %>
+    </li>
+  <% end %>
 </ul>

@@ -1,6 +1,7 @@
 ---
 title: "Cutting down"
 image: "cuttingdown.jpg"
+title_color: "black"
 ---
 >> If you can't see the forest for the trees, start cutting down trees. At some point you'll realise, that there wasn't even a forest to begin with.
 

@@ -1,0 +1,32 @@
+<div id="<%= post.id %>" class="post-header">
+  <h1><%= link_to post.title, post_url(post.slug) %></h1>
+  <span class="post-date"><%= formatted_date(post.date) %></span>
+</div>
+
+<div class="show-post-image" style="background-image: url(<%= asset_path(post.image) %>);"></div>
+
+<div class="post-body medium tf">
+  <%= post.content_html %>
+</div>
+
+<%# <%= render 'whoring' %1> %>
+
+<%# <div class="post-navigation df"> %>
+<%# <% if post.previous_post %1> %>
+<%#   <div class="previous-post normal"> %>
+<%#     <%= link_to post.previous_post.slug do %1> %>
+<%#       <h1>Previous Article</h1> %>
+<%#       <%= link_to post.previous_post.title, post_url(post.previous_post.slug) %1> %>
+<%#     <% end %1> %>
+<%#   </div> %>
+<%# <% end %1> %>
+<%# <% if post.next_post %1> %>
+<%#   <div class="next-post normal"> %>
+<%#     <%= link_to post.next_post.slug do %1> %>
+<%#       <h1>Next Article</h1> %>
+<%#       <%= link_to post.next_post.title, post_url(post.next_post.slug) %1> %>
+<%#     <% end %1> %>
+<%#   </div> %>
+<%# <% end %1> %>
+<%# <div style="clear: both;"></div> %>
+<%# </div> %>

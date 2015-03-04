@@ -25,7 +25,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'tipsy-rails'
 gem 'font-awesome-rails'
 gem 'sass-rails', '~> 5.0'
-gem "compass-rails", "~> 2.0.4"
+gem 'bourbon'
+gem 'foundation-rails'
 
 group :development, :test do
   gem 'thin'
