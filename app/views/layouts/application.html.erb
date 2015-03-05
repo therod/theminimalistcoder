@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>The Minimalist Coder</title>
     <% if @post %>
       <meta property="og:image" content="<%= image_url asset_path(@post.image) %>"/>
       <meta property="og:title" content="<%= @post.title %>" />
       <link rel="image_src" href="<%= image_url asset_path(@post.image) %>"/>
     <% end %>
+
+    <title>The Minimalist Coder</title>
+    <%# TODO: Update Descriptioin %>
+    <meta name="description" content="The Minimalist Coder." />
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,23 +23,13 @@
   </head>
 
   <body>
-    <div class="page-wrapper">
-
-      <%= render 'layouts/header' %>
-
-      <div class="content">
+    <div class="off-canvas-wrap">
+      <div class="inner-wrap">
+        <%= render 'layouts/header' %>
         <%= yield %>
+        <%= render 'layouts/footer' %>
       </div>
-
-      <footer>
-        <span class="copyright df">
-          &copy; 2015 theminimalistcoder
-        </span>
-        <%# <div class="social_navigation"> %>
-        <%#   <%= render 'layouts/social' %1> %>
-        <%# </div> %>
-      </footer>
     </div>
-
   </body>
+
 </html>

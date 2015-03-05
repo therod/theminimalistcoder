@@ -3,8 +3,6 @@ title: "Cutting down"
 image: "cuttingdown.jpg"
 title_color: "black"
 ---
->> If you can't see the forest for the trees, start cutting down trees. At some point you'll realise, that there wasn't even a forest to begin with.
-
 Three weeks ago, I returned from my trip to Japan. After cycling across the country of the rising sun for three months I came to one of the biggest realisations about myself:  
 
 *I almost need nothing to survive, even less to enjoy life and be happy...*

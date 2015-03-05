@@ -1,0 +1,107 @@
+// HEADER & NAVIGATION
+header.main-header
+  margin: 50px auto 15px auto
+  padding: 0
+  text-align: center
+
+  img
+    width: 350px
+
+nav.main-navigation
+  margin: 50px 0 0 0
+  padding: 0
+  text-align: center
+
+  ul
+    padding: 0
+    margin: 0
+
+    li
+      display: inline-block
+      margin: 0 5px
+      padding: 5px 0
+      width: auto
+
+      &:first-child
+        margin-left: 0px
+
+// BODY STRUCTURE
+
+
+.show-post-image
+  background-size: cover
+  height: 350px
+  width: 100%
+  -webkit-box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 15px 0px inset
+  position: relative
+  background-repeat: no-repeat
+
+.post-legend
+  text-align: center
+  display: block
+  width: 100%
+  position: absolute
+  top: 35%
+  left: 0
+  right: 0
+  color: $black
+  // text-shadow: 0 0 8px rgba(0,0,0,0.2)
+
+  .post-title
+    font-size: 54px
+    line-height: 58px
+    font-weight: 100
+    display: block
+
+  .post-date
+    margin-top: 25px
+    display: block
+    font-weight: 100
+    font-size: 14px
+    line-height: 22px
+
+
+// POST SQUARES
+ul.listing
+  margin: 0 auto 0 auto
+  display: block
+
+  li
+    padding: 0 10px 20px 0
+    list-style: none
+    margin: 0
+    width: 275px
+
+    &:nth-child(2)
+      padding: 0 0 20px 10px
+
+    a
+      display: block
+
+    .legend
+      position: absolute
+      bottom: 48%
+      line-height: 28px
+      left: 0
+      right: 0
+      text-align: center
+      color: white
+      vertical-align: middle
+      margin: 0 auto 0 auto
+      // text-shadow: 1px 1px 2px rgba(0,0,0,0.4)
+
+// MODULES
+.link-button
+
+  text-decoration: none
+  padding: 4px 9px
+  text-transform: uppercase
+  color: $light
+  font-weight: 100
+
+  &:hover
+    color: $black
+
+  &.active
+    font-weight: 300
+    color: $black

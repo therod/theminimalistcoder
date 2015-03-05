@@ -1,14 +1,14 @@
 <header class="main-header">
 
-  <%= link_to image_tag("logo_b.png"), root_url %>
-
-  <div class="main-navigation small df">
-    <ul>
-      <li><%= active_link_to 'About', root_url, active: [['posts'], ['show']] %></li>
-      <li><%= active_link_to 'Archive', root_url, active: [['posts'], ['show']] %></li>
-    </ul>
+  <div class="logo">
+    <%= link_to image_tag("logo_b.png"), root_url %>
   </div>
 
-  <div style="clear: both;"></div>
+  <nav class="main-navigation">
+    <ul>
+      <li><%= active_link_to 'About', root_url, active: [['posts'], ['index', 'show']], class: "link-button" %></li>
+      <li><%= active_link_to 'Archive', root_url, active: [['posts'], ['show']], class: "link-button" %></li>
+    </ul>
+  </nav>
 
 </header>
