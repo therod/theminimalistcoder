@@ -25,9 +25,8 @@ A place where we have genuine connections with other people, not by curating an 
 
 Personally, an individually created website like [this][4], will always tell me more about someone than any detailed Facebook profile ever will. Maybe not in the sense of raw and evaluable data, but as a glimpse into what differentiates this one individual from all the others.
 
-> > The web is more a social creation than a technical one. I designed it for a social effect — to help people work together — and not as a technical toy. The ultimate goal of the Web is to support and improve our weblike existence in the world. We clump into families, associations, and companies. We develop trust across the miles and distrust around the corner.  
-    
->>	 -Tim Berners-Lee, Weaving The Web
+> The web is more a social creation than a technical one. I designed it for a social effect — to help people work together — and not as a technical toy. The ultimate goal of the Web is to support and improve our weblike existence in the world. We clump into families, associations, and companies. We develop trust across the miles and distrust around the corner.  
+>	 -Tim Berners-Lee, Weaving The Web
 	
 The Web in itself is already a tool that allows us to freely express ourselves. We shouldn't keep ourselves confined in a system just for the sake of convenience. Some things just cannot be expressed with a predefined drop-down menu or leaving a like.
 

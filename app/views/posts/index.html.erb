@@ -2,20 +2,19 @@
   <%= render "post", post: @latest_post %>
 </section>
 
-<section class="post-listing">
-  <div class="row centered-text">
-
-    <ul class="listing large-block-grid-2">
-      <% @posts.each do |post| %>
-        <li id="<%= post.id %>" class="<%= "promoted large-2 columns" if post.promoted? %>">
-          <%= link_to post_url(post.slug) do %>
-            <%= image_tag post.image %>
-            <div class="legend">
-              <div class="post-title <%= post.title_color %>"><%= post.title %></div>
-            </div>
-          <% end %>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-</section>
+<div class="row centered-text">
+  <section class="post-listing">
+      <ul class="listing large-block-grid-2">
+        <% @posts.each do |post| %>
+          <li id="<%= post.id %>" class="<%= "promoted large-2 columns" if post.promoted? %>">
+            <%= link_to post_url(post.slug) do %>
+              <%= image_tag post.image %>
+              <div class="legend">
+                <div class="post-title <%= post.title_color %>"><%= post.title %></div>
+              </div>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+  </section>
+</div>

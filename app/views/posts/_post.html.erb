@@ -7,50 +7,53 @@
 
 </div>
 
+<%# TODO: Move this into partials %>
+
 <div class="row centered-text">
 
   <div class="post-body medium tf">
     <%= post.content_html %>
   </div>
 
-  <div class="whoring df">
-    <span class="whoring-title">SHARE:</span> 
+  <%# TODO: Add social links %>
+  <%# <div class="whoring df"> %>
+  <%#   <span class="whoring-title">SHARE:</span> %> 
 
-    <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %>
-      <%= fa_icon "twitter" %>
-    <% end %>
-    <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %>
-      <%= fa_icon "facebook-square" %>
-    <% end %>
-    <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %>
-      <%= fa_icon "pinterest" %>
-    <% end %>
-    <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %>
-      <%= fa_icon "at" %>
-    <% end %>
+  <%#   <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %1> %>
+  <%#     <%= fa_icon "twitter" %1> %>
+  <%#   <% end %1> %>
+  <%#   <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %1> %>
+  <%#     <%= fa_icon "facebook-square" %1> %>
+  <%#   <% end %1> %>
+  <%#   <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %1> %>
+  <%#     <%= fa_icon "pinterest" %1> %>
+  <%#   <% end %1> %>
+  <%#   <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %1> %>
+  <%#     <%= fa_icon "at" %1> %>
+  <%#   <% end %1> %>
+  <%# </div> %>
 
-    <% if @post %>
-      <div class="post-navigation df">
-      <% if post.previous_post %>
-        <div class="previous-post normal">
-          <%= link_to post.previous_post.slug do %>
-            <h1>Previous Article</h1>
-            <%= link_to post.previous_post.title, post_url(post.previous_post.slug) %>
-          <% end %>
-        </div>
-      <% end %>
-      <% if post.next_post %>
-        <div class="next-post normal">
-          <%= link_to post.next_post.slug do %>
-            <h1>Next Article</h1>
-            <%= link_to post.next_post.title, post_url(post.next_post.slug) %>
-          <% end %>
-        </div>
-      <% end %>
-      <div style="clear: both;"></div>
+  <% if @post %>
+    <div class="post-navigation df">
+    <% if post.previous_post %>
+      <div class="previous-post normal">
+        <%= link_to post.previous_post.slug do %>
+          <h1>Previous Article</h1>
+          <%= link_to post.previous_post.title, post_url(post.previous_post.slug) %>
+        <% end %>
       </div>
     <% end %>
-  </div>
+    <% if post.next_post %>
+      <div class="next-post normal">
+        <%= link_to post.next_post.slug do %>
+          <h1>Next Article</h1>
+          <%= link_to post.next_post.title, post_url(post.next_post.slug) %>
+        <% end %>
+      </div>
+    <% end %>
+    <div style="clear: both;"></div>
+    </div>
+  <% end %>
 
 </div>
 

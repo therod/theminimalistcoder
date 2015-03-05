@@ -115,8 +115,7 @@ your requests.
 >So you tell the waiter that you would like the vegetarian dish by pointing on the menu. The waiter remembers your request and promptly delivers it to the chef
 in the kitchen. He then starts preparing your dish and after a (hopefully) short period of time, the waiter will bring back the finished dish ready to be consumed.
 
-This can easily be translated into:
-
+This can easily be translated into:   
 >So you tell the “internet” that you would like “a specific page” by
 pointing/clicking on the “URL in your browser”. The “internet”
 remembers your request and promptly

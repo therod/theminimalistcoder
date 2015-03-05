@@ -3,22 +3,31 @@
   padding-bottom: 0
   margin: 50px auto 20px auto
   font-weight: 300
+  font-size: 18px
 
   h1
-    font-size: 20px
-    color: $black1
+    font-size: 18px
+    color: $black
 
   ol
     margin: 10px 0 10px 0
-    padding-left: 20px
+    padding-left: 15px
+    font-size: 18px
 
   ul
     margin: 10px 0 10px 0
     padding-left: 20px
+    font-size: 18px
 
   li
-    list-style-type: circle
-    color: #555
+    list-style-type: none
+    color: $black2
+    text-indent: -5px
+    font-size: 18px
+    &:before
+      content: "-" 
+      position: relative 
+      left: -5px
 
   p
     font-size: 18px
@@ -30,6 +39,7 @@
     font-weight: 300
 
   p strong
+    font-size: 18px
     background-color: rgba(255,242,51,0.298)
 
   img
@@ -45,15 +55,14 @@
     -webkit-box-shadow: none
 
   blockquote
+    padding: 0 20px 0 20px
     p
+      font-size: 18px
       font-style: italic
-      padding: 0 20px 0 20px
       margin: 15px 0 15px 0
-      color: $blue1 !important
-      border-left: 1px solid $blue1
-
-  blockquote cite:before 
-    content: '— '
+      padding: 0
+      color: $black3 !important
+      // border-left: 1px solid $lighter
 
   blockquote cite
     display: block

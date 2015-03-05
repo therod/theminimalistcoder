@@ -18,8 +18,8 @@ nav.main-navigation
 
     li
       display: inline-block
-      margin: 0 5px
-      padding: 5px 0
+      // margin: 0 5px
+      // padding: 5px 0
       width: auto
       font-size: 12px
 
@@ -31,7 +31,8 @@ nav.main-navigation
   background-size: cover
   height: 350px
   width: 100%
-  -webkit-box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 15px 0px inset
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 15px 0px inset
+
   position: relative
   background-repeat: no-repeat
 
@@ -61,45 +62,55 @@ nav.main-navigation
 
 // POST-LISTING
 section.post-listing
-  margin-top: 20px
+  margin-top: 30px
+  border-top: 1px solid $lighter
+  padding-top: 20px
 
 // POST SQUARES
 ul.listing
   margin: 0 auto 0 auto
   display: block
 
-  li
-    padding: 0 10px 20px 0
-    list-style: none
-    margin: 0
-    width: 275px
+  @media only screen and (max-width : 320px)
+    li
+      padding: 0
+      width: 100%
+      margin: 0
+      list-style: 0
 
-    &:nth-child(2)
-      padding: 0 0 20px 10px
+  @media only screen and (min-width : 550px)
+    li
+      padding: 0 10px 20px 0
+      list-style: none
+      margin: 0
+      width: 275px
 
-    a
-      display: block
+      &:nth-child(2)
+        padding: 0 0 20px 10px
 
-    .legend
-      position: absolute
-      line-height: 28px
-      top: 45%
-      left: 0
-      right: 0
-      text-align: center
-      color: white
-      vertical-align: middle
-      font-weight: 100
-      // text-shadow: 1px 1px 2px rgba(0,0,0,0.4)
-      
-      .post-title
-        background-color: rgba($black, 0.9)
-        display: inline
-        padding: 5px 10px
+  a
+    display: block
+
+  .legend
+    position: absolute
+    line-height: 28px
+    top: 45%
+    left: 0
+    right: 0
+    text-align: center
+    color: white
+    vertical-align: middle
+    font-weight: 100
+    // text-shadow: 1px 1px 2px rgba(0,0,0,0.4)
+    
+    .post-title
+      background-color: rgba($black, 0.9)
+      display: inline
+      padding: 5px 10px
 
 // FOOTER
 footer
-  margin: 20px 0 20px 0
+  margin: 0 0 20px 0
   padding: 10px 0 10px 0
   border-top: 1px solid $lighter
   color: $lighter
