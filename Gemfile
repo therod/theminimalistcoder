@@ -36,7 +36,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'rack-tracker'
   gem 'rails_12factor', group: :production
 end
 
