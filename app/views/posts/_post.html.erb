@@ -1,19 +1,16 @@
-<div class="tinted show-post-image" style="background-image: url(<%= asset_path(post.image) %>);">
+<div class="show-post-image" style="background-image: url(<%= asset_path(post.image) %>);">
   <div class="tint">
   </div>
-
   <div class="post-legend">
-    <span class="post-title"><%= post.title %></span>
-    <span class="post-date"><%= formatted_date(post.date) %></span>
+    <div class="post-title"><%= post.title %></div>
+    <div class="post-date"><%= formatted_date(post.date) %></div>
   </div>
-
 </div>
 
 <%# TODO: Move this into partials %>
 
 <div class="row centered-text">
-
-  <div class="post-body medium tf">
+  <div class="post-body medium tf padded">
     <%= post.content_html %>
   </div>
 
