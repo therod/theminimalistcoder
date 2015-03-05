@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require foundation
 //= require jquery.tipsy.js
-//= require turbolinks
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
