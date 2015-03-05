@@ -6,7 +6,7 @@ Just a while ago, I finished reading the book ["You are not a Gadget"][1] by [Ja
 
 According to Lanier there are a lot of factors that contribute to this decline. The main cause being social media platforms like Facebook, which exchange personal creativity for uniformity, instant gratification through "Like" buttons and an endless supply of irrelevant information. They promote consumption and curation for the sacrifice of giving up personal expression through creation. 
 
-*People reduce themselves to the predefined contents of checkboxes and drop-down relationship statuses.*
+> People reduce themselves to the predefined contents of checkboxes and drop-down relationship statuses.
 
 This part of the book resonated strongly with me and made me completely question my relationship and interaction with modern social media. 
 Going through my Facebook profile, I started asking myself: "*which of the almost 200 people listed on here can I really call Friends?*"
