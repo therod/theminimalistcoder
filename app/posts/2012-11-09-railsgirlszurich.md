@@ -67,7 +67,6 @@ argue now that one day is too short to explain concepts like how a web
 application works
 or what a framework is anyway and we should focus our energy on just
 creating a product and just hope that they may understand it later.
-
 I humbly disagree! There is actually a lot of time to explain the
 basic concepts, we just have to take a little shortcut:
 
@@ -127,26 +126,28 @@ metaphor in every situation. It doesn’t matter if it isn’t 100%
 accurate. That’s still better than staying
 100% accurate but nobody can grasp what the fuck you’re talking about.
 
-# Help! Someone mixed up the schedule!
-
+<b>Help! Someone mixed up the schedule!</b>
 One thing that had me puzzled was the order of the different exercises.
 Why do we throw around words like “Framework”, “Git”, “Ruby”, “CRUD”,
 etc. right after the start of the event when we only start to somewhat
 explain them later on?
 An order like this would make way more sense:
 
-1. Tell the girls to write down all kind of acronyms they know but
+<b>1)</b> Tell the girls to write down all kind of acronyms they know but
 don’t really understand.
-2. Start with the Bento Exercise and instead of using predefined
+
+<b>2)</b> Start with the Bento Exercise and instead of using predefined
 acronyms, let them try to place their own acronyms into the Bento box
 with the help of a coach. Since these
 are acronyms that they probably hear every day it will be more
 interesting to finally know what they mean and where exactly they
 belong.
-3. Start with a basic introduction using the techniques in point 2 of
+
+<b>3)</b> Start with a basic introduction using the techniques in point 2 of
 this post. Explain why exactly it is called Rails Girls, what a
 Web Application is and how it works.
-4. Build the different teams and start creating stuff!
+
+<b>4)</b> Build the different teams and start creating stuff!
 
 By keeping the introduction short and sweet you give the main target
 group (girls that have never programmed before) a nice introduction
@@ -166,8 +167,7 @@ This was a huge bummer for our group since we achieved an amazing
 state of flow but got interrupted because we had to do the bento
 exercise which at this point was more disturbing than informative.
 
-# Rails Girls will be called Java Girls from today on!
-
+<b>Rails Girls will be called Java Girls from today on!</b>
 Not really. But why exactly is it called *RailsGirls*? This important
 philosophical fact also got lost during the event.
 I think it’s not called Rails Girls because of the Rails Framework but
@@ -178,14 +178,15 @@ general (lovely)
 weirdness surrounding the Rails & Ruby community. This is probably one
 of the main reasons why I fell in love with Ruby & Rails in the first
 place.
-I want to share that love with everyone at Rails Girls, and so should you!
+I want to share that love with everyone at Rails Girls, and so should you! *So let's quickly recap.*
 
-So let's quickly recap:
+<b>1)</b> Leave the buzz talk at home and focus on programming for once.
 
-1. Leave the buzz talk at home and focus on programming for once.
-2. Try to explain things in a simple way using metaphors or other similar techniques.
-3. Switch the schedule around so that there are no interruptions during the building part of the day.
-4. Show how amazing the community around Ruby & Rails is and emphasise why exactly it is called Rails Girls.
+<b>2)</b> Try to explain things in a simple way using metaphors or other similar techniques.
+
+<b>3)</b> Switch the schedule around so that there are no interruptions during the building part of the day.
+
+<b>4)</b> Show how amazing the community around Ruby & Rails is and emphasise why exactly it is called Rails Girls.
 
 These are the main four points that I have been
 pondering over the past days. I'd love to hear your opinion.
