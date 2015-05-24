@@ -1,58 +1,38 @@
-<div class="show-post-image" style="background-image: url(<%= asset_path(post.image) %>);">
-  <div class="tint">
-  </div>
-  <div class="post-legend">
-    <div class="post-title"><%= post.title %></div>
-    <div class="post-date"><%= formatted_date(post.date) %></div>
-  </div>
-</div>
+<div class="row">
+  <header class="post-header">
+    <h1><%= link_to post.title %></h1>
+    <div class="post-header-info">
+      <%= formatted_date(post.date) %>
+    </div>
+  </header>
 
-<%# TODO: Move this into partials %>
-
-<div class="row centered-text">
   <div class="post-body medium tf padded">
     <%= post.content_html %>
   </div>
 
-  <%# TODO: Add social links %>
-  <%# <div class="whoring df"> %>
-  <%#   <span class="whoring-title">SHARE:</span> %> 
-
-  <%#   <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %1> %>
-  <%#     <%= fa_icon "twitter" %1> %>
+  <%# <% if @post %1> %>
+  <%#   <div class="post-navigation df"> %>
+  <%#   <% if post.previous_post %1> %>
+  <%#     <div class="previous-post normal"> %>
+  <%#       <%= link_to post.previous_post.slug do %1> %>
+  <%#         <h1>Previous Article</h1> %>
+  <%#         <%= link_to post.previous_post.title, post_url(post.previous_post.slug) %1> %>
+  <%#       <% end %1> %>
+  <%#     </div> %>
   <%#   <% end %1> %>
-  <%#   <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %1> %>
-  <%#     <%= fa_icon "facebook-square" %1> %>
+  <%#   <% if post.next_post %1> %>
+  <%#     <div class="next-post normal"> %>
+  <%#       <%= link_to post.next_post.slug do %1> %>
+  <%#         <h1>Next Article</h1> %>
+  <%#         <%= link_to post.next_post.title, post_url(post.next_post.slug) %1> %>
+  <%#       <% end %1> %>
+  <%#     </div> %>
   <%#   <% end %1> %>
-  <%#   <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %1> %>
-  <%#     <%= fa_icon "pinterest" %1> %>
-  <%#   <% end %1> %>
-  <%#   <%= link_to "mailto:rodrigo@codegestalt.com?subject=Feedback: #{post.title}" do %1> %>
-  <%#     <%= fa_icon "at" %1> %>
-  <%#   <% end %1> %>
-  <%# </div> %>
-
-  <% if @post %>
-    <div class="post-navigation df">
-    <% if post.previous_post %>
-      <div class="previous-post normal">
-        <%= link_to post.previous_post.slug do %>
-          <h1>Previous Article</h1>
-          <%= link_to post.previous_post.title, post_url(post.previous_post.slug) %>
-        <% end %>
-      </div>
-    <% end %>
-    <% if post.next_post %>
-      <div class="next-post normal">
-        <%= link_to post.next_post.slug do %>
-          <h1>Next Article</h1>
-          <%= link_to post.next_post.title, post_url(post.next_post.slug) %>
-        <% end %>
-      </div>
-    <% end %>
-    <div style="clear: both;"></div>
-    </div>
-  <% end %>
-
+  <%#   <div style="clear: both;"></div> %>
+  <%#   </div> %>
+  <%# <% end %1> %>
 </div>
 
+<div class="row">
+  <div class="divider"></div>
+</div>

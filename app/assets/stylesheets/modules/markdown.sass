@@ -1,46 +1,83 @@
-.post-body
-  font-family: $default-font-family
-  padding-bottom: 0
-  padding: 35px 0 20px 0
-  // margin: 40px auto 20px auto
-  font-weight: 300
-  font-size: 18px
+$body-font-size: 1.35em
+$body-line-height: 1.60em
+
+.post-header
+  margin: 0
+  text-align: center
+
+  .post-header-info
+    text-align: center
+    margin: 0 0 25px 0
+    color: $brown
 
   h1
-    font-size: 18px
+    font-size: 22px
+    line-height: 28px
+    font-family: $default-font-family
+    text-transform: uppercase
+    width: inherit
+    margin: 0 0 20px 0
+    padding: 0
+
+    a
+      font-weight: 400
+      text-decoration: none
+      padding: 0
+
+      &:hover
+        text-decoration: underline
+
+.post-body
+  font-family: $default-font-family
+  font-weight: 300
+  font-size: $body-font-size
+  line-height: $body-line-height 
+  color: $black2
+
+  h1
     color: $black
+
+  // use for announcements
+  h2
+    font-size: 1.75em
+    line-height: 1.3em
 
   ol
     margin: 10px 0 10px 0
-    padding-left: 15px
-    font-size: 18px
+    padding-left: 20px
+
+    li
+      text-indent: -5px
+
 
   ul
     margin: 10px 0 10px 0
     padding-left: 20px
-    font-size: 18px
 
-  li
-    list-style-type: none
-    color: $black2
-    text-indent: -5px
-    font-size: 18px
-    &:before
-      content: "-" 
-      position: relative 
-      left: -5px
+    li
+      list-style-type: none
+      text-indent: -5px
+      &:before
+        content: "-" 
+        position: relative 
+        left: -5px
 
   p
-    font-size: 18px
     -webkit-margin-before: 0
     -webkit-margin-after: 0
-    padding: 5px 0
+    padding: 0
     margin: 0
-    color: $black2
     font-weight: 300
 
+    text-indent: 2em
+
+    &:first-child
+      text-indent: 0
+    code
+      font-size: 14px
+      line-height: 20px
+
   p strong
-    font-size: 18px
     background-color: rgba(255,242,51,0.298)
 
   img
@@ -56,14 +93,15 @@
     -webkit-box-shadow: none
 
   blockquote
-    padding: 0 20px 0 20px
+    padding: 24px 0 24px 0
+    margin: 24px 0 24px 0
+    border-top: 3px solid $black
+    border-bottom: 3px solid $black
+    border-left: 0
     p
-      font-size: 18px
       font-style: italic
-      margin: 15px 0 15px 0
-      padding: 0
-      color: $black3 !important
-      // border-left: 1px solid $lighter
+      strong
+        text-align: center
 
   blockquote cite
     display: block
@@ -74,7 +112,3 @@
 
   em
     font-style: italic
-
-  .centered 
-    margin: 0 auto 0 auto
-    width: 700px

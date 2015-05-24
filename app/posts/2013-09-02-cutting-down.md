@@ -1,7 +1,5 @@
 ---
 title: "Cutting down"
-image: "cuttingdown.jpg"
-title_color: "black"
 ---
 Three weeks ago, I returned from my trip to Japan. After cycling across the country of the rising sun for three months I came to one of the biggest realisations about myself:  
 

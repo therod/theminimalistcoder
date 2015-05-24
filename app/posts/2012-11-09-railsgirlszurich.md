@@ -1,28 +1,22 @@
 ---
 title: "Rails Girls Zurich, thoughts"
-image: "railsgirlszurich.jpg"
 ---
 
 Last weekend I attended the first Rails Girls event in Zurich,
-Switzerland as a coach.
-I was blown away by the amazing organisation, huge amount of
-motivation and passion.
-
-After getting over my hangover on Sunday, I instantly knew that I wanted
-to stay involved and try to improve the quality of future Rails Girls happenings
-around the world.
-
-This blog post is my first try at improving the
-Rails Girls movement which is already pretty strong.
+Switzerland as a coach. I was blown away by the amazing organisation, 
+huge amount of motivation and passion.After getting over my hangover on Sunday, 
+I instantly knew that I wanted to stay involved and try to improve the quality 
+of future Rails Girls happenings around the world. This blog post is my first 
+try at improving the Rails Girls movement which is already pretty strong.
 
 While the organisers and coaches did a great job, there were still
 some things that bothered me personally and I think could be improved.
 This feedback is strictly targeted at the event that happened on
 November 2. and 3. in Zurich. I am aware that every Rails Girls event
 is unique and different in each country, so these *issues* may be completely
-irrelevant if compared to any other event.
+irrelevant if compared to any other event.   
 
-Disclaimer: The opinions written down here are my own. You don’t have
+<b>Disclaimer</b>: The opinions written down here are my own. You don’t have
 to agree with them and if that should be the case, please leave a comment!
 I would love to hear your opinions and (constructive) critics!
 
@@ -37,8 +31,7 @@ These are the three first sentences taken straight from railsgirls.com
 that sum up the basic idea behind the event, serving as a reminder.
 A reminder on which the following 4 points are based.
 
-# 1. I am reading the Lean Startup, you probably never heard of it.
-
+<b>I am reading the Lean Startup, you probably never heard of it:</b>
 I know, talk about startups is completely “hip” at the moment and you
 can’t attend a single *technology* event without at least one guy
 preaching
@@ -65,8 +58,7 @@ Also for the love of sanity, leave *Value Proposition* or other
 buzzwords out of the keynote. Try to show the girls what simple
 techniques they can use that help them build their own ideas and not some kind of elevator pitch.
 
-# 2. So what is a Web application anyway and how do I get it running on my iPhone?
-
+<b>So what is a Web application anyway and how do I get it running on my iPhone?</b>
 Let’s face it, most of the attendees have never programmed before.
 Hell most of them don’t even know how the Internet works. Which is
 completely fine - but
@@ -94,10 +86,10 @@ drop-dead easy to explain a lot of things that were left untouched in
 a short period of time.
 Here are some examples of stuff that I think we should definetly talk about:
 
-# What exactly is a web application? And how does it work.
-Explain Client / Server architecture, the internet as static pages, browsers as gateways to these static pages etc…
+<b>What exactly is a web application? And how does it work:</b> Explain Client / Server architecture, the internet as static pages, browsers as gateways to these static pages etc…
 
-# What exactly is a Framework?
+
+<b>What exactly is a Framework:</b>
 Explain Rails as a Toolbox with different tools (Gems) inside of it. The Rails Toolbox was put together by one guy for building web applications.
 Explain what kind of other Toolboxes exist. (Cocoa for building iPhone Applications, Java for building business applications, etc...)
 Explain that the tools inside these Frameworks are mostly built using a certain programming language.
@@ -105,24 +97,22 @@ In the case of the Rails Framework the programming language is called Ruby, henc
 
 Still not getting the Idea? Here’s a simple example that I came up with in a few minutes:
 
-# Explaining the web using a restaurant.
-
+<b>Explaining the web using a restaurant:</b>
 You are sitting at a table in a fancy restaurant. The waiter hands you the menu and asks what you would like to eat.
 
 In this scenario the menu is your web browser, the waiter is the communicator (aka. Internet) between you and the chef which is the “Web Server” that processes
 your requests.
 
->So you tell the waiter that you would like the vegetarian dish by pointing on the menu. The waiter remembers your request and promptly delivers it to the chef
-in the kitchen. He then starts preparing your dish and after a (hopefully) short period of time, the waiter will bring back the finished dish ready to be consumed.
+> So you tell the waiter that you would like the vegetarian dish by pointing on the menu. The waiter remembers your request and promptly delivers it to the chef in the kitchen. He then starts preparing your dish and after a (hopefully) short period of time, the waiter will bring back the finished dish ready to be consumed.
 
 This can easily be translated into:   
->So you tell the “internet” that you would like “a specific page” by
+> So you tell the “internet” that you would like “a specific page” by
 pointing/clicking on the “URL in your browser”. The “internet”
 remembers your request and promptly
 delivers it to the “Web Server”. It then starts preparing your
 “specific page” and after a (hopefully) short period of time, the
 “internet” will bring back the “specific page”
-ready to be consumed.
+ready to be consumed.```
 
 Ok, now you're all like:
 *Meh, you just made a simple concept even simpler, how does that help anyone?*
@@ -137,7 +127,7 @@ metaphor in every situation. It doesn’t matter if it isn’t 100%
 accurate. That’s still better than staying
 100% accurate but nobody can grasp what the fuck you’re talking about.
 
-# 3. Help! Someone mixed up the schedule!
+# Help! Someone mixed up the schedule!
 
 One thing that had me puzzled was the order of the different exercises.
 Why do we throw around words like “Framework”, “Git”, “Ruby”, “CRUD”,
@@ -176,7 +166,7 @@ This was a huge bummer for our group since we achieved an amazing
 state of flow but got interrupted because we had to do the bento
 exercise which at this point was more disturbing than informative.
 
-# 4. Rails Girls will be called Java Girls from today on!
+# Rails Girls will be called Java Girls from today on!
 
 Not really. But why exactly is it called *RailsGirls*? This important
 philosophical fact also got lost during the event.

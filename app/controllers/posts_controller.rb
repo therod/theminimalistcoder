@@ -1,7 +1,6 @@
 class PostsController < ApplicationController
   def index
-    @latest_post = Post.first
-    @posts = Post.all.drop(1)
+    @posts = Post.all
   end
 
   def show
