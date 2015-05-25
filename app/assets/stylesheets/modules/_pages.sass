@@ -26,12 +26,12 @@ body
     -webkit-margin-end: 0
 
   a
-    color: $black1
+    color: $blue
     text-decoration: none
     text-decoration: underline
 
     &:hover
-      color: $black1
+      color: $blue
 
   .light
     font-weight: 100 !important
@@ -78,10 +78,42 @@ body
   a
     text-decoration: none
 
+.author-profile
+  border-top: 1px solid $lighter
+  margin: 40px 0 0 0
+  padding: 30px 0 30px 0
+
+  &:after
+    content: '.'
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+  .author-avatar
+    padding: 0
+    margin: 0 30px 0 0
+    float: left
+    vertical-align: baseline
+    img
+      border-radius: 50%
+      height: 110px
+      width: 110px
+  .author-bio
+    float: left
+    line-height: 1.35em
+    text-align: left
+    width: 510px
+    p
+      margin: 15px 0 0 0
+    h2
+      margin: 0
+      padding: 0
+      font-size: 18px
+
 .post-navigation
   padding: 25px 0 25px 0
   margin: 25px 0 0 0
-  border-top: 1px solid #cecece
 
   h1
     margin: 0

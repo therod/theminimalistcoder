@@ -12,7 +12,6 @@ gem 'rdiscount'
 
 # Various
 gem 'nokogiri'
-gem 'active_link_to'
 
 # Javascript
 gem 'uglifier', '>= 1.3.0'
