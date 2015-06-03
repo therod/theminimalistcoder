@@ -1,7 +1,6 @@
 ---
 title: "Why I don't read the news"
 ---
-![Pond](https://s3-eu-west-1.amazonaws.com/theminimalistcoder/post-assets/2015-06-01/pond.jpg)
 As I walk through the train I once more notice the myriads of free newspapers lying around everywhere.  I sit down and the young lady that joined me shortly afterwards, asks me if I finished reading the newspaper located on the seat next to me. I pick it up and hand it to her. 
 
 *"Here take it, It's not mine and I don't intend to read it anyways."*  *"Already up to date on all the news huh?"* she asks with a grin on her face. "*Something like that I guess*" I tell her as I turn my attention back to my book. 
@@ -14,6 +13,8 @@ Well, to be completely honest with you: I *TRY* no to read the news. Because the
 Why be preoccupied with your own thoughts and worries if you can be reading about those of others. At least then they're not yours anymore.
 
 Not much seems to have changed since Thoreau built his little hut next to a pond somewhere in Massachusetts almost 200 years ago.
+
+![Pond](https://s3-eu-west-1.amazonaws.com/theminimalistcoder/post-assets/2015-06-01/pond.jpg)
 
 > “And I am sure that I never read any memorable news in a newspaper. If we read of one man robbed, or murdered, or killed by accident, or one house burned, or one vessel wrecked, or one steamboat blown up, or one cow run over on the Western Railroad, or one mad dog killed, or one lot of grasshoppers in the winter, - we need never read of another. One is enough. If you are acquainted with the principle, what do you care for a myriad instances and applications?”   
 > ― Henry David Thoreau, Walden
