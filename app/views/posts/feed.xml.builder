@@ -5,7 +5,7 @@ atom_feed do |feed|
   @posts.each do |post|
     feed.entry(post, :url => post_url(post.slug)) do |entry|
       entry.title post.title
-      entry.content image_tag(post.image) + post.content_html, type: "html"
+      entry.content (post.content_html).gsub("[---MORE---]", ''), type: "html"
     end
   end
 end
