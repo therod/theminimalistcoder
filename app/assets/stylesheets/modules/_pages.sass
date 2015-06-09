@@ -100,16 +100,25 @@ body
       height: 110px
       width: 110px
   .author-bio
-    float: left
     line-height: 1.35em
     text-align: left
-    width: 510px
     p
       margin: 15px 0 0 0
     h2
       margin: 0
       padding: 0
       font-size: 18px
+
+@media screen and (max-width: 480px)
+  .author-profile
+    text-align: center
+    .author-avatar
+      float: none
+      margin-bottom: 25px
+    .author-bio
+      text-align: center
+      float: none
+      width: auto
 
 .post-navigation
   padding: 25px 0 25px 0
@@ -137,3 +146,13 @@ body
   .next-post
     float: right
     display: inline-block
+
+@media screen and (max-width: 480px)
+  .post-navigation
+    text-align: center
+    .previous-post
+      display: block
+    .next-post
+      float: none
+      display: block
+      margin-bottom: 15px

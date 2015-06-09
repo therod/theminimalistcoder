@@ -1,69 +1,69 @@
 <div class="row">
-  <header class="post-header">
-    <% if params[:action] == "index" %>
-      <h1><%= link_to post.title, post_url(post.slug) %></h1>
-    <% else %>
-      <h1><%= post.title %></h1>
-    <% end %>
-    <div class="post-header-info">
-      <%= formatted_date(post.date) %>
-    </div>
-  </header>
-
-  <div class="post-body medium tf padded">
-    <% if params[:action] == "index" %>
-      <% if post.is_excerpt? %>
-        <%= truncate(post.content_html, length: 0, separator: '[---MORE---]', escape: false, omission: link_to( "Continued...",post.slug)) %>
+  <div class="columns">
+    <header class="post-header">
+      <% if params[:action] == "index" %>
+        <h1><%= link_to post.title, post_url(post.slug) %></h1>
       <% else %>
-        <%= post.content_html %>
+        <h1><%= post.title %></h1>
       <% end %>
-    <% else %>
-      <%=raw (post.content_html).gsub("[---MORE---]", '') %>
+      <div class="post-header-info">
+        <%= formatted_date(post.date) %>
+      </div>
+    </header>
+
+    <div class="post-body medium tf padded">
+      <% if params[:action] == "index" %>
+        <% if post.is_excerpt? %>
+          <%= truncate(post.content_html, length: 0, separator: '[---MORE---]', escape: false, omission: link_to( "Continued...",post.slug)) %>
+        <% else %>
+          <%= post.content_html %>
+        <% end %>
+      <% else %>
+        <%=raw (post.content_html).gsub("[---MORE---]", '') %>
+      <% end %>
+    </div>
+
+    <% if params[:action] == "index" %>
+      <div class="divider"></div>
     <% end %>
+
+    <% if params[:action] == "show" %>
+      <section class="post-navigation df">
+      <% if post.next_post %>
+        <div class="next-post normal">
+          <%= link_to post.next_post.slug do %>
+            <h1>Next Article</h1>
+            <%= link_to post.next_post.title, post_url(post.next_post.slug) %>
+          <% end %>
+        </div>
+      <% end %>
+      <% if post.previous_post %>
+        <div class="previous-post normal">
+          <%= link_to post.previous_post.slug do %>
+            <h1>Previous Article</h1>
+            <%= link_to post.previous_post.title, post_url(post.previous_post.slug) %>
+          <% end %>
+        </div>
+      <% end %>
+        <div style="clear: both;"></div>
+      </section>
+
+      <section class="author-profile">
+        <figure class="author-avatar">
+          <%= image_tag "avatar.jpg" %>
+        </figure>
+        <div class="author-bio">
+          <h2>About the minimalist coder</h2>
+          <p>
+            My name is Rodrigo and I work as a Designer and Programmer at <%= link_to "Codegestalt", "http://codegestalt.com" %>.
+            If you liked this post, please share it with your friends!
+          </p>
+
+          <p>Feedback? Drop me a good ol' <%= mail_to "rodrigo@codegestalt.com", "Email"%>.</p>
+        </div>
+      </section>
+    <% end %>
+
   </div>
-
-  <% if params[:action] == "index" %>
-    <div class="divider"></div>
-  <% end %>
-
-  <% if params[:action] == "show" %>
-    <section class="post-navigation df">
-    <% if post.previous_post %>
-      <div class="previous-post normal">
-        <%= link_to post.previous_post.slug do %>
-          <h1>Previous Article</h1>
-          <%= link_to post.previous_post.title, post_url(post.previous_post.slug) %>
-        <% end %>
-      </div>
-    <% end %>
-    <% if post.next_post %>
-      <div class="next-post normal">
-        <%= link_to post.next_post.slug do %>
-          <h1>Next Article</h1>
-          <%= link_to post.next_post.title, post_url(post.next_post.slug) %>
-        <% end %>
-      </div>
-    <% end %>
-      <div style="clear: both;"></div>
-    </section>
-
-    <section class="author-profile">
-      <figure class="author-avatar">
-        <%= image_tag "avatar.jpg" %>
-      </figure>
-      <div class="author-bio">
-        <h2>About the minimalist coder</h2>
-        <p>
-          My name is Rodrigo and I work as a Designer and Programmer at <%= link_to "Codegestalt", "http://codegestalt.com" %>.
-          If you liked this post, please share it with your friends!
-        </p>
-
-        <p>Feedback? Drop me a good ol' <%= mail_to "rodrigo@codegestalt.com", "Email"%>.</p>
-      </div>
-    </section>
-
-
-  <% end %>
-
 </div>
 
