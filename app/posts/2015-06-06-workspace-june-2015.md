@@ -1,8 +1,7 @@
 ---
 title: "Workspace - June 2015"
+image: "http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/workspace_image.jpg"
 ---
-
-![Main Workspace](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_001.jpg)
 
 > This is a guest post that I've written for [deskhunt.com](http://deskhunt.com/) which I'm going to share with you here as well.
 [---MORE---]
@@ -20,7 +19,7 @@ realised that I’m perfectly fine with just my laptop and a set of earbuds.
 
 Always try to reduce your setup until you’ve arrived at the bare essential.
 
-![Books](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_002.jpg)
+![Main Workspace](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_001.jpg)
 
 ###Is there anything you would like to improve on this setup?
 At the moment I am really happy with the state of things, so no. :)
@@ -43,6 +42,8 @@ Not in particular. But if I have to name something it would be my curated select
 - Bulletproof Coffee / Yerba Mate Tea
 - Guided meditation in the morning
 - Also, I've been experimenting with microdosing a certain chemical component in the past. But l'll leave it at just that.
+
+![Books](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_002.jpg)
 
 ###Is there something on your desk which helps you stay focused? What is it?
 I used to own a physical Pomodoro Timer which has now been replaced by Software. Also there’s a quote from the book “The one Thing” which I recently read that reads:

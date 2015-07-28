@@ -1,6 +1,16 @@
 <div class="row">
   <div class="columns">
     <header class="post-header">
+      <% unless post.image.nil? %>
+        <div class="post-image">
+          <% if params[:action] == "index" %>
+            <%= link_to image_tag(post.image, width: 220), post_url(post.slug) %>
+          <% else %>
+            <%= image_tag post.image, width: 200 %>
+          <% end %>
+        </div>
+      <% end %>
+
       <% if params[:action] == "index" %>
         <h1><%= link_to post.title, post_url(post.slug) %></h1>
       <% else %>
