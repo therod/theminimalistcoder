@@ -14,23 +14,30 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <%= stylesheet_link_tag    "application", media: "all" %>
+
+    <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
-    <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+
     <%= render 'shared/analytics' %>
     <script type="text/javascript" src="//use.typekit.net/fjr3bxd.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <%= csrf_meta_tags %>
   </head>
 
   <body>
-    <div class="off-canvas-wrap">
-      <div class="inner-wrap">
-        <%= render 'layouts/header' %>
+
+
+    <%= render 'layouts/header' %>
+    <div class="row">
+      <div class="columns large-12">
         <%= yield %>
         <%= render 'layouts/footer' %>
       </div>
     </div>
+
+
+
   </body>
 
 </html>

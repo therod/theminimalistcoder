@@ -13,7 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
-//= require jquery.tipsy.js
+//= require turbolinks
 //= require_tree .
 
-$(function(){ $(document).foundation(); });
+Turbolinks.ProgressBar.disable();
+var ready;
+ready = function() {
+  $(document).foundation();
+};
+$(document).ready(ready);
+$(document).on('page:load', ready);
