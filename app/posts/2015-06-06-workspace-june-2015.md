@@ -39,9 +39,9 @@ Yes, I switch my workspaces quite regularly during the day. Usually I have diffe
 Not in particular. But if I have to name something it would be my curated selection of books. But most of them are just there because there’s no Kindle version. And in the end I couldn’t be bothered to drag them around with me to be honest.
 
 #What are you doing to stay focused?
-- Bulletproof Coffee / Yerba Mate Tea
-- Guided meditation in the morning
-- Also, I've been experimenting with microdosing a certain chemical component in the past. But l'll leave it at just that.
+1. Bulletproof Coffee / Yerba Mate Tea
+2. Guided meditation in the morning
+3. Also, I've been experimenting with microdosing a certain chemical component in the past. But l'll leave it at just that.
 
 ![Books](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_002.jpg)
 

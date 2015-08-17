@@ -1,5 +1,14 @@
-$body-font-size: 16px
-$body-line-height: 26px
+$body-font-size: 20px
+$body-line-height: 31px
+
+@mixin font-stuff
+  font-style: normal
+  color: rgba(0,0,0,0.8) !important
+  text-rendering: optimizelegibility
+  -webkit-font-smoothing: antialiased
+  font-family: $font-family-serif
+  font-size: $body-font-size
+  line-height: $body-line-height 
 
 .post-header
   margin: 0
@@ -9,7 +18,7 @@ $body-line-height: 26px
     text-align: center
 
   h1
-    font-size: 24px
+    font-size: 28px
     line-height: 28px
     font-family: $font-family-sans-serif
     width: inherit
@@ -36,10 +45,7 @@ $body-line-height: 26px
 
 .post-body
   margin: 0 0 0 0
-  font-family: $font-family-sans-serif
-  font-size: $body-font-size
-  line-height: $body-line-height 
-  color: $black
+  @include font-stuff
 
   h1, h2, h3
     margin: 0
@@ -47,16 +53,21 @@ $body-line-height: 26px
     color: black
 
   h1
+    @include font-stuff
     font-size: 20px
-    line-height: 28px
+    line-height: 31px
     margin-top: 20px
+    font-weight: bold
 
   h2
-    font-size: 20px
+    @include font-stuff
+    font-weight: bold
+    font-size: 22px
     line-height: 28px
 
   h3
-    font-size: 20px
+    @include font-stuff
+    font-size: 22px
     line-height: 28px
 
   ol
@@ -64,31 +75,34 @@ $body-line-height: 26px
     padding-left: 20px
 
     li
-      text-indent: -5px
-
+      @include font-stuff
 
   ul
     margin: 10px 0 10px 0
     padding-left: 20px
 
     li
+      @include font-stuff
       list-style-type: none
       text-indent: -5px
       &:before
         content: "-" 
         position: relative 
-        left: -5px
+        left: -15px
 
   p
+    @include font-stuff
     padding: 10px 0 10px 0
     margin: 0
+
+    i
 
     code
       font-size: 14px
       line-height: 20px
 
   p strong
-    background-color: rgba(255,242,51,0.298)
+    color: rgba(0,0,0,0.8) !important
 
   img
     display: block
