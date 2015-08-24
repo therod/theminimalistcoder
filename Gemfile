@@ -3,7 +3,7 @@ ruby "2.2.2"
 gem 'rails', '4.2.3'
 
 # Backend
-gem 'unicorn'
+gem 'puma'
 # gem 'pg'
 
 # Markdown
