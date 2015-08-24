@@ -1,6 +1,6 @@
 ---
 title: "Workspace - June 2015"
-image: "http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/workspace_image.jpg"
+image: "https://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/workspace_image.jpg"
 ---
 
 > This is a guest post that I've written for [deskhunt.com](http://deskhunt.com/) which I'm going to share with you here as well.
@@ -19,7 +19,7 @@ realised that I’m perfectly fine with just my laptop and a set of earbuds.
 
 Always try to reduce your setup until you’ve arrived at the bare essential.
 
-![Main Workspace](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_001.jpg)
+![Main Workspace](https://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_001.jpg)
 
 #Is there anything you would like to improve on this setup?
 At the moment I am really happy with the state of things, so no. :)
@@ -33,7 +33,7 @@ Yes, I switch my workspaces quite regularly during the day. Usually I have diffe
 - For boring administrative stuff I use the standing mode on my main desk for a change.
 - And If I need inspiration or have been procrastinating on a project and need to get things working I usually head down to the public cafe. That way I can easily force myself to get shit done. And the possibility to run into friends is always a nice change.
 
-![Living Room](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_003.jpg)
+![Living Room](https://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_003.jpg)
 
 #Do you have a favourite item on your desk?
 Not in particular. But if I have to name something it would be my curated selection of books. But most of them are just there because there’s no Kindle version. And in the end I couldn’t be bothered to drag them around with me to be honest.
@@ -43,7 +43,7 @@ Not in particular. But if I have to name something it would be my curated select
 2. Guided meditation in the morning
 3. Also, I've been experimenting with microdosing a certain chemical component in the past. But l'll leave it at just that.
 
-![Books](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_002.jpg)
+![Books](https://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_002.jpg)
 
 #Is there something on your desk which helps you stay focused? What is it?
 I used to own a physical Pomodoro Timer which has now been replaced by Software. Also there’s a quote from the book “The one Thing” which I recently read that reads:

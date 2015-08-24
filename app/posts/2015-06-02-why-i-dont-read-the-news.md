@@ -1,6 +1,6 @@
 ---
 title: "Why I don't read the news"
-image: 'http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-01/header_news.jpg'
+image: 'https://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-01/header_news.jpg'
 ---
 As I walk through the train I once more notice the myriads of free newspapers lying around everywhere.  I sit down and the young lady that joined me shortly afterwards, asks me if I finished reading the newspaper located on the seat next to me. I pick it up and hand it to her. 
 
