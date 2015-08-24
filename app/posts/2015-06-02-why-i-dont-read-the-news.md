@@ -15,8 +15,6 @@ Why be preoccupied with your own thoughts and worries if you can be reading abou
 
 Not much seems to have changed since Thoreau built his little hut next to a pond somewhere in Massachusetts almost 200 years ago.
 
-![Pond](https://s3-eu-west-1.amazonaws.com/theminimalistcoder/post-assets/2015-06-01/pond.jpg)
-
 > “And I am sure that I never read any memorable news in a newspaper. If we read of one man robbed, or murdered, or killed by accident, or one house burned, or one vessel wrecked, or one steamboat blown up, or one cow run over on the Western Railroad, or one mad dog killed, or one lot of grasshoppers in the winter, - we need never read of another. One is enough. If you are acquainted with the principle, what do you care for a myriad instances and applications?”   
 > ― Henry David Thoreau, Walden
 
