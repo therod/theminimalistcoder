@@ -1,3 +1,30 @@
 <% @posts.each do |post| %>
-    <%= render "post", post: post %>
+  <div class="row">
+    <div class="columns large-3 medium-9 small-9">
+      <% unless post.image.nil? %>
+        <div class="post-image">
+            <%= link_to image_tag(post.image, width: 220), post_url(post.slug) %>
+        </div>
+      <% end %>
+    </div>
+    <div class="columns large-9 medium-9 small-9">
+      <header class="post-header">
+          <h1><%= link_to post.title, post_url(post.slug) %></h1>
+        <div class="post-header-info">
+          <%= formatted_date(post.date) %>
+        </div>
+      </header>
+
+      <div class="post-body medium tf padded">
+        <% if post.is_excerpt? %>
+          <%= truncate(post.content_html, length: 0, separator: '[---MORE---]', escape: false, omission: link_to( "Continued...",post.slug)) %>
+        <% else %>
+          <%= post.content_html %>
+        <% end %>
+      </div>
+
+      <div class="divider"></div>
+
+    </div>
+  </div>
 <% end %>

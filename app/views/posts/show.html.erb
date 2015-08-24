@@ -1,1 +1,67 @@
-<%= render "post", post: @post %>
+<div class="row">
+  <div class="columns">
+    <header class="post-header">
+    <% unless @post.image.nil? %>
+      <div class="post-image">
+        <%= image_tag @post.image, width: 200 %>
+      </div>
+    <% end %>
+        <h1><%= @post.title %></h1>
+      <div class="post-header-info">
+        <%= formatted_date(@post.date) %>
+      </div>
+    </header>
+
+    <div class="post-body medium tf padded">
+      <%=raw (@post.content_html).gsub("[---MORE---]", '') %>
+    </div>
+
+      <section class="post-navigation df">
+      <% if @post.next_post %>
+        <div class="next-post normal">
+          <%= link_to @post.next_post.slug do %>
+            <h1>Next Article</h1>
+            <%= link_to @post.next_post.title, post_url(@post.next_post.slug) %>
+          <% end %>
+        </div>
+      <% end %>
+      <% if @post.previous_post %>
+        <div class="previous-post normal">
+          <%= link_to @post.previous_post.slug do %>
+            <h1>Previous Article</h1>
+            <%= link_to @post.previous_post.title, post_url(@post.previous_post.slug) %>
+          <% end %>
+        </div>
+      <% end %>
+        <div style="clear: both;"></div>
+      </section>
+
+      <section class="subscribe-area">
+        <div class="row">
+          <div class="columns large-6">
+            <p>Like what you read? <br>Subscribe now to <strong>receive exclusive updates</strong> from the minimalist coder.</p>
+          </div>
+          <div class="columns large-6">
+            <%= render 'shared/signup_form' %>
+          </div>
+        </div>
+      </section>
+
+      <section class="author-profile">
+        <figure class="author-avatar">
+          <%= image_tag "avatar.jpg" %>
+        </figure>
+        <div class="author-bio">
+          <h2>About the minimalist coder</h2>
+          <p>
+            My name is Rodrigo and I work as a Designer and Programmer at <%= link_to "Codegestalt", "http://codegestalt.com" %>.
+            If you liked this post, please share it with your friends!
+          </p>
+
+          <p>Feedback? Questions? Drop me a good ol' <%= mail_to "rodrigo@codegestalt.com", "Email"%>.</p>
+
+        </div>
+      </section>
+  </div>
+</div>
+

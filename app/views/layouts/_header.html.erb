@@ -1,14 +1,12 @@
 <header class="main-header">
-  <nav>
-    <div id="logo" class="logo">
-      <%= link_to image_tag("logo.png"), root_url %>
+  <div class="row center-text" style="text-align: center;">
+    <div class="columns">
+      <h1>
+        <%= link_to root_url do %>
+          <%= image_tag("logo.png", width: 40)%>
+          <span style="color: #cecece;">the</span> minimalist coder
+        <% end %>
+      </h1>
     </div>
-
-    <%# <ul id="navigation-links" class="links"> %>
-    <%#   <li><%= link_to "About", "#" %1></li> %>
-    <%#   <li><%= link_to "Index", "#" %1></li> %>
-    <%# </ul> %>
-  </nav>
-
-  <div style="clear: both;"></div>
+  </div>
 </header>
