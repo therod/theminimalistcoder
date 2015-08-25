@@ -66,7 +66,7 @@ The clue is that those Ketones only get produced when glucose is in short supply
 
 And the brilliant thing about this energy is that it’s a constant and even stream. And that beer belly or the extra fat on your hips is a perfect energy source to tap into.
 
-The most important success factor for a diet is if it is simple or complex. And for the Ketogenic diet there is only one Rule. 
+The most important success factor for a diet is if it is simple or complex. And for the Ketogenic diet there is only one rule. 
   
 > **Stay below eating 20g of carbohydrates every day.**
 
@@ -77,7 +77,7 @@ They usually aim around consuming less than 200g - 300g of carbohydrates per day
 But what if we only eat 20g of carbohydrates per day? 
 Wouldn’t there be a deficit? 
 
-In short: The body doesn’t need carbohydrates at all. Yep, you read that right: Zero, nada, none whatsoever. [Even if you’re an ultra runner you don’t need carbohydrates](https://www.youtube.com/watch?v=96VZFklUM_Q).
+In short: The body doesn’t need carbohydrates at all. Yep, you read that right: Zero, nada, none whatsoever. [Even if you’re an ultra runner you don’t need carbohydrates](https://www.youtube.com/watch?v=96VZFklUM_Q). Just make sure that you get most of your calorie intake from fat (80%) and protein (15%) and you’re good to go.
 
 > ***Disclaimer number 2**: I’m not a nutritional expert.
 Everything that I’ve just written down here is my knowledge after reading two books about the subject. I can guarantee you that this diet won’t work for everyone. When it comes to loosing weight (and basically anything else in life) there is no silver bullet. If it doesn’t work dont mope around – pick yourself up, experiment with other things, research and adapt. Only you have the power to change yourself, nobody can do it for you.*
