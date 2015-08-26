@@ -10,7 +10,7 @@ Theminimalistcoder::Application.routes.draw do
   root 'posts#index'
 
   # ATOM
-  get '/feed' => 'posts#feed', :defaults => { :format => 'xml' }
+  get '/feed' => 'posts#feed', :defaults => { :format => 'rss' }
 
   # Posts (needs to stay at the bottom)
   get '/:slug'  => 'posts#show', as: :post

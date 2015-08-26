@@ -38,6 +38,10 @@ class Post
     metadata[:title] || slug.titleize
   end
 
+  def description
+    metadata[:description]
+  end
+
   def image
     metadata[:image]
   end

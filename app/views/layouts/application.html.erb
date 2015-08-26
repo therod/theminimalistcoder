@@ -10,10 +10,13 @@
     <title>the minimalist coder</title>
 
     <%# TODO: Update Descriptioin %>
-    <meta name="description" content="The Minimalist Coder." />
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <meta property="description" content="<%= @description || 'A place where I share my thoughts on life, programming and living a minimalist lifestyle.' %>">
+    <meta property="og:image" content="<%= @og_image || asset_url('og_image.png') %>">
+    <meta property="og:title" content="<%= @title || 'The Minimalist Coder – a programmers journey into minimalism' %>">
+    <meta property="og:description" content="<%= @description || 'A place where I share my thoughts on life, programming and living a minimalist lifestyle.' %>">
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>

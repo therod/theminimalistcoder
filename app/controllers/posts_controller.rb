@@ -5,14 +5,16 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.where(slug: params[:slug]).first
+    @description = @post.description
+    @og_image = @post.image
+    @title = @post.title
+    @description = @post.description
   end
 
   def feed
-    @title = "theminimalistcoder"
     @posts = Post.all
-
     respond_to do |format|
-      format.xml
+      format.rss { render :layout => false }
     end
   end
 
