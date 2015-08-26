@@ -4,7 +4,6 @@ gem 'rails', '4.2.3'
 
 # Backend
 gem 'puma'
-# gem 'pg'
 
 # Markdown
 gem 'pandoc-ruby', '1.0.0'
@@ -12,6 +11,7 @@ gem 'rdiscount'
 
 # Various
 gem 'nokogiri'
+gem 'kaminari'
 
 # Javascript
 gem 'uglifier', '>= 1.3.0'

@@ -23,8 +23,17 @@
         <% end %>
       </div>
 
-      <div class="divider"></div>
+      <% unless @posts.last == post %>
+        <div class="divider"></div>
+      <% end %>
 
     </div>
   </div>
 <% end %>
+
+
+<div class="row">
+  <div class="columns">
+    <%= paginate @posts %>
+  </div>
+</div>
