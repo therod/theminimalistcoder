@@ -17,7 +17,7 @@
 
       <div class="post-body medium tf padded">
         <% if post.is_excerpt? %>
-          <%= truncate(post.content_html, length: 0, separator: '[---MORE---]', escape: false, omission: link_to( "Continued...",post.slug)) %>
+          <%= truncate(post.content_html, length: 0, separator: '[- - -MORE- - -]', escape: false, omission: link_to( "Continued...",post.slug)) %>
         <% else %>
           <%= post.content_html %>
         <% end %>

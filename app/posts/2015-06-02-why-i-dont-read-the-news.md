@@ -6,7 +6,7 @@ As I walk through the train I once more notice the myriads of free newspapers ly
 
 *"Here take it, It's not mine and I don't intend to read it anyways."*  *"Already up to date on all the news huh?"* she asks with a grin on her face. "*Something like that I guess*" I tell her as I turn my attention back to my book. 
 
-[---MORE---]
+[- - -MORE- - -]
 
 > The truth is that I don't read the news. 
 

@@ -16,7 +16,7 @@ xml.rss :version => "2.0" do
         xml.link post_url(post.slug)
         xml.guid post.slug
 
-        text = post.content_html.gsub("[---MORE---]", '')
+        text = post.content_html.gsub("[- - -MORE- - -]", '')
 
         if post.image.present?
           image_url     = post.image

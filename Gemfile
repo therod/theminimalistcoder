@@ -7,7 +7,7 @@ gem 'puma'
 
 # Markdown
 gem 'pandoc-ruby', '1.0.0'
-gem 'rdiscount'
+gem 'kramdown'
 
 # Various
 gem 'nokogiri'

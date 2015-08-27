@@ -8,7 +8,7 @@ According to Lanier there are a lot of factors that contribute to this decline. 
 
 > People reduce themselves to the predefined contents of checkboxes and drop-down relationship statuses.
 
-[---MORE---]
+[- - -MORE- - -]
 
 This part of the book resonated strongly with me and made me completely question my relationship and interaction with modern social media. 
 Going through my Facebook profile, I started asking myself: "*which of the almost 200 people listed on here can I really call Friends?*"

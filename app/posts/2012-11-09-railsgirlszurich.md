@@ -10,7 +10,7 @@ I instantly knew that I wanted to stay involved and try to improve the quality
 of future Rails Girls happenings around the world. This blog post is my first 
 try at improving the Rails Girls movement which is already pretty strong.
 
-[---MORE---]
+[- - -MORE- - -]
 
 While the organisers and coaches did a great job, there were still
 some things that bothered me personally and I think could be improved.

@@ -93,11 +93,11 @@ class Post
   end
 
   def content_html
-    RDiscount.new(content).to_html.html_safe
+    Kramdown::Document.new(content).to_html.html_safe
   end
 
   def is_excerpt?
-    content.split(/\[---MORE---\]/).count > 1
+    content.split(/\[- - -MORE- - -\]/).count > 1
   end
 
   TagHelper = Class.new.extend ActionView::Helpers::TagHelper
