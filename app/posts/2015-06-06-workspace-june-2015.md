@@ -3,15 +3,15 @@ title: "Workspace - June 2015"
 image: "https://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/workspace_image.jpg"
 ---
 
-> This is a guest post that I've written for [deskhunt.com](http://deskhunt.com/) which I'm going to share with you here as well.
+> This is a guest post that I've written for [deskhunt.com](http://deskhunt.com/){:target="_blank"} which I'm going to share with you here as well.
 
 [- - -MORE- - -]
 
 #Who are you and what do you do for a living?
-My name is Rodrigo and I am the co-founder of [Codegestalt](http://codegestalt.com). I design and program user interfaces for a living and write about minimalism and coding on [my blog](http://theminimalistcoder.com). If I’m not sitting in front of a computer I usually read books, listen to music or experiment with new recipes in the kitchen.
+My name is Rodrigo and I am the co-founder of [Codegestalt](http://codegestalt.com){:target="_blank"}. I design and program user interfaces for a living and write about minimalism and coding on [my blog](http://theminimalistcoder.com){:target="_blank"}. If I’m not sitting in front of a computer I usually read books, listen to music or experiment with new recipes in the kitchen.
 
 #Can you tell me something about your desk setup?
-I used to be a big fan of external displays and my [last setup](http://setupsandspaces.com/post/937556429/rodrigo-haenggi) was using an external 27” Apple Cinema Display and was loaded with a lot of different gadgets. After working on the road in Japan for three months my “setup mindset” underwent  a radical transformation.
+I used to be a big fan of external displays and my [last setup](http://setupsandspaces.com/post/937556429/rodrigo-haenggi){:target="_blank"} was using an external 27” Apple Cinema Display and was loaded with a lot of different gadgets. After working on the road in Japan for three months my “setup mindset” underwent  a radical transformation.
 Nowadays I prefer to keep my essential belongings to a minimum. If I just throw everything into my backpack I know that all my essential tools are there with me.
 I measure the necessity of my setup by asking following question: “If my house was on fire right now and I could only grab my backpack would that be enough?” If the answer to this question is yes then I can slowly ged rid of all the other stuff that’s NOT in my backpack.  This is a great exercise to start decluttering your workspace from gadgets you don’t really need.
 

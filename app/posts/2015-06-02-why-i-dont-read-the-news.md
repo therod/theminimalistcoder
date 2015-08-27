@@ -31,4 +31,4 @@ Sadly, most of these stories were written off as crazy conspiracy theories. But 
 
 *In a nutshell: I encourage you to acquire information about news & topics that are important to you by yourself, instead of just consuming the brain-dead meals that have been pre-packaged for you by the mass media.*
 
-It's also a good way to loosen the grip of influence that the mass media has on you. Think you're not being influenced? [Think](https://www.youtube.com/watch?v=XtcucHPkFkg) and then [think again](https://www.youtube.com/watch?v=cgkQXJ3mugY) some more.
+It's also a good way to loosen the grip of influence that the mass media has on you. Think you're not being influenced? [Think](https://www.youtube.com/watch?v=XtcucHPkFkg){:target="_blank"} and then [think again](https://www.youtube.com/watch?v=cgkQXJ3mugY){:target="_blank"} some more.
