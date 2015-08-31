@@ -38,7 +38,7 @@ I try to make this introduction as short as possible. The science is definitely 
 There are 3 macro nutrients: Carbohydrates, Fat and Protein.
 To keep your weight you need a basic energy intake per day coming from these 3 categories. Nutritional “experts” tell us that 60% of those should come from Carbohydrates, 35% from protein and 5% from fat. These percentages translate into the food pyramid that we’re all familiar with today.
 
-Turns out that the science behind the food pyramid is all based on a big fat lie. For further details on why I recommend reading  [this Book](https://www.goodreads.com/book/show/11476367-the-art-and-science-of-low-carbohydrate-living).
+Turns out that the science behind the food pyramid is all based on a big fat lie. [For further details on why I recommend reading  this Book](https://www.goodreads.com/book/show/11476367-the-art-and-science-of-low-carbohydrate-living).
 
 For most of us carbohydrates are the main source of energy.
 Be it the pancakes for breakfast, a sandwich for lunch, an apple as a quick snack, or our beloved pizza for dinner.

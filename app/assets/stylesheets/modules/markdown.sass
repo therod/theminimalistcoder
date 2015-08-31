@@ -1,5 +1,5 @@
-$body-font-size: 20px
-$body-line-height: 31px
+$body-font-size: 18px
+$body-line-height: 30px
 
 @mixin font-stuff
   font-style: normal
@@ -89,6 +89,14 @@ $body-line-height: 31px
         content: "-" 
         position: relative 
         left: -15px
+  a
+    color: $black
+    text-decoration: none
+    border-bottom: 1px solid $blue
+    font-style: italic
+
+    &:hover
+      color: $blue
 
   p
     @include font-stuff
