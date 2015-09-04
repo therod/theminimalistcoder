@@ -46,7 +46,7 @@ You’ll also start to appreciate the things that you already have even more.
 
 There is more to this.
 
-It turns out that Epicurus, a philosophical rival to the Stoics, also practiced poverty but with a little twist. Wheres Seneca wanted to appreciate what he had, Epicurus wanted to examine the things he thought he needed so he could determine which of them he could in fact live without.
+It turns out that Epicurus, a philosophical rival to the Stoics, also practiced poverty but with a little twist. Whereas Seneca wanted to appreciate what he had, Epicurus wanted to examine the things he thought he needed so he could determine which of them he could in fact live without.
 
 It may happen to you that weeks pass and you completely forget about the thing you only intended to give away for a week. This serves as an important indicator to ask yourself: “Do I really need this or could someone else profit more from it?”
 
