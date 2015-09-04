@@ -7,14 +7,14 @@ description: 'Start your way into minimalism with the stoic technique of "practi
 In the past, some people have asked me, how I made minimalism an active part of my life.
 Instead of offering the usual “10 simple step to …” advice, I want to share something more meaningful with you today.
 
-Becoming a minimalist is not a one time thing that you do by selling everything you own over the weekend [or by blowing up your condo](https://www.youtube.com/watch?v=C0xBX4xF3rs).
+Becoming a minimalist is not a one time thing that you do by selling everything you own over the weekend [or by blowing up your condo](https://www.youtube.com/watch?v=C0xBX4xF3rs){:target="_blank"}.
 [- - -MORE- - -]
 
 Minimalism is a constant process of looking at the things in your life and deciding what deserves to have space in it an what doesn’t. It’s a difficult process, especially since the world we live in constantly tries to tells us that we can acquire happiness by buying shit we don’t need.
 
 Thankfully there are frameworks (some of them are thousands of years old) that can help us overcome all the superficial noise of modern society.
 
-Especially the [Stoic school of philosophy](https://en.wikipedia.org/wiki/Stoicism) provides us with some of the best of these frameworks. One of them in particular is a perfect way to help you start living a minimalist life.
+Especially the [Stoic school of philosophy](https://en.wikipedia.org/wiki/Stoicism){:target="_blank"} provides us with some of the best of these frameworks. One of them in particular is a perfect way to help you start living a minimalist life.
 
 The writings of the Stoics offer us psychological techniques that can help us even today. And in our daily struggle with modern life they’re more valuable than ever.
 
