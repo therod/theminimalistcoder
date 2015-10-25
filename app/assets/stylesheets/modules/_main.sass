@@ -1,12 +1,10 @@
 // // HEADER & NAVIGATION
 header.main-header
-  margin: 0 auto 80px auto
+  margin: 0 auto 20px auto
   padding: 25px 0
   .logo
     display: inline-block
     padding: 10px 0 0 20px
-    img
-      width: 40px
   h1
     font-size: 24px
     font-weight: 300
@@ -15,26 +13,15 @@ header.main-header
     a
       text-decoration: none
       color: #242424
-  nav
-    .links
-      display: none 
-      margin-left: 20px
-      padding: 0
-      li
-        display: inline-block
-        margin-right: 20px
-        a
-          color: darken($smoke, 20%)
-          text-decoration: none
-          font-weight: 200
-          font-size: 14px
-          &:hover
-            color: $oil
+  p
+    color: #777
+    a
+      color: $blue
+      text-decoration: underline
 
-
-nav.main-navigation
-  margin: 20px 0 20px 0
-  text-align: center
+      &:hover
+        color: $blue
+        text-decoration: none
 
 // // FOOTER
 footer
@@ -51,6 +38,29 @@ footer
     a
       color: $light
 
+  .footer-links
+    p
+      margin-top: 1.25rem
+      font-size: 14px
+      text-align: center
+  .footer-index
+    padding-top: 20px
+    padding-bottom: 20px
+    p
+      margin-bottom: 5px
+      font-size: 16px
+      strong
+        color: $black
+    ul
+      padding: 0
+      margin: 0
+      li
+        list-style: none
+        padding: 0
+        a
+          &:hover
+            text-decoration: none
+
 // MODULES
 .divider
   border-bottom: 1px solid white
@@ -59,9 +69,50 @@ footer
 // Pagination
 
 .pagination-centered
-  margin: 50px 0 60px 0
+  margin: 40px 0 0 0
+  padding: 20px 0 20px 0
+  border-top: 1px solid $smoke
+  border-bottom: 1px solid $smoke
 
-  ul
-  li
-    a
-      text-decoration: none
+  ul.pagination
+    margin: 0
+    padding: 0
+    li
+      display: inline-block
+      a
+        font-size: 16px
+        transition: none
+        text-decoration: none
+        background-color: none !important
+        color: $blue
+        padding: 0
+        &:hover
+          transition: none
+          color: $blue
+          text-decoration: underline
+          background-color: none !important
+        &:before, &:after
+          font-family: 'FontAwesome'
+          left: -10
+          top: 0
+
+.pagination-centered ul.pagination li.previous
+  display: inline-block
+  float: right !important
+  a
+    &:after
+      content: " \2192"
+
+.pagination-centered ul.pagination li.next
+  display: inline-block
+  float: left !important
+  a
+    &:before
+      content: "\2190 "
+ul.pagination li:hover a, ul.pagination li a:focus, ul.pagination li:hover button, ul.pagination li button:focus
+  background: none !important
+
+// VARIOUS
+
+.bt
+  border-top: 1px solid $smoke

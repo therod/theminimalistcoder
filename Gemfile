@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-ruby "2.2.2"
-gem 'rails', '4.2.3'
+ruby "2.2.3"
+gem 'rails', '4.2.4'
 
 # Backend
 gem 'puma'
@@ -12,6 +12,7 @@ gem 'kramdown'
 # Various
 gem 'nokogiri'
 gem 'kaminari'
+gem 'active_link_to'
 
 # Javascript
 gem 'uglifier', '>= 1.3.0'

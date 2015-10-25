@@ -1,8 +1,32 @@
 <footer>
-  <span class="copyright df padded">
-    <%= fa_icon "creative-commons" %> theminimalistcoder
-  </span>
-  <span class="copyright df padded right">
-    <%= link_to fa_icon("rss"), feed_url %>
-  </span>
+  <div class="row">
+    <div class="columns large-6 footer-index">
+      <p><strong>New here?</strong> The most popular articles:</p>
+      <ul>
+        <li><%= link_to "My Biggest Productivity Hack", "http://theminimalistcoder.com/biggest-productivity-hack" %></li>
+        <li><%= link_to "Waking up early", "http://theminimalistcoder.com/wake" %></li>
+        <li><%= link_to "The death of individuality online", "http://theminimalistcoder.com/the-death-of-individuality-online" %></li>
+      </ul>
+    </div>
+    <div class="columns large-6 footer-index">
+      <p><strong>Back again?</strong> Catch up:</p>
+      <ul>
+        <% Post.all.take(3).each do |post| %>
+          <li><%= link_to(post.title, post_url(post.slug)) %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row bt">
+    <div class="columns footer-links">
+      <p>
+        Content released under the <%= link_to "creative commons", "http://creativecommons.org/licenses/by/4.0/" %> license.
+        Subscribe to the <%= link_to "RSS", feed_url %> feed.
+      </p>
+    </div>
+  </div>
+
+
+
 </footer>

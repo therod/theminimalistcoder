@@ -1,12 +1,11 @@
 <header class="main-header">
-  <div class="row center-text" style="text-align: center;">
+  <div class="row">
     <div class="columns">
-      <h1>
-        <%= link_to root_url do %>
-          <%= image_tag("logo.png", width: 40)%>
-          the<strong>minimalist</strong>coder
-        <% end %>
-      </h1>
+      <p>
+        You're reading <%= link_to "theminimalistcoder", root_url %>.
+        <%# written by <%= link_to "this guy", root_url %1>. %> 
+        <%# Make sure to check out my <%= link_to 'book notes', root_url %1>. %>
+      </p>
     </div>
   </div>
 </header>
