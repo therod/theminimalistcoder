@@ -1,5 +1,5 @@
-$body-font-size: 18px
-$body-line-height: 30px
+$body-font-size: 21px
+$body-line-height: 33px
 
 @mixin font-stuff
   font-style: normal
@@ -8,7 +8,7 @@ $body-line-height: 30px
   -webkit-font-smoothing: antialiased
   font-family: $font-family-serif
   font-size: $body-font-size
-  line-height: $body-line-height 
+  line-height: $body-line-height
 
 .post-header
   margin: 0
@@ -18,8 +18,8 @@ $body-line-height: 30px
     text-align: center
 
   h1
-    font-size: 24px
-    line-height: 24px
+    font-size: 28px
+    line-height: 28px
     font-family: $font-family-sans-serif
     width: inherit
     margin: 0 0 5px 0
@@ -40,7 +40,7 @@ $body-line-height: 30px
     margin: 0 0 0 0
     color: darken($smoke, 20%)
     font-family: $font-family-sans-serif
-    font-size: 13px
+    font-size: 14px
 
 
 .post-body
@@ -86,15 +86,15 @@ $body-line-height: 30px
       list-style-type: none
       text-indent: -5px
       &:before
-        content: "-" 
-        position: relative 
+        content: "-"
+        position: relative
         left: -15px
   a
     color: $blue
-    text-decoration: underline
+    text-decoration: none
 
     &:hover
-      text-decoration: none
+      text-decoration: underline
       color: $blue
 
   p
