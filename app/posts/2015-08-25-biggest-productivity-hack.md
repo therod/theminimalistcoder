@@ -88,9 +88,7 @@ Everything that I’ve just written down here is my knowledge after reading two 
 
 So here’s a short list of things that have improved for me after living a Ketogenic lifestyle for 6 months:
 
-**1)** I lost around 20 kg (44lbs) in total and regained my physical fitness. 
-![before and after](http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-08-25/before_after.jpg) *image: before / after*
-
+**1)** I lost around 20 kg (44lbs) in total and regained my physical fitness.   
 **2)** I sleep better than ever and haven’t suffered from my occasional insomnia for a long time.   
 **3)** I used to have regular acid reflux burning in my stomach – not anymore.   
 **4)** I feel more alert during the day and don’t suffer from “brain fog” anymore.   
