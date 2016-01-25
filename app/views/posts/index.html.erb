@@ -1,13 +1,13 @@
 <% @posts.each do |post| %>
   <div class="row">
-    <div class="columns large-3 medium-3 small-3">
+    <div class="columns large-12 medium-12 small-12 text-center">
       <% unless post.image.nil? %>
         <div class="post-image">
-            <%= link_to image_tag(post.image, width: 220), post_url(post.slug) %>
+            <%= link_to image_tag(post.image, width: 200), post_url(post.slug), style: "display: block;" %>
         </div>
       <% end %>
     </div>
-    <div class="columns large-9 medium-9 small-9">
+    <div class="columns large-12 medium-12 small-12">
       <header class="post-header">
           <h1><%= link_to post.title, post_url(post.slug) %></h1>
         <div class="post-header-info">
@@ -22,10 +22,6 @@
           <%= post.content_html %>
         <% end %>
       </div>
-
-      <% unless @posts.last == post %>
-        <div class="divider"></div>
-      <% end %>
 
     </div>
   </div>
