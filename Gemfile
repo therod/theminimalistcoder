@@ -28,6 +28,10 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+group :production do
+  gem 'rails_12factor', group: :production
+end
+
 group :development do
   gem 'pry-rails'
   gem 'web-console'
