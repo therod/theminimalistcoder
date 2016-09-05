@@ -20,6 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  coffee_subject: "About that coffee..."
+  coffee_body: "Hey Rodrigo, \n \n My name is [NAME] and I live in [CITY]. \n How about we meet-up next [WEEKDAY] around [TIME]–PM at [LOCATION]. \n \n I'd like to tell you more about my [PROJECT / PASSION / PET...]. \n\n Looking forward to that free coffee!"
   views:
     pagination:
       next: " Older posts"

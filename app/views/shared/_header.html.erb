@@ -8,13 +8,12 @@
       <h1>the<b>minimalist</b>coder</h1>
       <hr>
       <p>
-        Hey there, my name is Rodrigo.<br>
-        I am the cofounder <%= link_to "Codegestalt", "http://codegestalt.com", target: "_BLANK" %> and <br>
-        I teach people how to code through <%= link_to "Master21", "https://master21.academy", target: "_BLANK" %>.
+        Hey there, my name is <b>Rodrigo Haenggi</b> and I live in Basel, Switzerland.
+        I am the co-founder of <b><%= link_to "Codegestalt", "http://codegestalt.com", target: "_BLANK" %></b> and I
+        teach people how to code through <b><%= link_to "Master21", "https://master21.academy", target: "_BLANK" %></b>.
       </p>
       <p>
-        <b>Reading</b>, <b>Music</b> and <b>Movement</b> are my passion –<br>
-        this is where I write down my thoughts.
+        <b><%= mail_to "rodrigo@codegestalt.com", "Let me buy you a coffee", subject: t(:coffee_subject), body: t(:coffee_body) %></b> – in turn you tell me about whatever it is you're passionate about.
       </p>
     </div>
   </div>
