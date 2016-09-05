@@ -1,7 +1,12 @@
 window.App ||= {}
 
 App.init = ->
-  console.debug "hello world"
+  $toggler = $(".js-toggle-image")
+  $flip_container = $(".js-flip-container")
+
+  $toggler.on "click", ->
+    $flip_container.toggleClass("show")
+    event.preventDefault()
 
 document.addEventListener 'turbolinks:load', ->
   App.init()
