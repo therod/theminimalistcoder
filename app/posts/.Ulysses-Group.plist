@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>2012-04-11-wake.md</string>
+		</array>
+		<array>
+			<string>2012-11-09-railsgirlszurich.md</string>
+		</array>
+		<array>
+			<string>2013-09-02-cutting-down.md</string>
+		</array>
+		<array>
+			<string>2014-06-12-the-death-of-individuality-online.md</string>
+		</array>
+	</array>
+	<key>userIconName</key>
+	<string>Cloud</string>
+</dict>
+</plist>

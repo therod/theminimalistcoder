@@ -1,6 +1,5 @@
 ---
 title: "Workspace - June 2015"
-image: "https://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/workspace_image.jpg"
 ---
 
 > This is a guest post that I've written for [deskhunt.com](http://deskhunt.com/){:target="_blank"} which I'm going to share with you here as well.

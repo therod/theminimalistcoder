@@ -1,6 +1,5 @@
 ---
 title: "My Biggest Productivity Hack"
-image: "http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-08-25/title_image.jpg"
 description: "Discovering the Ketogenic diet as my favorite productivity hack."
 ---
 

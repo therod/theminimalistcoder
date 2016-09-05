@@ -1,6 +1,5 @@
 ---
 title: "The death of individuality online"
-image: "https://theminimalistcoder.s3.amazonaws.com/post-assets/2014-06-12/death_image.jpg"
 ---
 Just a while ago, I finished reading the book ["You are not a Gadget"][1]{:target="_blank"} by [Jaron Lanier][2]{:target="_blank"}. One of the main themes in the book is the decline of personal individuality on the web.
 

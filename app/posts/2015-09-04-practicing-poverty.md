@@ -1,6 +1,5 @@
 ---
 title: "Practicing poverty"
-image: "http://theminimalistcoder.s3.amazonaws.com/post-assets/2015-09-04/bread_and_water.jpg"
 description: 'Start your way into minimalism with the stoic technique of "practicing poverty"'
 ---
 
@@ -8,6 +7,7 @@ In the past, some people have asked me, how I made minimalism an active part of 
 Instead of offering the usual “10 simple step to …” advice, I want to share something more meaningful with you today.
 
 Becoming a minimalist is not a one time thing that you do by selling everything you own over the weekend [or by blowing up your condo](https://www.youtube.com/watch?v=C0xBX4xF3rs){:target="_blank"}.
+
 [- - -MORE- - -]
 
 Minimalism is a constant process of looking at the things in your life and deciding what deserves to have space in it an what doesn’t. It’s a difficult process, especially since the world we live in constantly tries to tells us that we can acquire happiness by buying shit we don’t need.

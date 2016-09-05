@@ -1,51 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <% if @post %>
-      <meta property="og:image" content="<%= image_url asset_path(@post.image) %>"/>
-      <meta property="og:title" content="<%= @post.title %>" />
-      <link rel="image_src" href="<%= image_url asset_path(@post.image) %>"/>
-    <% end %>
-
-    <title>the minimalist coder</title>
-
-    <%# TODO: Update Descriptioin %>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta property="description" content="<%= @description || 'A place where I share my thoughts on life, programming and living a minimalist lifestyle.' %>">
     <meta property="og:image" content="<%= @og_image || asset_url('og_image.png') %>">
     <meta property="og:title" content="<%= @title || 'The Minimalist Coder – a programmers journey into minimalism' %>">
     <meta property="og:description" content="<%= @description || 'A place where I share my thoughts on life, programming and living a minimalist lifestyle.' %>">
 
-    <%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "vendor/modernizr" %>
-    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <title>the minimalist coder</title>
     <%= csrf_meta_tags %>
 
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
     <%= render 'shared/analytics' %>
-    <%= render 'shared/favicon' %>
     <script type="text/javascript" src="//use.typekit.net/fjr3bxd.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
-  <body>
+  <body class="<%= controller_name %> <%= action_name %>">
 
+    <%= yield %>
 
-    <div class="row">
-      <div class="columns large-12">
-        <%= render 'layouts/header' %>
-      </div>
-      <div class="columns large-12">
-        <%= yield %>
-      </div>
-      <div class="columns large-12">
-        <%= render 'layouts/footer' %>
-      </div>
-    </div>
-
-
-
+    <%= render 'shared/footer' %>
   </body>
-
 </html>

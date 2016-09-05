@@ -1,6 +1,5 @@
 ---
 title: "Cutting down"
-image: "https://theminimalistcoder.s3.amazonaws.com/post-assets/2013-09-02/tree.jpg"
 ---
 Three weeks ago, I returned from my trip to Japan. After cycling across the country of the rising sun for three months I came to one of the biggest realisations about myself:  
 

@@ -1,0 +1,78 @@
+.bg-smoke
+  background-color: $smoke
+
+.bg-yellow
+  background-color: $yellow
+
+.avatar
+  border-radius: 50%
+  width: 100px
+
+.post-navigation
+  // padding: 25px 0 25px 0
+  // margin: 25px 0 0 0
+
+  h3
+    margin: 0
+    font-size: 16px
+    font-weight: bold
+    text-transform: uppercase
+    font-style: normal
+
+  a
+    text-decoration: none
+    font-style: italic
+    font-size: 14px
+    color: $black
+
+  .previous-post
+    display: inline-block
+
+  .next-post
+    float: right
+    display: inline-block
+
+// Pagination
+.pagination-centered
+  // margin: 40px 0 0 0
+  padding: 20px 0 20px 0
+  // border-top: 1px solid $smoke
+
+  ul.pagination
+    margin: 0
+    padding: 0
+    li
+      display: inline-block
+      a
+        font-size: 18px
+        transition: none
+        text-decoration: none
+        background-color: none !important
+        color: $primary-color
+        padding: 0
+        &:hover
+          transition: none
+          color: $primary-color
+          text-decoration: underline
+          background-color: none !important
+        &:before, &:after
+          font-family: 'FontAwesome'
+          left: -10
+          top: 0
+
+.pagination-centered ul.pagination li.previous
+  display: inline-block
+  float: right !important
+  a
+    &:after
+      content: " \2192"
+
+.pagination-centered ul.pagination li.next
+  display: inline-block
+  float: left !important
+  a
+    &:before
+      content: "\2190 "
+
+ul.pagination li:hover a, ul.pagination li a:focus, ul.pagination li:hover button, ul.pagination li button:focus
+  background: none !important

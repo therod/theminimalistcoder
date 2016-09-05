@@ -18,13 +18,6 @@ xml.rss :version => "2.0" do
 
         text = post.content_html.gsub("[- - -MORE- - -]", '')
 
-        if post.image.present?
-          image_url     = post.image
-          image_caption = post.description || "A place where I share my thoughts on life, programming and living a minimalist lifestyle."
-          image_tag = "<p><img src='#{image_url}' alt='#{image_caption}' title='#{image_caption}' /></p>"
-          text = image_tag + text
-        end
-
         text += "<p><a href='#{post_url(post.slug)}'>Continue reading...</a><p>"
 
         xml.description text
@@ -33,3 +26,4 @@ xml.rss :version => "2.0" do
     end
   end
 end
+

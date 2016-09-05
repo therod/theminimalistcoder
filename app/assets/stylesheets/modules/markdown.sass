@@ -6,7 +6,7 @@ $body-line-height: 33px
   color: rgba(0,0,0,0.8) !important
   text-rendering: optimizelegibility
   -webkit-font-smoothing: antialiased
-  font-family: $font-family-serif
+  font-family: $post-font-family
   font-size: $body-font-size
   line-height: $body-line-height
 
@@ -17,29 +17,27 @@ $body-line-height: 33px
     text-align: center
 
   h1
-    font-size: 28px
-    line-height: 28px
-    font-family: $font-family-sans-serif
+    font-family: $body-font-family
     width: inherit
-    margin: 0 0 5px 0
+    margin: 0 0 0 0
     padding: 0
-    color: $oil
+    color: $light-black
     font-weight: 600
 
     a
-      color: $oil
+      color: $light-black
       text-decoration: none
       padding: 0
 
       &:hover
-        color: $blue
+        color: $primary-color
         text-decoration: none
 
   .post-header-info
     margin: 0 0 0 0
-    color: darken($smoke, 20%)
-    font-family: $font-family-sans-serif
-    font-size: 14px
+    color: darken($light-gray, 20%)
+    font-family: $body-font-family
+    font-size: 18px
 
 
 .post-body
@@ -53,21 +51,15 @@ $body-line-height: 33px
 
   h1
     @include font-stuff
-    font-size: 20px
-    line-height: 31px
     margin-top: 20px
     font-weight: bold
 
   h2
     @include font-stuff
     font-weight: bold
-    font-size: 22px
-    line-height: 28px
 
   h3
     @include font-stuff
-    font-size: 22px
-    line-height: 28px
 
   ol
     margin: 10px 0 10px 0
@@ -89,16 +81,16 @@ $body-line-height: 33px
         position: relative
         left: -15px
   a
-    color: $blue
+    color: $primary-color
     text-decoration: none
 
     &:hover
       text-decoration: underline
-      color: $blue
+      color: $primary-color
 
   p
     @include font-stuff
-    padding: 10px 0 10px 0
+    padding: 30px 0 0 0
     margin: 0
 
     i
@@ -139,3 +131,4 @@ $body-line-height: 33px
 
   em
     font-style: italic
+

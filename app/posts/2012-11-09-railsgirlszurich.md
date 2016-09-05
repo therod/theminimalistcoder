@@ -1,6 +1,5 @@
 ---
 title: "Rails Girls Zurich, thoughts"
-image: "https://theminimalistcoder.s3.amazonaws.com/post-assets/2012-11-09/rgzuerich.png"
 ---
 
 Last weekend I attended the first Rails Girls event in Zurich,

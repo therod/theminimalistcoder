@@ -1,9 +1,19 @@
 source 'https://rubygems.org'
-ruby "2.3.0"
-gem 'rails', '4.2.5'
+ruby '2.3.1'
 
-# Backend
-gem 'puma'
+gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'puma', '~> 3.0'
+
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.2'
+gem 'jquery-rails'
+gem 'turbolinks', '~> 5'
+gem 'jbuilder', '~> 2.5'
+
+gem 'foundation-rails'
+gem 'font-awesome-rails'
 
 # Markdown
 gem 'pandoc-ruby', '1.0.0'
@@ -14,29 +24,15 @@ gem 'nokogiri'
 gem 'kaminari'
 gem 'active_link_to'
 
-# Javascript
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'turbolinks', github: 'rails/turbolinks'
-gem 'jbuilder', '~> 2.0'
-
-# HTML / CSS
-gem 'font-awesome-rails', '~> 4.4.0'
-gem 'sass-rails', '~> 5.0'
-gem 'foundation-rails', '~> 5.5.2.1'
-
 group :development, :test do
-  # gem 'rack-mini-profiler'
-  gem 'byebug'
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
+  gem 'byebug', platform: :mri
 end
 
-group :production do
-  gem 'rails_12factor', group: :production
+group :development do
+  gem 'pry-rails'
+  gem 'web-console'
+  gem 'listen', '~> 3.0.5'
 end
 
-group :doc do
-  gem 'sdoc', require: false
-end
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

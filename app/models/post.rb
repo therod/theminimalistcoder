@@ -42,10 +42,6 @@ class Post
     metadata[:description]
   end
 
-  def image
-    metadata[:image]
-  end
-
   def promoted?
     metadata[:promoted]
   end
