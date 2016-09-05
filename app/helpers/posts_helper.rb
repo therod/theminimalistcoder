@@ -4,11 +4,7 @@ module PostsHelper
   end
 
   def formatted_date(date)
-    if date.year == Date.today.year
-      date.strftime("Written on %B %d")
-    else
-      date.strftime("Written on %B %d %Y")
-    end
+    date.strftime("%B %d, %Y")
   end
 
 end

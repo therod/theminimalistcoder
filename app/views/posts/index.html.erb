@@ -1,30 +1,19 @@
-<% @posts.each do |post| %>
-  <div class="post" style="padding: 25px 0;">
-    <div class="row">
-      <div class="columns large-12 medium-12 small-12">
-        <header class="post-header">
-            <h1><%= link_to post.title, post_url(post.slug) %></h1>
-          <div class="post-header-info">
-            <%= formatted_date(post.date) %>
-          </div>
-        </header>
-
-        <div class="post-body medium tf padded">
-          <% if post.is_excerpt? %>
-            <%= truncate(post.content_html, length: 0, separator: '[- - -MORE- - -]', escape: false, omission: link_to( "Continued...",post.slug)) %>
-          <% else %>
-            <%= post.content_html %>
-          <% end %>
-        </div>
-
-      </div>
-    </div>
-  </div>
-<% end %>
-
 <div class="row">
   <div class="columns small-12">
-    <hr>
-    <%= paginate @posts %>
+    <ul class="recent-posts">
+    <% @posts.each do |year| %>
+      <h3><%= year[0] %></h3>
+      <% year[1].each do |post| %>
+        <li>
+          <%= link_to post_url(post.slug) do %>
+            <div>
+              <span class="title"><%= post.title %></span>
+              <span class="date"><%= formatted_date(post.date) %></span>
+            </div>
+          <% end %>
+        </li>
+      <% end %>
+    <% end %>
+    </ul>
   </div>
 </div>

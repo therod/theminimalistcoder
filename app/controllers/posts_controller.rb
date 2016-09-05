@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   def index
-    @posts = Kaminari.paginate_array(Post.all).page(params[:page]).per(10)
+    @posts = Post.all.group_by {|post| post.date.year }
   end
 
   def show
