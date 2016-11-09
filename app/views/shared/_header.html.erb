@@ -1,4 +1,4 @@
-<header class="main-header">
+<header class="main-header bg-smoke">
   <div class='row'>
 
     <div class='columns small-3' style="padding-top: 10px;">
@@ -16,19 +16,10 @@
       <p>
         Hey there, my name is Rodrigo. I'm the co-founder of <%= link_to "Codegestalt", "http://codegestalt.com", target: "_BLANK" %> and <%= link_to "Master21", "https://master21.academy", target: "_BLANK" %>
         and this is where I write down my thoughts.
-
       </p>
       <p>
-        I love meeting new people. <%= mail_to "rodrigo@codegestalt.com", "Let me buy you a coffee", subject: t(:coffee_subject), body: t(:coffee_body) %> and in turn you tell me what you're working on, or whatever you're excited about – deal?
+      You can contact me via <%= mail_to "rodrigo@codegestalt.com", "E-Mail" %> (<%= link_to "PGP", "https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/RodrigoHaenggi_9A256592.asc", target: "_BLANK" %>) or <%= link_to "Twitter", "https://twitter.com/therod", target: "_BLANK" %>
       </p>
-      <p>
-        Sensitive E-Mail? Here's my <%= link_to "PGP Public Key", "https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/RodrigoHaenggi_9A256592.asc" %>.
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='columns small-12'>
-      <hr>
     </div>
   </div>
 </header>
