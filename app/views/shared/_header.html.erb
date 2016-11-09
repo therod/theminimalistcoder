@@ -5,9 +5,6 @@
       <div class="flip-container js-flip-container">
         <div class="flipper">
           <div class="front">
-            <%= link_to image_tag("logo.png", alt: "Rodrigo Haenggi", class: "avatar"), root_url, id: "logo" %>
-          </div>
-          <div class="back">
             <%= link_to image_tag("rodrigo.jpg", alt: "Rodrigo Haenggi", class: "avatar"), root_url, id: "rodrigo" %>
           </div>
         </div>
@@ -17,15 +14,15 @@
     <div class='columns small-9'>
       <h1 style="font-weight: 200">the<b>minimalist</b>coder</h1>
       <p>
-        Hey there, my name is <b><%= link_to "Rodrigo Haenggi", "#", class: "js-toggle-image" %></b> and I live in Basel, Switzerland.
-        I am the co-founder of <b><%= link_to "Codegestalt", "http://codegestalt.com", target: "_BLANK" %></b> and I
-        teach people how to code through <b><%= link_to "Master21", "https://master21.academy", target: "_BLANK" %></b>.
+        Hey there, my name is Rodrigo. I'm the co-founder of <%= link_to "Codegestalt", "http://codegestalt.com", target: "_BLANK" %> and <%= link_to "Master21", "https://master21.academy", target: "_BLANK" %>
+        and this is where I write down my thoughts.
+
       </p>
       <p>
-        <b><%= mail_to "rodrigo@codegestalt.com", "Let me buy you a coffee", subject: t(:coffee_subject), body: t(:coffee_body) %></b> – in turn you tell me about whatever it is you're passionate about.
+        I love meeting new people. <%= mail_to "rodrigo@codegestalt.com", "Let me buy you a coffee", subject: t(:coffee_subject), body: t(:coffee_body) %> and in turn you tell me what you're working on, or whatever you're excited about – deal?
       </p>
       <p>
-        Sensitive E-Mail? Here's my <b><%= link_to "PGP Public Key", "https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/RodrigoHaenggi_9A256592.asc" %> </b>.
+        Sensitive E-Mail? Here's my <%= link_to "PGP Public Key", "https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/RodrigoHaenggi_9A256592.asc" %>.
       </p>
     </div>
   </div>
