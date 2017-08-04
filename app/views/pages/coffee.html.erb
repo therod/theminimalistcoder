@@ -1,2 +1,27 @@
-<h1>Pages#coffee</h1>
-<p>Find me in app/views/pages/coffee.html.erb</p>
+<article class="post section">
+
+  <div class="row">
+    <div class="columns small-12">
+      <header class="post-header">
+        <h1>Let's grab a Coffee</h1>
+      </header>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="columns small-12">
+      <section class="post-body medium tf padded">
+        <p>
+          Once a month, I send out a newsletter filled with interesting books, articles, videos, and ideas I’ve found. If you and I were best buds, this is the stuff I would share with you when we grabbed coffee.
+        </p>
+        <p>
+          It’s not a sales pitch. I don’t ask you to buy anything. I don’t sell your info to anyone. This doesn’t get you exclusive access to any club. It’s simple – I just want to share what I’m learning with others.
+        </p>
+        <p>
+          <%= mail_to "rodrigo@codegestalt.com", "Buy me a Coffee", class: "button button--main" %>
+        </p>
+      </section>
+    </div>
+  </div>
+
+</article>
