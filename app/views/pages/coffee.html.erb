@@ -3,15 +3,16 @@
   <div class="row">
     <div class="columns small-12">
       <section class="post-body medium tf padded">
-        <h1>Let's grab a coffee</h1>
+        <h1>Let's grab a coffee!</h1>
         <p>
-          Once a month, I send out a newsletter filled with interesting books, articles, videos, and ideas I’ve found. If you and I were best buds, this is the stuff I would share with you when we grabbed coffee.
+          I'm always excited to meet new and interesting people. So here's the deal:
+          <span class="marker">I invite you to a coffee, in turn, you tell me something about yourself.</span> What are you working on? What fascinates you? Read any interesting books lately?<br>
         </p>
         <p>
-          It’s not a sales pitch. I don’t ask you to buy anything. I don’t sell your info to anyone. This doesn’t get you exclusive access to any club. It’s simple – I just want to share what I’m learning with others.
+          You should be living <span class="marker">somewhere in Switzerland</span>, otherwise the coffee might get a little bit expensive...
         </p>
         <p>
-          <%= mail_to "rodrigo@codegestalt.com", "Buy me a Coffee", class: "button button--main" %>
+          <%= mail_to "rodrigo@codegestalt.com", "Buy me a Coffee", subject: "About that coffee...", class: "button button--main" %>
         </p>
       </section>
     </div>
