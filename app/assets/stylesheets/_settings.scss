@@ -49,7 +49,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(650);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #477b96,
+  primary: #1982a9,
   secondary: #777,
   success: #3adb76,
   warning: #ffae00,
@@ -76,6 +76,7 @@ $global-radius: 0;
 $global-text-direction: ltr;
 $global-flexbox: false;
 $print-transparent-backgrounds: true;
+$hairline: rgba(0, 0, 0, 0.1);
 
 @include add-foundation-colors;
 

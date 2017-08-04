@@ -1,25 +1,33 @@
-<header class="main-header bg-smoke">
-  <div class='row'>
+<header class="main-header bg-main">
 
-    <div class='columns small-3' style="padding-top: 10px;">
-      <div class="flip-container js-flip-container">
-        <div class="flipper">
-          <div class="front">
-            <%= link_to image_tag("rodrigo.jpg", alt: "Rodrigo Haenggi", class: "avatar"), root_url, id: "rodrigo" %>
-          </div>
-        </div>
-      </div>
+  <div class='row'>
+    <div class='columns small-12 medium-3 hide-for-small-only' style="padding-top: 10px;">
+      <%= link_to image_tag("rodrigo.jpg", alt: "Rodrigo Haenggi", class: "avatar"), root_url, id: "rodrigo" %>
     </div>
 
-    <div class='columns small-9'>
+    <div class='columns small-12 medium-9'>
       <h1 style="font-weight: 200">the<b>minimalist</b>coder</h1>
       <p>
-        Hey there, my name is Rodrigo. I'm the co-founder of <%= link_to "Codegestalt", "http://codegestalt.com", target: "_BLANK" %> and <%= link_to "Master21", "https://master21.academy", target: "_BLANK" %>
-        and this is where I write down my thoughts.
+        Hey there, my name is Rodrigo. I am a Designer, Software Writer and hobby Philosopher. I co-founded <%= link_to "Codegestalt", "http://codegestalt.com", target: "_BLANK" %> and <%= link_to "Master21", "https://master21.academy", target: "_BLANK" %> and organize monthly <%= link_to "#JTBD Meetups", "https://www.meetup.com/jobs-to-be-done-meetup-switzerland/", target: "_BLANK" %> in Switzerland.<br>
+        This is where I write down my thoughts.
       </p>
       <p>
-      You can contact me via <%= mail_to "rodrigo@codegestalt.com", "E-Mail" %> (<%= link_to "PGP", "https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/RodrigoHaenggi_9A256592.asc", target: "_BLANK" %>) or <%= link_to "Twitter", "https://twitter.com/therod", target: "_BLANK" %>
+        You can find me on <%= link_to "Twitter", "https://twitter.com/therod", target: "_BLANK" %> or <%= mail_to "rodrigo@codegestalt.com", "write an email" %>.
       </p>
+
+      <nav class="main-navigation">
+        <div class="row">
+          <div class='columns small-12'>
+              <ul class="menu">
+                <li><%= active_link_to "Home", root_url, active: [pages: :home] %></li>
+                <li><%= active_link_to "Writing", posts_url, active: [['posts'],['index', 'show']] %></li>
+                <li><%= active_link_to "Coffee", coffee_url, active: [pages: :coffee] %></li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+
     </div>
   </div>
+
 </header>

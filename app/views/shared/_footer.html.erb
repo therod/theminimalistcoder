@@ -1,33 +1,33 @@
-<footer class="section main-footer bg-smoke" style="padding: 60px 0;">
+<footer class="section main-footer bg-smoke" style="padding: 20px 0;">
+
+  <%# <div class="row"> %>
+  <%#   <div class="columns small-6"> %>
+  <%#     <div class="footer-section-header"> %>
+  <%#       <strong>New here?</strong> The popular stuff: %>
+  <%#     </div> %>
+  <%#     <ul> %>
+  <%#       <li><%= link_to "My Biggest Productivity Hack", post_url("biggest-productivity-hack") %1></li> %>
+  <%#       <li><%= link_to "Waking up early", post_url("wake") %1></li> %>
+  <%#       <li><%= link_to "The death of individuality online", post_url("the-death-of-individuality-online") %1></li> %>
+  <%#     </ul> %>
+  <%#   </div> %>
+
+  <%#   <div class="columns small-6"> %>
+  <%#     <div class="footer-section-header"> %>
+  <%#       <strong>Back again?</strong> Catch up: %>
+  <%#     </div> %>
+  <%#     <ul> %>
+  <%#       <% Post.all.take(3).each do |post| %1> %>
+  <%#         <li><%= link_to(post.title, post_url(post.slug)) %1></li> %>
+  <%#       <% end %1> %>
+  <%#     </ul> %>
+  <%#   </div> %>
+  <%# </div> %>
 
   <div class="row">
-    <div class="columns small-6">
-      <div class="footer-section-header">
-        <strong>New here?</strong> The popular stuff:
-      </div>
-      <ul>
-        <li><%= link_to "My Biggest Productivity Hack", "http://theminimalistcoder.com/biggest-productivity-hack" %></li>
-        <li><%= link_to "Waking up early", "http://theminimalistcoder.com/wake" %></li>
-        <li><%= link_to "The death of individuality online", "http://theminimalistcoder.com/the-death-of-individuality-online" %></li>
-      </ul>
-    </div>
-
-    <div class="columns small-6">
-      <div class="footer-section-header">
-        <strong>Back again?</strong> Catch up:
-      </div>
-      <ul>
-        <% Post.all.take(3).each do |post| %>
-          <li><%= link_to(post.title, post_url(post.slug)) %></li>
-        <% end %>
-      </ul>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="columns footer-links">
+    <div class="columns footer-links text-center">
       <p>
-        Content released under the <%= link_to "creative commons", "http://creativecommons.org/licenses/by/4.0/" %> license.
+        Made with <%= fa_icon "coffee" %> and <%= link_to "RoR", "http://rubyonrails.org" %> by Rodrigo Haenggi.
         Subscribe to the <%= link_to "RSS", feed_url %> feed.
       </p>
     </div>

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+
+
   # we don't want www
   constraints(:host => /^www\./) do
     get "(*x)" => redirect { |params, request|
@@ -7,7 +9,9 @@ Rails.application.routes.draw do
     }
   end
 
-  root 'posts#index'
+  root 'pages#home'
+  get '/writing', to: 'posts#index', as: :posts
+  get '/coffee', to: 'pages#coffee', as: :coffee
 
   # ATOM
   get '/feed' => 'posts#feed', :defaults => { :format => 'rss' }
