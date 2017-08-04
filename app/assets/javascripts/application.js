@@ -13,10 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require foundation
-//= require velocity.min.js
 //= require_tree ./modules
 //
 //= require init
-
-$(function(){ $(document).foundation(); });
