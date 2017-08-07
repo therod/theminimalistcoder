@@ -83,7 +83,7 @@ experienced what you've dreaded but suffered no ill effect form it.
 > - Seneca
 
 # Emotions are created internally
-Emotions come solely from within and are created completely by our choice.
+Emotions come from within and we cannot control when or how they appear. What we can control is how we react or act on these emotions.
 
 > "Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom."   
 > – Viktor Frankl
