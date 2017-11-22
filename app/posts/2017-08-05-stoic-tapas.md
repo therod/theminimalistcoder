@@ -13,7 +13,7 @@ Don't believe me? Try [practicing poverty](/practicing-poverty).
 > – Seneca
 
 # Everything is neutral
-Ever heard people say: *"Looks like bad weather today"* when it's raining?
+Ever heard people say: *"Looks like bad weather today"* before it's going to rain?
 But why? Rain has no motivation. Or does it get up in the morning just to fuck with your
 hiking weekend? Of course not! So how can we say that rain is bad?
 
@@ -33,7 +33,7 @@ You can't control if the train is late. But you can control whether you get angr
 or decide to make the best out of the situation and relax by reading a book.
 
 Here are some more things that you can't control: *The mood of your boss, the economy,
-the circumstances you were brought up in, other peoples opinion about you, the fucking rain.*
+the circumstances you were brought up in, other peoples opinion about you, the fucking weather.*
 
 # Turn the obstacle upside down
 
