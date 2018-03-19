@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   resources :articles, param: :slug, only: [:index, :show]
   resources :pages, param: :slug, only: [:home, :show]
+  resources :commonplaces, param: :slug, only: [:index, :show], path: 'commonplace'
 
   get '/writing', to: redirect('/articles')
   get '/:slug', to: redirect('/articles/%{slug}')
