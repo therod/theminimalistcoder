@@ -1,33 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <meta name="description" content="<%= @description || 'Hey there, my name is Rodrigo. I am a Designer, Software Writer and Philosopher. I co-founded Codegestalt and Master21 and organize monthly #JTBD Meetups here in Switzerland.' %>">
-    <meta property="og:image" content="<%= @og_image || asset_url('codegestalt.jpg') %>">
-    <meta property="og:title" content="<%= @title || 'theminimalistcoder' %>">
-    <meta property="og:description" content="<%= @description || 'Rodrigo Hänggi - Designer, Software Writer and Philosopher. I co-founded Codegestalt and Master21 and organize monthly #JTBD Meetups here in Switzerland.' %>">
-
-    <%= favicon_link_tag 'favicon.ico' %>
-
     <title>the minimalist coder</title>
     <%= csrf_meta_tags %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-    <%= render 'shared/analytics' %>
-    <script type="text/javascript" src="//use.typekit.net/fjr3bxd.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <%= javascript_pack_tag 'application' %>
+    <%= stylesheet_pack_tag 'application' %>
   </head>
 
-  <body class="<%= controller_name %> <%= action_name %>">
+  <body data-controller="application">
 
-    <%= render 'shared/header' %>
-
-    <%= yield %>
-
-    <%= render 'shared/footer' %>
+      <div class="mc-container">
+        <%= render 'shared/navigation' %>
+        <%= yield %>
+        <%= render 'shared/footer' %>
+      </div>
   </body>
 </html>

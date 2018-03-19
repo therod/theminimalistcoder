@@ -1,0 +1,32 @@
+// COLORS
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #303030;
+
+// $primary-color: #ac1e1c;
+$primary-color: #1d6bc9;
+$secondary-color: #1d2d35;
+$primary-background: #ffffff;
+$secondary-background: #f9f7f6;
+
+// $white: #fffefa;
+$white: #ffffff;
+
+// Sizes
+$base-max-width: 75.0rem;
+
+// FONTS
+$primary-font-family: 'kepler-std', Georiga, 'Times New Roman', serif;
+// $primary-font-family: 'freight-text-pro', Georiga, 'Times New Roman', serif;
+$secondary-font-family: 'Proxima Nova', Helvetica, Roboto, Arial, sans-serif;
+
+// MEDIA QUERIES
+@custom-media --sm-viewport only screen and (min-width: 48em);
+@custom-media --md-viewport only screen and (min-width: 64em);
+@custom-media --lg-viewport only screen and (min-width: 75em);
+
+// Turbolinks Progress Bar Color
+.turbolinks-progress-bar {
+  background-color: $primary-color;
+}

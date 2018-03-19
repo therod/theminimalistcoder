@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-
-
-
-  # we don't want www
   constraints(:host => /^www\./) do
     get "(*x)" => redirect { |params, request|
       URI.parse(request.url).tap {|url| url.host.sub!('www.', '') }.to_s
@@ -10,17 +6,10 @@ Rails.application.routes.draw do
   end
 
   root 'pages#home'
-  get '/writing', to: 'posts#index', as: :posts
-  get '/coffee', to: 'pages#coffee', as: :coffee
 
-  # ATOM
-  get '/feed' => 'posts#feed', :defaults => { :format => 'rss' }
+  resources :articles, param: :slug, only: [:index, :show]
+  resources :pages, param: :slug, only: [:index, :show]
 
-  # Posts (needs to stay at the bottom)
-  get '/:slug'  => 'posts#show', as: :post
-
-  # 301s from the old page
-  get '/posts/rails-girls-zurich-thoughts/', to: redirect('/railsgirlszurich')
-  get 'posts/waking-up-early-10-tips-that-work/', to: redirect('/wake')
-
+  get '/writing', to: redirect('/articles')
+  get '/:slug', to: redirect('/articles/%{slug}')
 end

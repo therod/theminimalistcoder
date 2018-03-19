@@ -1,51 +1,63 @@
-<article class="post section">
-
-  <div class="row">
-    <div class="columns small-12">
-      <section class="post-body medium tf">
-
-        <%# CODEGESTALT %>
-        <h1>Co-founder at Codegestalt</h1>
-        <p>
-          At <%= link_to "Codegestalt", "https://codegestalt.com", target: "_BLANK" %> I design and develop solutions to problems that I care about.
-          I run the company together with my bussiness partner, <%= link_to "Daniel Puglisi", "http://danielpuglisi.com", target: "_BLANK" %>.
-          From inception up to the last line of code - we have designed and programmed solutions for
-          <%= link_to "clients", "https://foodonrecord.com", target: "_BLANK" %>,
-          <%= link_to "large publishers", "https://rotpunktverlag.ch", target: "_BLANK" %>,
-          <%= link_to "family", "https://budosportcenter.ch", target: "_BLANK" %>,
-          <%= link_to "friends", "http://www.programmzeitung.ch/Home", target: "_BLANK" %> and the
-          <%= link_to "swiss government", "http://lehrplaene.ch", target: "_BLANK" %>.
-
-          We've also released a new product this year that helps martial arts studios acquire more new customers. <%= link_to "Go check it out", "https://kampfsport.center", target: "_BLANK" %>.
-
-          <%= image_tag "codegestalt.jpg" %>
-        </p>
-
-        <%# Master21 %>
-        <h1>Co-founder at Master21</h1>
-        <p>
-          At <%= link_to "Master21", "https://master21.academy", target: "_BLANK" %>, Switzerlands first coding bootcamp, I teach people how to design, code and launch digital products together with other skills that matter for the 21st century.
-          My main job is to design and test the curriculum while my Co-founder, <%= link_to "Melanie Kovacs", "https://twitter.com/melakovacs?lang=en", target: "_BLANK" %> takes care of business.
-          <%= image_tag "teaching.jpg" %>
-        </p>
-
-        <%# Master21 %>
-        <h1>Organizer #JTBD Meetup Switzerland</h1>
-        <p>
-          "Customers are not interested in your solution. They are only interested in their problems." So what job is your product or service solving? How does it make your customers' lives better?
-
-          <%= image_tag "mario-jtbd.jpg" %>
-
-          Deeply inspired by Alan Klements' <%= link_to "When Coffee and Kale Compete", "http://www.whencoffeeandkalecompete.com", target: "_BLANK" %>
-          and Kathy Sierras' <%= link_to "Badass: Making Users Awesome", "https://www.amazon.com/Badass-Making-Awesome-Kathy-Sierra/dp/1491919019/ref=sr_1_1?ie=UTF8&qid=1501847593&sr=8-1&keywords=badass+making+users+awesome", target: "_BLANK" %>,
-          I want to share this exciting way of looking at how we develop products and services with other people.
-          That's why I've started the first <%= link_to "Jobs To Be Done", "https://www.meetup.com/jobs-to-be-done-meetup-switzerland/", target: "_BLANK" %> Meetup in Switzerland together
-          with <%= link_to "other #JTBD enthusiasts", "https://www.meetup.com/jobs-to-be-done-meetup-switzerland/members/?op=leaders", target: "_BLANK" %>.
-        </p>
-
-        </p>
-      </section>
-    </div>
+<div class="artwork-section">
+  <div class="artwork-section__text">
+    <h2> About</h2>
+    <p>
+      I'm a designer, software writer, and hobby philosopher from Switzerland. This is the space where I share what I've learned so far.
+    </p>
+    <p>
+      You can tweet <%= link_to "@therod", "https://twitter.com/therod", target: '_BLANK' %> on Twitter or email me at rodrigo@codegestalt.com.
+    </p>
   </div>
+  <div class="artwork-section__art">
+    <%= inline_svg "kimono-woman.svg" %>
+  </div>
+</div>
 
-</article>
+<h2>Current Work</h2>
+
+<p>
+  <%= link_to "Co-founder at Codegestalt", "https://codegestalt.com", target: "_BLANK" %><br>
+  At Codegestalt I design and write software to problems I care about.
+  I run the company together with my bussiness partner, <%= link_to "Daniel Puglisi", "http://danielpuglisi.com", target: "_BLANK" %>.
+  From inception up to the last line of code - we have designed and programmed solutions for clients, large publishers, family, friends, and the swiss goverment.
+  We've also released our own <%= link_to "product", "https://kampfsport.center", target: "_BLANK" %> last year, that helps martial arts schools acquire more customers.
+</p>
+
+<p>
+  <%= link_to "Co-founder and lead instructor at Master21", "https://master21.academy", target: "_BLANK" %><br>
+  At Master21, Switzerlands first coding bootcamp, I teach people how to design, code and launch digital products together with other skills that matter for the 21st century.
+  My main job is to design and test the curriculum while <%= link_to "Melanie Kovacs", "https://twitter.com/melakovacs?lang=en", target: "_BLANK" %> takes care of business.
+</p>
+
+<hr>
+
+<h2>Current Projects</h2>
+
+<p>
+  <%= link_to "On Designing and Writing Software", "https://www.youtube.com/user/codegestalt" %><br>
+  I'm trying something completely new. Recording everything that could be interesting to others in a way....
+  <%# <%= image_tag "projects/on-writing-and-designing-software.png", style: "float: left; width: 100px; padding-right: 20px; padding-bottom: 5px; padding-top: 5px;" %1> %>
+</p>
+
+<p>
+  <%= link_to "Jobs-To-Be-Done Meetup Switzerland", "#" %><br>
+  <i>"Customers are not interested in your solution. They are only interested in their problems."</i><br>
+  So what job is your product or service solving? How does it make your customers' lives better?<br>
+  I want to learn more about this exciting way on how we can build better products and services.
+  That's why I started the first <%= link_to "Jobs To Be Done", "https://www.meetup.com/jobs-to-be-done-meetup-switzerland/", target: "_BLANK" %> Meetup here in Switzerland.
+</p>
+
+
+<hr>
+
+<h2>Latest Articles</h2>
+
+<div class="listing">
+  <% @articles.each do |article| %>
+    <p>
+      <%= link_to article.title, article_path(article.slug) %><br>
+      <%= article.description %>
+    </p>
+  <% end %>
+</div>
+

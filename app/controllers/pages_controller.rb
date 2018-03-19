@@ -1,7 +1,8 @@
 class PagesController < ApplicationController
   def home
+    @articles = Article.latest
   end
 
-  def coffee
+  def contact
   end
 end

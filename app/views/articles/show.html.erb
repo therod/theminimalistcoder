@@ -1,0 +1,4 @@
+<h1><%= @article.title %></h1>
+
+<%=raw (@article.content_html).gsub("[- - -MORE- - -]", '') %>
+

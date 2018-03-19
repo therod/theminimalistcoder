@@ -1,41 +1,31 @@
 source 'https://rubygems.org'
-ruby '2.4.1'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-gem 'puma', '~> 3.0'
+ruby '2.5.0'
 
-# Use SCSS for stylesheets
+gem 'rails', '~> 5.2.0.rc1'
+gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
+gem 'webpacker'
 gem 'coffee-rails', '~> 4.2'
-gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'bootsnap', '>= 1.1.0', require: false
 
-gem 'foundation-rails'
-gem 'font-awesome-rails'
-
-# Markdown
-gem 'pandoc-ruby', '1.0.0'
 gem 'kramdown'
-
-# Various
-gem 'nokogiri'
-gem 'kaminari'
-gem 'active_link_to'
+gem 'inline_svg'
 
 group :development, :test do
-  gem 'byebug', platform: :mri
-end
-
-group :production do
-  gem 'rails_12factor', group: :production
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
+  gem 'web-console', '>= 3.3.0'
+  gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'pry-rails'
-  gem 'web-console'
-  gem 'listen', '~> 3.0.5'
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
