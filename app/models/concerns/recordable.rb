@@ -55,21 +55,21 @@ module Recordable
   end
 
   def next_record
-    index = self.all.find_index { |p| p.date == date } - 1
+    index = self.class.all.find_index { |p| p.date == date } - 1
     if index == -1
-      puts "No next #{self.name}"
+      puts "No next #{self.class.name}"
     else
-      self.find(index)
+      self.class.find(index)
     end
   end
 
   def previous_record
-    index = self.all.find_index { |p| p.date == date } +1
-    all_records = self.all.count
+    index = self.class.all.find_index { |p| p.date == date } +1
+    all_records = self.class.all.count
     if index == all_records
-      puts "Last #{self.name}"
+      puts "Last #{self.class.name}"
     else
-      self.find(index)
+      self.class.find(index)
     end
   end
 
@@ -95,12 +95,10 @@ module Recordable
   def content_html
     Kramdown::Document.new(content).to_my_html.html_safe
   end
-
   TagHelper = Class.new.extend ActionView::Helpers::TagHelper
 
   module ClassMethods
     attr_accessor :data_path
-    attr_accessor :filename_format
 
     def all
       @@records ||= Dir.glob(Rails.root + "#{self.data_path}/*.md").map do |filename|
@@ -128,11 +126,11 @@ module Recordable
     end
 
     def first
-      all.first
+      all.last
     end
 
     def last
-      all.last
+      all.first
     end
 
     def feed
