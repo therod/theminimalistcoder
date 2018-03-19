@@ -78,7 +78,7 @@ that even a five year old could “get it”. One great example of this
 method was the German show *Die Sendung mit der Maus* that tried to
 explain complicated concepts
 in a simple, playful and visual way. Just quickly set aside 9 minutes
-of your time and watch [this video](http://www.youtube.com/watch?v=vfXsdbnPjX4){:target="_blank"} to get a better idea
+of your time and watch [this video](http://www.youtube.com/watch?v=vfXsdbnPjX4) to get a better idea
 of what I mean:
 
 By using simple metaphors like the one shown in the video it can be

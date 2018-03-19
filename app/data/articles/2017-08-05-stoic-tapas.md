@@ -66,7 +66,7 @@ Make your life artificially difficult and uncomfortable for a set period of time
 in order to get the perspective that you are trying to avoid.
 
 The more you seek the uncomfortable the more you will be comfortable. Sleep on the hard floor, eat only bread and water, don't eat food for five days, 
-[take a cold fucking shower](https://www.youtube.com/watch?v=VaMjhwFE1Zw){:target='_blank'}.
+[take a cold fucking shower](https://www.youtube.com/watch?v=VaMjhwFE1Zw).
 
 Just because you can afford yourself a nice meal every day doesn't mean you
 should do so. You are better of if you skip a few meals from time to time just

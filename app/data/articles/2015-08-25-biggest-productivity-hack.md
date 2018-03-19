@@ -5,7 +5,7 @@ description: "The story about my journey of trying to lose 15 kilos of bodyweigh
 
 In the past, I have experimented with a lot of different things, trying to increase my productivity levels. Giving up coffee, waking up early, trying a polyphasic sleep rhythm and even microdosing certain chemical components to increase focus. 
 
-I still think that [getting base rituals going](http://bitehype.com/productivity-improvement/){:target="_blank"} and then improving on them is still one of the best productivity hacks I have come across so far. 
+I still think that [getting base rituals going](http://bitehype.com/productivity-improvement/) and then improving on them is still one of the best productivity hacks I have come across so far. 
 But no matter how good your ritual is, if your energy levels are low you won’t get far with accomplishing much.
 
 Coding away at a desk all day, eating but not moving will have a impact on your health in the long run – it certainly had on mine.
@@ -43,7 +43,6 @@ Be it the pancakes for breakfast, a sandwich for lunch, an apple as a quick snac
 We feel alert and full of energy after eating these foods but sonner than later the crash comes and we’re on the lookout for our next carbohydrate fix.
 
 > “The three most harmful addictions are heroin, carbohydrates, and a monthly salary.”      
-
 > –  Nassim Nicholas Taleb
 
 The carbohydrates that you consume will get converted to glucose (read: sugar) which your body then will use as an energy source.
@@ -76,7 +75,7 @@ They usually aim around consuming less than 200g - 300g of carbohydrates per day
 But what if we only eat 20g of carbohydrates per day? 
 Wouldn’t there be a deficit? 
 
-In short: The body doesn’t need carbohydrates at all. Yep, you read that right: Zero, nada, none whatsoever. [Even if you’re an ultra runner you don’t need carbohydrates](https://www.youtube.com/watch?v=96VZFklUM_Q){:target="_blank"}. Just make sure that you get most of your calorie intake from fat (80%) and protein (15%) and you’re good to go.
+In short: The body doesn’t need carbohydrates at all. Yep, you read that right: Zero, nada, none whatsoever. [Even if you’re an ultra runner you don’t need carbohydrates](https://www.youtube.com/watch?v=96VZFklUM_Q). Just make sure that you get most of your calorie intake from fat (80%) and protein (15%) and you’re good to go.
 
 > ***Disclaimer number 2**: I’m not a nutritional expert.
 Everything that I’ve just written down here is my knowledge after reading two books about the subject. I can guarantee you that this diet won’t work for everyone. When it comes to loosing weight (and basically anything else in life) there is no silver bullet. If it doesn’t work dont mope around – pick yourself up, experiment with other things, research and adapt. Only you have the power to change yourself, nobody can do it for you.*
@@ -101,6 +100,6 @@ Don’t get the wrong impression – *staying below 20g of carbs every day is h
 But in the end you have to ask yourself: Is your best health and productivity worth trading in for that slice of pizza?
 
 # Resources
-I compiled a list of the most important resources about the Ketogenic diet that helped me get started. [Check it out here](http://keto.metalist.io){:target="_blank"}.
+I compiled a list of the most important resources about the Ketogenic diet that helped me get started. [Check it out here](http://keto.metalist.io).
 
-P.S. If you have any further questions feel free to follow and ask me on [twitter](https://twitter.com/therod){:target="_blank"}.
+P.S. If you have any further questions feel free to follow and ask me on [twitter](https://twitter.com/therod).

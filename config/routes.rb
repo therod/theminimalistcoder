@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   root 'pages#home'
 
   resources :articles, param: :slug, only: [:index, :show]
-  resources :pages, param: :slug, only: [:index, :show]
+  resources :pages, param: :slug, only: [:home, :show]
 
   get '/writing', to: redirect('/articles')
   get '/:slug', to: redirect('/articles/%{slug}')

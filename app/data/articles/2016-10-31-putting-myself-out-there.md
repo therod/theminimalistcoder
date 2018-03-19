@@ -9,7 +9,7 @@ be the more fitting term. Three handwritten pages amounting to almost 1'110
 words in average. And I do this every single day.
 
 From [Julia
-Cameron](http://juliacameronlive.com/basic-tools/morning-pages/){:target="_blank"}
+Cameron](http://juliacameronlive.com/basic-tools/morning-pages/)
 
 > Morning Pages are three pages of longhand, stream of consciousness writing,
 done first thing in the morning. *There is no wrong way to do Morning Pages*–
