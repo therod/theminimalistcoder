@@ -70,10 +70,10 @@
   }
   &__title {
     margin: 0;
-    @include fs-large();
+    @include fs-base();
   }
   &__date {
     display: block;
-    @include fs-base();
+    @include fs-small();
   }
 }
