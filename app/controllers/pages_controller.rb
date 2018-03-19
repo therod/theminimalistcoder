@@ -1,5 +1,8 @@
 class PagesController < ApplicationController
   def home
-    @articles = Article.latest
+  end
+
+  def show
+    @page = Page.find_by(params[:slug])
   end
 end

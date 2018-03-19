@@ -4,7 +4,7 @@ module Recordable
   included do
   end
 
-  attr_reader :slug
+  attr_reader :slug, :path
 
   def initialize(path)
     @path = path
@@ -17,11 +17,11 @@ module Recordable
   end
 
   def created_at
-    date
+    Time.zone.parse(metadata[:created_at] || @date_str).to_date
   end
 
   def updated_at
-    date
+    Time.zone.parse(metadata[:updated_at] || File.mtime(self.path).to_s)
   end
 
   def to_key
@@ -73,19 +73,8 @@ module Recordable
     end
   end
 
-  def date
-    @date ||= Time.zone.parse(metadata[:date] || @date_str).to_date
-  end
-
-  delegate :year, :month, :day, :to => :date
-
-  def timestamp
-    metadata[:timestamp] || date.in_time_zone("Paris")
-  end
-  alias_method :last_modified, :timestamp
-
   def visible?
-    timestamp <= Time.zone.now
+    created_at <= Time.zone.now
   end
 
   def to_s
@@ -101,9 +90,12 @@ module Recordable
     attr_accessor :data_path
 
     def all
-      @@records ||= Dir.glob(Rails.root + "#{self.data_path}/*.md").map do |filename|
+      key = "@#{self.name.tableize}"
+      return instance_variable_get(key) if instance_variable_defined?(key)
+      results = Dir.glob(Rails.root + "#{self.data_path}/*.md").map do |filename|
         self.new filename
-      end.select(&:visible?).sort_by(&:date).reverse
+      end.select(&:visible?).sort_by(&:created_at).reverse
+      instance_variable_set key, results
     end
 
     def where(conditions = {})
