@@ -92,10 +92,6 @@ class Article
     Kramdown::Document.new(content).to_html.html_safe
   end
 
-  def is_excerpt?
-    content.split(/\[- - -MORE- - -\]/).count > 1
-  end
-
   TagHelper = Class.new.extend ActionView::Helpers::TagHelper
 
   def summary_html

@@ -1,11 +1,10 @@
 ---
 title: "Cutting down"
+description: "Three weeks ago, I returned from my trip to Japan. Here's the one thing I've learned."
 ---
 Three weeks ago, I returned from my trip to Japan. After cycling across the country of the rising sun for three months I came to one of the biggest realisations about myself:  
 
 *I almost need nothing to survive, even less to enjoy life and be happy...*
-
-[- - -MORE- - -]
 
 Consumerism got me tricked all these years, and it only took a little more than a month of living on the road to realise this. 
 Like so many others before me I stared my journey with too much. A full 32 litre backpack and two carry-on bike bags filled with stuff. 

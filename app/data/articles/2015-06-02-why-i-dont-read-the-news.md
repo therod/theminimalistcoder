@@ -1,11 +1,10 @@
 ---
 title: "Why I don't read the news"
+description: "A short article on why I try to avoid news like the plague."
 ---
 As I walk through the train I once more notice the myriads of free newspapers lying around everywhere.  I sit down and the young lady that joined me shortly afterwards, asks me if I finished reading the newspaper located on the seat next to me. I pick it up and hand it to her. 
 
 *"Here take it, It's not mine and I don't intend to read it anyways."*  *"Already up to date on all the news huh?"* she asks with a grin on her face. "*Something like that I guess*" I tell her as I turn my attention back to my book. 
-
-[- - -MORE- - -]
 
 > The truth is that I don't read the news. 
 

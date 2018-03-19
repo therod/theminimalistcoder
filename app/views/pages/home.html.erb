@@ -36,7 +36,6 @@
 <p>
   <%= link_to "On Designing and Writing Software", "https://www.youtube.com/user/codegestalt" %><br>
   I'm trying something completely new. Recording everything that could be interesting to others in a way....
-  <%# <%= image_tag "projects/on-writing-and-designing-software.png", style: "float: left; width: 100px; padding-right: 20px; padding-bottom: 5px; padding-top: 5px;" %1> %>
 </p>
 
 <p>
@@ -46,18 +45,3 @@
   I want to learn more about this exciting way on how we can build better products and services.
   That's why I started the first <%= link_to "Jobs To Be Done", "https://www.meetup.com/jobs-to-be-done-meetup-switzerland/", target: "_BLANK" %> Meetup here in Switzerland.
 </p>
-
-
-<hr>
-
-<h2>Latest Articles</h2>
-
-<div class="listing">
-  <% @articles.each do |article| %>
-    <p>
-      <%= link_to article.title, article_path(article.slug) %><br>
-      <%= article.description %>
-    </p>
-  <% end %>
-</div>
-

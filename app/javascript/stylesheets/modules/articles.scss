@@ -1,0 +1,73 @@
+@mixin post-body() {
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  blockquote {
+    padding: 0 0 0 24px;
+    margin: 0 0 2.5rem 0;
+    border-left: 5px solid $dark-gray;
+    p {
+      font-style: italic;
+      padding-bottom: 0;
+      strong {
+        text-align: center;
+      }
+    }
+    cite {
+      display: block;
+      margin-top: 8px;
+      text-align: right;
+      font-style: normal;
+    }
+    em {
+      font-style: italic;
+    }
+  }
+
+  ol {
+    margin: 10px 0 10px 0;
+    padding-left: 20px;
+  }
+
+  ul {
+    margin: 10px 0 10px 0;
+    padding-left: 20px;
+
+    li {
+      list-style-type: none;
+      text-indent: -5px;
+      &:before {
+        content: "-";
+        position: relative;
+        left: -15px;
+      }
+    }
+  }
+}
+
+.article {
+  &__body {
+    @include post-body();
+    margin-top: 4.5rem;
+  }
+  &__title {
+    margin: 0;
+    @include fs-large();
+  }
+  &__date {
+    display: block;
+  }
+}

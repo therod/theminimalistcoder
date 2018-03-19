@@ -1,4 +1,8 @@
-<h1><%= @article.title %></h1>
-
-<%=raw (@article.content_html).gsub("[- - -MORE- - -]", '') %>
+<article class="article">
+  <h1 class="article__title"><%= @article.title %></h1>
+  <span class="article__date light-text"><%= formatted_date(@article.date) %></span>
+  <section class="article__body">
+    <%=raw @article.content_html %>
+  </section>
+</article>
 

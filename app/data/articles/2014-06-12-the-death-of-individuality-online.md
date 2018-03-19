@@ -1,13 +1,12 @@
 ---
 title: "The death of individuality online"
+description: "The web is an amazing tool that allows us to freely express ourselves. Don't keep yourself confined to a system just for the sake of convenience."
 ---
 Just a while ago, I finished reading the book ["You are not a Gadget"][1]{:target="_blank"} by [Jaron Lanier][2]{:target="_blank"}. One of the main themes in the book is the decline of personal individuality on the web.
 
 According to Lanier there are a lot of factors that contribute to this decline. The main cause being social media platforms like Facebook, which exchange personal creativity for uniformity, instant gratification through "Like" buttons and an endless supply of irrelevant information. They promote consumption and curation for the sacrifice of giving up personal expression through creation. 
 
 > People reduce themselves to the predefined contents of checkboxes and drop-down relationship statuses.
-
-[- - -MORE- - -]
 
 This part of the book resonated strongly with me and made me completely question my relationship and interaction with modern social media. 
 Going through my Facebook profile, I started asking myself: "*which of the almost 200 people listed on here can I really call Friends?*"

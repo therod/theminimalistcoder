@@ -1,10 +1,9 @@
 ---
 title: "Workspace - June 2015"
+description: "A guest post about my current workspace that I've written for deskhunt.com"
 ---
 
 > This is a guest post that I've written for [deskhunt.com](http://deskhunt.com/){:target="_blank"} which I'm going to share with you here as well.
-
-[- - -MORE- - -]
 
 #Who are you and what do you do for a living?
 My name is Rodrigo and I am the co-founder of [Codegestalt](http://codegestalt.com){:target="_blank"}. I design and program user interfaces for a living and write about minimalism and coding on [my blog](http://theminimalistcoder.com){:target="_blank"}. If I’m not sitting in front of a computer I usually read books, listen to music or experiment with new recipes in the kitchen.

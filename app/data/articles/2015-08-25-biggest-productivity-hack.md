@@ -1,6 +1,6 @@
 ---
 title: "My Biggest Productivity Hack"
-description: "Discovering the Ketogenic diet as my favorite productivity hack."
+description: "The story about my journey of trying to lose 15 kilos of bodyweight."
 ---
 
 In the past, I have experimented with a lot of different things, trying to increase my productivity levels. Giving up coffee, waking up early, trying a polyphasic sleep rhythm and even microdosing certain chemical components to increase focus. 
@@ -8,7 +8,6 @@ In the past, I have experimented with a lot of different things, trying to incre
 I still think that [getting base rituals going](http://bitehype.com/productivity-improvement/){:target="_blank"} and then improving on them is still one of the best productivity hacks I have come across so far. 
 But no matter how good your ritual is, if your energy levels are low you won’t get far with accomplishing much.
 
-[- - -MORE- - -]
 Coding away at a desk all day, eating but not moving will have a impact on your health in the long run – it certainly had on mine.
 
 After being slim and fit througout my entire youth, I started gaining a lot of weight when I started my apprenticeship as a Programmer around the age of 19.

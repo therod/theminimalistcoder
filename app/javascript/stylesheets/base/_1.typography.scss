@@ -11,7 +11,7 @@
 
 @mixin fs-base() {
   font-size: 1.8rem;
-  @media (--md-viewport) { font-size: 2.0rem; }
+  @media (--md-viewport) { font-size: 2.2rem; }
 }
 
 @mixin fs-medium() {
@@ -46,4 +46,6 @@ h1 { @include fs-base(); margin-bottom: 2.0rem; }
 h2 { @include fs-base(); margin-bottom: 2.0rem;}
 h3, h4, h5, h6 { @include fs-small(); }
 p { @include fs-base(); line-height: 1.4; font-family: $primary-font-family; font-weight: light; padding-bottom: 2.5rem; }
+li { @include fs-base(); line-height: 1.4; }
+ul { padding-bottom: 2.5rem; }
 blockquote { @include fs-base(); line-height: 1.4; font-family: $primary-font-family; font-weight: light; }
