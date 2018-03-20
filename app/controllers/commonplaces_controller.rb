@@ -1,7 +1,7 @@
 class CommonplacesController < ApplicationController
 
   def index
-    @commonplaces = Commonplace.all
+    @commonplaces = Commonplace.all.sort_by { |c| c.title }
   end
 
   def show

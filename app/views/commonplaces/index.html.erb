@@ -2,14 +2,14 @@
 <p>
   Commonplace books (or commonplaces) are a way to compile knowledge, usually by writing information into books.
   They are used by readers, writers, students, and scholars as an aid for remembering useful concepts or facts they have learned.
-  This is the place where I distill everything I learn, grouped into various topics.
+  This is the place where I distill everything I read and learn into various topics.
 </p>
 <hr>
 
 <% @commonplaces.each do |commonplace| %>
   <div class="row mb-16">
     <div class="col-xs-12 col-md-3">
-      <%= image_tag commonplace.image_url, width: "100%" %>
+      <%= image_tag commonplace.image_url, height: "", width: "100%;" %>
     </div>
     <div class="col-xs-12 col-md-9">
       <p>
