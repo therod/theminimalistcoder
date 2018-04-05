@@ -1,7 +1,7 @@
 ---
 title: "On Designing and Writing Software"
 image_url: "https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/on-designing-and-writing-software.jpg"
-description: "This is where I try to capture everything that I've learned about designing and writing software in a single place."
+description: "This is where I try to capture everything that I've learned about designing and writing software."
 created_at: "2018-03-20"
 published: true
 ---

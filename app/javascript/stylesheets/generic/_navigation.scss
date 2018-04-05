@@ -25,10 +25,10 @@ $menu-transition-duration: .5s;
       list-style: none;
 
       a {
-        color: $black;
-        text-decoration: none;
+        // color: $black;
+        // text-decoration: none;
         &:hover {
-          color: lighten($black, 20%);
+          // color: lighten($black, 20%);
         }
       }
     }

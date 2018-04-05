@@ -1,7 +1,7 @@
 ---
 title: "Jobs to be Done"
 image_url: "https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/JTBDLOGO.jpg"
-description: "“Customers are not interested in your solution. They are only interested in their problems.” So what job is your product or service solving? How does it make your customers’ lives better?"
+description: "Customers are not interested in your solution. They are only interested in their problems. So what job is your product or service solving? How does it make your customers’ lives better?  I want to learn more about this way of thinking about building products and services, that's why I started a [Jobs To Be Done Meetup](https://www.meetup.com/jobs-to-be-done-meetup-switzerland/) here in Switzerland."
 created_at: "2018-04-03"
 published: true
 ---

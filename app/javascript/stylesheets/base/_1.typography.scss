@@ -38,13 +38,13 @@ a {
   color: $primary-color;
 
   &:hover {
-    color: darken($primary-color, 40%);
+    color: $black;
   }
 }
 
 h1 { @include fs-base(); margin-bottom: 2.0rem; }
 h2 { @include fs-base(); margin-bottom: 2.0rem;}
-h3, h4, h5, h6 { @include fs-small(); }
+h3, h4, h5, h6 { @include fs-base(); }
 p { @include fs-base(); line-height: 1.4; font-family: $primary-font-family; font-weight: light; padding-bottom: 2.5rem; }
 li { @include fs-base(); line-height: 1.4; }
 ul { padding-bottom: 2.5rem; }

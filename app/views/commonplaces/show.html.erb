@@ -5,14 +5,13 @@
   <h1 class="article__title"><%= @commonplace.title %></h1>
   <span class="article__date light-text">Last updated on <%= formatted_date(@commonplace.updated_at) %></span>
 
-  <nav class="toc">
-    <h2>Table of Content</h2>
-    <div class="js-toc">
-    </div>
-  </nav>
+  <%# <nav class="toc"> %>
+  <%#   <h2>Table of Content</h2> %>
+  <%#   <div class="js-toc"> %>
+  <%#   </div> %>
+  <%# </nav> %>
 
-  <section class="article__body js-toc-content">
+  <section class="article__body">
     <%=raw @commonplace.content_html %>
   </section>
 </article>
-

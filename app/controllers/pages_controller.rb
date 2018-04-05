@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def home
     @title = "Home"
+    @research_topics = Commonplace.latest
   end
 
   def show

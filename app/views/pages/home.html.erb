@@ -1,11 +1,7 @@
 <div class="artwork-section">
   <div class="artwork-section__text">
-    <p>
-      <%= @description %>
-    </p>
-    <p>
-      You can tweet <%= link_to "@therod", "https://twitter.com/therod", target: '_BLANK' %> on Twitter or email me at rodrigo@codegestalt.com.
-    </p>
+    <%= markdown(@description) %>
+    <%= markdown(t('home.contact')) %>
   </div>
   <div class="artwork-section__art">
     <%= image_tag "theminimalistcoder-kimono-mascott.jpg", width: "100%" %>
@@ -14,31 +10,16 @@
 
 <h2>Current Work</h2>
 
-<p>
-  <%= link_to "Co-founder at Codegestalt", "https://codegestalt.com", target: "_BLANK" %><br>
-  At Codegestalt I design and write software to problems I care about. I run the company together with my bussiness partner, <%= link_to "Daniel Puglisi", "http://danielpuglisi.com", target: "_BLANK" %>.
-  We've released our first big <%= link_to "product", "https://kampfsport.center", target: "_BLANK" %> last year.
-</p>
-
-<p>
-  <%= link_to "Co-founder and lead instructor at Master21", "https://master21.academy", target: "_BLANK" %><br>
-  At Master21, Switzerlands first coding bootcamp, I teach people how to design, code and launch digital products together with other skills that matter for the 21st century.
-  My main job is to design, build, and teach the curriculum.
-</p>
+<% t('home.works').each do |work| %>
+  <h3><%= link_to work[:title], work[:url], target: "_BLANK" %></h3>
+  <%= markdown(work[:body]) %>
+<% end %>
 
 <hr>
 
-<h2>Current Projects</h2>
+<h2>Current Research</h2>
 
-<p>
-  <%= link_to "On Designing and Writing Software", commonplace_url("on-designing-and-writing-software") %><br>
-  I have designed and built a few products over the past seven years.
-  In this video series I want to capture everything that I've learned so far in the hopes that others can benefit from it.
-</p>
-
-<p>
-  <%= link_to "Jobs-To-Be-Done Meetup Switzerland", "#" %><br>
-  <i>"Customers are not interested in your solution. They are only interested in their problems."</i>
-  So what job is your product or service solving? How does it make your customers' lives better?
-  I want to learn more about this way of thinking about building products and services, that's why I started the <%= link_to "Jobs To Be Done", "https://www.meetup.com/jobs-to-be-done-meetup-switzerland/", target: "_BLANK" %> Meetup here in Switzerland.
-</p>
+<% @research_topics.each do |topic| %>
+  <h3><%= link_to topic.title, commonplace_path(topic.slug), target: "_BLANK" %></h3>
+  <%= markdown(topic.description) %>
+<% end %>

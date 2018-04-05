@@ -6,15 +6,13 @@
 
 <% @commonplaces.each do |commonplace| %>
   <div class="row mb-16">
-    <div class="col-xs-12 col-md-3">
+    <div class="col-xs-2 col-md-3">
       <%= image_tag commonplace.image_url, height: "", width: "100%;" %>
     </div>
-    <div class="col-xs-12 col-md-9">
-      <p>
-      <%= link_to commonplace.title, commonplace_path(commonplace.slug) %><br>
+    <div class="col-xs-10 col-md-9">
+      <h3><%= link_to commonplace.title, commonplace_path(commonplace.slug) %></h3>
       <span class="article__date light-text">Last updated on <%= formatted_date(commonplace.updated_at) %></span>
-      <%= commonplace.description %>
-      </p>
+      <%= markdown(commonplace.description) %>
     </div>
   </div>
 
