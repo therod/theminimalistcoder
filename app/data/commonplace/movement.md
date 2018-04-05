@@ -6,6 +6,7 @@ created_at: "2018-03-15"
 published: true
 ---
 
+# Introduction
 Movement is everywhere. Where there is life, there is movement. It is part of our DNA, as that of every species. It is a basic need we all feel, like the one for food, water and sleep. Movement training is a crucial part of health, right up there with food and rest. Yet, somehow, movement didn’t make into countless aspects of modern daily life, especially in the western world. Sitting in a chair, which is arguably the number one movement killing practice today, is an integral part of our societal lifestyle. People sit to eat, sit to go to work, sit to work, sit to unwind after work.
 
 # Upper Body basics
@@ -18,18 +19,33 @@ it doesn't involve a lot of movement but it is still a hard skill to master.
   <iframe width="560" height="349" src="https://www.youtube.com/embed/uMDWAfenuvg?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Getting to the basics
 So how do we get to a "basic" level as defined by Ido. Here's a compilation of all the skills necessary and their corresponding progression.
 
-### Handstand
+## Handstand
 __TODO__
 
 - Make sure you have enough shoulder flexibility.
 
-### Press to Handstand
+## Handstand presses
 Once you have mastered a handstan and can balance it for at least a minute you can start working on a handstand press.
 
 
 <div class="video-container">
   <iframe width="560" height="349" src="https://www.youtube.com/embed/OW_ljV5CBKk" frameborder="0" allowfullscreen></iframe>
 </div>
+
+## Handstand pushup
+
+__TODO__
+
+## Front Levler
+
+__TODO__
+
+## Straddle planche
+
+__TODO__
+
+## One-Armed chin-up
+
+__TODO__

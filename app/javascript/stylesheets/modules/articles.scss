@@ -1,5 +1,4 @@
 @mixin post-body() {
-
   h1 {
     margin-top: 4.5rem;
   }
@@ -76,6 +75,25 @@
         left: -15px;
       }
     }
+  }
+}
+
+.toc {
+  a {
+    @include fs-small();
+  }
+  background-color: $light-background;
+  padding: 2rem;
+  margin-top: 4.5rem;
+  .toc-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .is-collapsible {
+    padding-left: 2.0rem;
+  }
+  .node-name--H1 {
+    font-weight: bold;
   }
 }
 
