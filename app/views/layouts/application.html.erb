@@ -15,6 +15,8 @@
     <meta name="twitter:card" content="<%= @description %>">
     <meta name="twitter:image" content="<%= asset_url(@og_image) %>">
 
+    <%= render 'shared/analytics' %>
+
     <%= javascript_pack_tag 'application' %>
     <%= stylesheet_pack_tag 'application' %>
   </head>
