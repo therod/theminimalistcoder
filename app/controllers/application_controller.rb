@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
 
   def set_metadata
     @description = "I'm a designer, software writer, and hobby philosopher from Switzerland. This is the space where I share my thoughts and what I've learned."
-    @og_image = "theminimalistcoder-kimono-mascott.jpg"
+    @og_image = "theminimalistcoder-kimono-mascott-og.jpg"
   end
 end

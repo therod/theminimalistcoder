@@ -27,8 +27,10 @@ hr {
 }
 
 .artwork-section {
-  &__art svg {
+  &__art img {
     margin-bottom: 6.5rem;
+    position: relative;
+    z-index: -1;
   }
 }
 
@@ -38,12 +40,11 @@ hr {
     &__text {
       width: 65%;
     }
-    &__art {
-    }
-    &__art svg {
-
+    &__art img {
       margin-top: -18.0rem;
       margin-bottom: 6.5rem;
+      position: relative;
+      z-index: -1;
     }
   }
 }
