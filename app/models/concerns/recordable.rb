@@ -74,7 +74,7 @@ module Recordable
   end
 
   def visible?
-    created_at <= Time.zone.now
+    metadata[:published]
   end
 
   def to_s

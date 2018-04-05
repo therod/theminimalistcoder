@@ -2,6 +2,7 @@
 title: "Talks and Interviews"
 description: ""
 created_at: "2018-03-18"
+published: true
 ---
 
 ## Interview on minimimalism

@@ -1,15 +1,31 @@
 @mixin post-body() {
+
+  h1 {
+    margin-top: 4.5rem;
+  }
+  h2 {
+    margin-top: 4.5rem;
+  }
+  h3 {
+    margin-top: 4.5rem;
+  }
+  strong {
+    background-color: #faf785;
+  }
   img {
     width: 100%;
     padding: 5px;
     border: 1px solid $light-gray;
   }
+  .soundcloud-container {
+    margin-bottom: 2.5rem;
+  }
   .video-container {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
 
     iframe {
       position: absolute;
