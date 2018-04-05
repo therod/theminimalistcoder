@@ -5,4 +5,14 @@ module ApplicationHelper
   def formatted_date(date)
     date.strftime("%d. %b, %Y")
   end
+
+  def page_title(title)
+    if title
+      "#{title} | the minimalist coder"
+    else
+      "the minimalist coder"
+    end
+
+
+  end
 end
