@@ -1,0 +1,13 @@
+<div class="container">
+
+  <%= render 'shared/subpage_header', crumbs: [{ name: 'Influences' }] %>
+
+  <section class="subpage-content">
+    <p><%= t('influences_title') %></p>
+    <% t('influences').each do |influence| %>
+      <h3 class="title is-6"><%= influence[:name] %></h3>
+      <p><%= influence[:text] %></p>
+    <% end %>
+  </section>
+
+</div>

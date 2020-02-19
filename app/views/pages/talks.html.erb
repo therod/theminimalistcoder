@@ -1,0 +1,13 @@
+<div class="container">
+
+  <%= render 'shared/subpage_header', crumbs: [{ name: 'Talks and Interviews' }] %>
+
+  <section class="subpage-content">
+    <p><%= t('talks_title') %></p>
+    <% t('talks').each do |talk| %>
+      <h3 class="title is-6"><%= talk[:title] %></h3>
+      <%= talk[:text].html_safe %>
+    <% end %>
+  </section>
+
+</div>

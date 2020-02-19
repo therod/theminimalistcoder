@@ -1,6 +1,9 @@
 ---
 title: "Why I don't read the news"
 description: "A short article on why I try to avoid news like the plague."
+created_at: '2015-06-02'
+updated_at: '2015-06-02'
+published: true
 ---
 As I walk through the train I once more notice the myriads of free newspapers lying around everywhere.  I sit down and the young lady that joined me shortly afterwards, asks me if I finished reading the newspaper located on the seat next to me. I pick it up and hand it to her. 
 

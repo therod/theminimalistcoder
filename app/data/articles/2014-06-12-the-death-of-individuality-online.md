@@ -1,6 +1,9 @@
 ---
 title: "The death of individuality online"
 description: "The web is an amazing tool that allows us to freely express ourselves. Don't keep yourself confined to a system just for the sake of convenience."
+created_at: '2014-06-12'
+updated_at: '2014-06-12'
+published: true
 ---
 Just a while ago, I finished reading the book ["You are not a Gadget"][1] by [Jaron Lanier][2]. One of the main themes in the book is the decline of personal individuality on the web.
 

@@ -1,6 +1,9 @@
 ---
-title: "Rails Girls Zurich, thoughts"
+title: "Rails Girls Zurich 2012, thoughts"
 description: "My thoughts and insights on coaching at Rails Girls for the first time."
+created_at: '2012-11-09'
+updated_at: '2012-11-09'
+published: true
 ---
 
 Last weekend I attended the first Rails Girls event in Zurich,

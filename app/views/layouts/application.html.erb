@@ -2,30 +2,19 @@
 <html>
   <head>
     <title><%= page_title(@title) %></title>
-    <%= csrf_meta_tags %>
     <%= favicon_link_tag 'favicon.ico' %>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="<%= @description %>">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
 
-    <meta property="og:title" content="<%= page_title(@title) %>">
-    <meta property="og:image" content="<%= asset_url(@og_image) %>">
-    <meta property="og:description" content="<%= @description %>">
-    <meta name="twitter:card" content="<%= @description %>">
-    <meta name="twitter:image" content="<%= asset_url(@og_image) %>">
+    <%= render 'shared/tagmanager' %>
+    <%= render 'shared/meta' %>
 
-    <%= render 'shared/analytics' %>
-
-    <%= javascript_pack_tag 'application' %>
-    <%= stylesheet_pack_tag 'application' %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body data-controller="application">
-    <div class="mc-container">
-      <%= render 'shared/navigation' %>
-      <%= yield %>
-      <%= render 'shared/footer' %>
-    </div>
+    <%= yield %>
   </body>
 </html>

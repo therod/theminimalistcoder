@@ -13,7 +13,7 @@ module Recordable
   end
 
   def id
-    date.strftime("%Y%m%d").to_i
+    date.strftime('%Y%m%d').to_i
   end
 
   def created_at
@@ -21,7 +21,11 @@ module Recordable
   end
 
   def updated_at
-    Time.zone.parse(metadata[:updated_at] || File.mtime(self.path).to_s)
+    Time.zone.parse(metadata[:updated_at] || File.mtime(path).to_s)
+  end
+
+  def status
+    metadata[:status]
   end
 
   def to_key
@@ -51,23 +55,23 @@ module Recordable
   end
 
   def title_color
-    metadata[:title_color] || "white"
+    metadata[:title_color] || 'white'
   end
 
   def next_record
     index = self.class.all.find_index { |p| p.date == date } - 1
     if index == -1
-      puts "No next #{self.class.name}"
+      puts 'No next #{self.class.name}'
     else
       self.class.find(index)
     end
   end
 
   def previous_record
-    index = self.class.all.find_index { |p| p.date == date } +1
+    index = self.class.all.find_index { |p| p.date == date } + 1
     all_records = self.class.all.count
     if index == all_records
-      puts "Last #{self.class.name}"
+      "Last #{self.class.name}"
     else
       self.class.find(index)
     end

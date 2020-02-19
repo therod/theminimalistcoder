@@ -1,6 +1,9 @@
 ---
 title: "Putting myself out there"
 description: "Writing is easy, putting yourself out there - not so much."
+created_at: '2016-10-31'
+updated_at: '2016-10-31'
+published: true
 ---
 
 I need to write more. And by that I mean I need to write more for this blog.

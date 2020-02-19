@@ -1,10 +1,10 @@
 class ApplicationController < ActionController::Base
-  before_action :set_metadata
+  before_action :set_meta
 
   private
 
-  def set_metadata
-    @description = t('home.description')
-    @og_image = "theminimalistcoder-kimono-mascott-og.jpg"
+  def set_meta
+    @og_image = 'minimalist-maze-og.jpg'
+    @description = t('home.subtitle_b')
   end
 end

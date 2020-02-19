@@ -1,0 +1,9 @@
+en:
+  talks_title: Talks and interviews that I've given in the past
+  talks:
+    - title: Interview about minimalism
+      text: |
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/kXajtrfcR1E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+

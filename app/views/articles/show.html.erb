@@ -1,8 +1,23 @@
-<article class="article">
-  <h1 class="article__title"><%= @article.title %></h1>
-  <span class="article__date light-text"><%= formatted_date(@article.created_at) %></span>
-  <section class="article__body">
-    <%=raw @article.content_html %>
-  </section>
-</article>
+<div class="container">
 
+  <%= render 'shared/subpage_header', crumbs: [{ name: 'Articles', path: articles_path }, { name: @article.title }] %>
+
+  <section class="subpage-content">
+
+    <article class="article">
+      <h1 class="title is-3"><%= @article.title %></h1>
+      <p class="subtitle is-6 italics">
+        <%= formatted_date(@article.created_at) %>
+        <% unless @article.created_at == @article.updated_at %>
+          <span class="lighter">(updated: <%= formatted_date(@article.updated_at) %>)</span>
+        <% end %>
+      </p>
+      <hr>
+      <section class="content">
+        <%=raw @article.content_html %>
+      </section>
+    </article>
+
+  </section>
+
+</div>

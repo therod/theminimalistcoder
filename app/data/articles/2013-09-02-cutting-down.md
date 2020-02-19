@@ -1,6 +1,9 @@
 ---
 title: "Cutting down"
 description: "Three weeks ago, I returned from my trip to Japan. Here's the one thing I've learned."
+created_at: '2013-09-02'
+updated_at: '2013-09-02'
+published: true
 ---
 Three weeks ago, I returned from my trip to Japan. After cycling across the country of the rising sun for three months I came to one of the biggest realisations about myself:  
 

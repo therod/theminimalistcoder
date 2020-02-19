@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   def index
-    @title = "Articles"
+    @title = 'Rodrigo Hänggi – Articles on research, design, coding, movement and philosophy'
     @articles = Article.all
   end
 

@@ -1,0 +1,26 @@
+<header class="subpage-header">
+  <%= link_to root_url, class: 'invisible-link' do %>
+    <%= inline_svg 'minimalist-maze', alt: 'logo', class: 'logo--subpage' %>
+  <% end %>
+  <h1 class="title">
+    <%= link_to t('home.title'), root_url, class: 'invisible-link' %>
+  </h1>
+  <p><%= t('home.subtitle_b') %></p>
+
+  <div class="breadcrumbs">
+    <%= link_to('Home', root_path) %>
+    <span class="breadcrumb-arrow">&gt;</span>
+
+    <% crumbs.each do |crumb| %>
+      <% if crumb[:path] %>
+        <%= link_to(crumb[:name], crumb[:path]) %>
+        <span class="breadcrumb-arrow">&gt;</span>
+      <% end %>
+
+      <% if crumbs.last == crumb %>
+        <h2 class="current-breadcrumb"><%= crumb[:name] %></h2>
+      <% end %>
+    <% end %>
+  </div>
+
+</header>

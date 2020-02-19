@@ -1,0 +1,13 @@
+<div class="container">
+
+  <%= render 'shared/subpage_header', crumbs: [{ name: 'Get in touch' }] %>
+
+  <section class="subpage-content">
+    <% t('contact.points').each do |point| %>
+      <p>
+      <%= point[:name] %>: <%= point[:url] ? link_to(point[:handle], point[:url], target: '_BLANK') : "#{point[:handle]}" %>
+      </p>
+    <% end %>
+  </section>
+
+</div>

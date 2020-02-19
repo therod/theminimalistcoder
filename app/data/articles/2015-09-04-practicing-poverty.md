@@ -1,6 +1,9 @@
 ---
 title: "Practicing poverty"
 description: 'Start your way into minimalism with the stoic technique of "practicing poverty"'
+created_at: '2015-09-04'
+updated_at: '2015-09-04'
+published: true
 ---
 
 In the past, some people have asked me, how I made minimalism an active part of my life.

@@ -1,9 +1,13 @@
-<h2>Articles</h2>
-<div class="listing">
-  <% @articles.each do |article| %>
-    <p>
-      <%= link_to article.title, article_path(article.slug) %><br>
-      <%= article.description %> <span class="light-text"><%= formatted_date(article.created_at) %></span>
-    </p>
-  <% end %>
+<div class="container">
+
+  <%= render 'shared/subpage_header', crumbs: [{ name: 'Articles' }] %>
+
+  <section class="subpage-content">
+    <% @articles.each do |article| %>
+      <p>
+        <%= link_to article.title, article_path(article.slug) %><br>
+        <%= article.description %>
+      </p>
+    <% end %>
+  </section>
 </div>
