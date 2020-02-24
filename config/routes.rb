@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   root 'pages#home'
 
   get '/talks', to: 'pages#talks', as: :talks
-  get '/influences', to: 'pages#influences', as: :influences
+  # get '/influences', to: 'pages#influences', as: :influences
   get '/books', to: 'pages#books', as: :books
   get '/contact', to: 'pages#contact', as: :contact
 
@@ -21,4 +21,7 @@ Rails.application.routes.draw do
   get '/commonplace/on-designing-and-writing-software', to: redirect('/articles/on-designing-and-writing-software'), status: 301
 
   resources :articles, param: :slug, only: %i[index show]
+
+  get '/sitemapindex.xml', to: 'sitemaps#index', as: :sitemaps
+  get '/sitemap.xml', to: 'sitemaps#show', as: :sitemap
 end
