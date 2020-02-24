@@ -1,5 +1,5 @@
 xml.instruct!
-xml.sitemapindex "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
+xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9", "xmlns:xhtml" => "http://www.w3.org/1999/xhtml" do
   # Root
   xml.url do
     xml.loc root_url
