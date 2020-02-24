@@ -23,7 +23,7 @@ A collection of videos & resources that helped me the most in understanding #JTB
 
 ### Introduction by Bob Moesta
 <div class="video-container">
-  <iframe width="560" height="349" src="https://www.youtube.com/embed/f2l75aAJo44?rel=0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/f2l75aAJo44?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 > Growth comes from the struggling moments that we choose, to make things better.
@@ -38,7 +38,7 @@ One of the most helpful tools in the #JTBD area is the customer interview. [Mast
 The course costs 300$ USD and is totally worth it.
 
 <div class="video-container">
-  <iframe src="https://player.vimeo.com/video/81153746" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/81153746" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 
