@@ -2,7 +2,7 @@
 title: "Jobs to be Done"
 description: "Customers are not interested in your solution. They are only interested in their problems. So what job is your product or service solving? How does it make your customers’ lives better? "
 created_at: "2018-04-03"
-updated_at: '2020-02-18'
+updated_at: '2020-03-06'
 published: true
 ---
 ## Introduction
@@ -45,6 +45,8 @@ The course costs 300$ USD and is totally worth it.
 ### Conducting interviews
 Before each interview I like to quickly skim through the [Jobs-to-be-Done Handbook](https://www.amazon.de/Jobs-be-Done-Handbook-techniques-application/dp/1499339232/ref=sr_1_4?ie=UTF8&qid=1516729033&sr=8-4&keywords=jobs+to+be+done). It's a great refresher.
 
+![Jobs-to-be-Done Handbook Image](https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/jtbd-handbook.jpg)
+
 ---
 
 ## Additional Resources
@@ -66,3 +68,63 @@ Interview with Jason Fried of Basecamp on how they apply #JTBD to improve their 
 <div class="soundcloud-container">
   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/309279765&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </div>
+
+---
+
+## My learnings
+
+### Explain JTBD before the project starts
+
+Some principles and ideas behind JTBD are very profound and deep.
+It can take a while until these finally "click" in your head and start to make sense.
+If you work in a team and intend to use JTBD for research, then I highly recommend giving a quick introduction to everyone involved - especially stakeholders.
+
+Keep it simple and focus on these points:
+
+1. People don't buy products to just own them, but because they think that the product will help them make progress in reaching a "better version" of themselves.
+2. The timeline is a tool used to uncover various aspects about the first point. When did they first think they had to change? This is why we conduct the interview the way we do.
+3. Explain the forces of progress (Push, Pull, Anxiety and Habit).
+
+In addition to explaining these concepts I can recommend doing a quick "demo-interview" in front of the group.
+
+### Send a Reminder to interviewees
+
+Research can be a time and energy consuming process and there is nothing more frustrating than a participant that forgets to show up.
+This is why I started messaging participants the morning of the interview to remind them about the appointment.
+
+That way the participant can still react and re-schedule if he or she realizes that today isn't as good a day as they might have initially thought when agreeing to the interview.
+
+### Have a Checklist before and after the inteviews
+I'm a big fan [Checklists](https://www.goodreads.com/book/show/6667514-the-checklist-manifesto). Here's the current one I use when conducting JTBD research.
+
+**Project-Level:**
+
+- Make sure everyone in the project understands how the interviews will be conducted.
+
+**Morning of the interview:**
+
+- Send SMS reminder to all participants.
+
+**When doing it in person:**
+
+- Make sure the participant knows the address of the location.
+- Have beverages / water ready.
+
+**When conducting remote interviews:**
+
+- Charged Laptop, iPad & Phone.
+- Phone connected to power-outlet when using it for the call.
+- Wired [Microphone](https://www.bluedesigns.com/products/yeti/) & Headphones
+- Quiet space available
+
+**Before the call:**
+
+- Make sure that you have a stable internet / phone connection.
+- Start all necessary software. (I use [audiohijack](https://rogueamoeba.com/audiohijack/) to combine the sound of the microphone with the sound coming from my VoIP App, FaceTime, Skype or whatever I use for the Interview. You can [download my audiohijack configuration here](https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/-JTBD-Interview.ahsession).
+- Check if all the audio devices work as intended.
+
+**Interview Start:**
+
+- Make sure the reward for the interview is clear & check if the delivery address is correct.
+- Ask permission to record the interview.
+- [[PRESS RECORD]]
