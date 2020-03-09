@@ -1,5 +1,5 @@
 ---
-title: "Escaping the Youtube black hole"
+title: "Escaping the YouTube black hole"
 description: "YouTube can be a blessing and a curse at the same time. Reclaim your time with this simple hack."
 created_at: '2020-03-06'
 updated_at: '2020-03-06'
