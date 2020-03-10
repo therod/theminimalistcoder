@@ -31,7 +31,7 @@ The solution I came up with is very straightforward and comes in the form of a C
 
 The plugin offers a visual element picker – no need to kow any HTML to be able to use it.
 
-If you want to use my YouTube setup then just add this code to the *“My filters”* section in the settings pane of uBlock Origin.
+If you want to use my YouTube setup then just add [this code](https://gist.github.com/therod/cda3f062c58a471fae35e43df5d3df5b#file-ublock-youtube-txt) to the *“My filters”* section in the settings pane of uBlock Origin.
 
 <script src="https://gist.github.com/therod/cda3f062c58a471fae35e43df5d3df5b.js"></script>
 
