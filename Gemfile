@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.0'
+ruby '2.7.1'
 
 gem 'rails', github: 'rails/rails', branch: '6-0-stable'
 gem 'puma', '~> 4.1'
