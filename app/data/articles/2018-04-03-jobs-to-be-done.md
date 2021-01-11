@@ -2,7 +2,7 @@
 title: "Jobs to be Done"
 description: "Customers are not interested in your solution. They are only interested in their problems. So what job is your product or service solving? How does it make your customers’ lives better? "
 created_at: "2018-04-03"
-updated_at: '2020-03-06'
+updated_at: '2021-01-11'
 published: true
 ---
 ## Introduction
@@ -69,8 +69,11 @@ Interview with Jason Fried of Basecamp on how they apply #JTBD to improve their 
   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/309279765&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </div>
 
----
+### Ryan Singer - Keep digging
+This is a great [blog post](https://m.signalvnoise.com/keep-digging/) by Ryan that shows that there is no "cookie-cutter" method when it comes to asking the right questions.
+As you get more used to interviewing people over time, you will instinctively know where to dig deeper.
 
+---
 ## My learnings
 
 ### Explain JTBD before the project starts
