@@ -1,6 +1,6 @@
 ---
 title: "Current Workout Routine"
-description: "My current workout routine annotated with gifs"
+description: "Breakdown of my current workout routine."
 created_at: '2021-01-11'
 updated_at: '2021-01-11'
 published: true
