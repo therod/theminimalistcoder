@@ -4,7 +4,9 @@
     <title><%= @title %></title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag "application", "data-turbo-track": "reload" %>
 
     <%= auto_discovery_link_tag :atom, articles_url(format: :atom), title: 'Feed' %>
 
@@ -21,21 +23,20 @@
 
     <%# <%= csrf_meta_tags %1> %>
     <%# <%= csp_meta_tag %1> %>
-    <%# <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %1> %>
   </head>
 
   <body>
-    <main id="main-content" class="page page--medium@medium">
-      <div class="page__content">
-        <header>
-          <%= link_to root_url do %>
-            <%= image_tag "rodrigo-haenggi.jpg", size: "70x70" %>
-            <h1>Rodrigo Hänggi</h1>
+    <main id="main-content" class="max-w-6xl pt-4 pb-4 pl-4 pr-4 ml-auto mr-auto">
+      <div class="max-w-2xl ml-auto mr-auto">
+        <header class="mt-12 mb-12 text-center">
+          <%= link_to root_url, class: 'no-underline' do %>
+            <%= image_tag "rodrigo-haenggi.jpg", size: "60x60", class: "rounded-full inline-flex" %>
+            <h1 class="tracking-widest text-gray-600 uppercase">Rodrigo Hänggi</h1>
           <% end %>
         </header>
-        <section>
-          NAVIGATION GOES HERE
-        </section>
+        <%# <section> %>
+        <%#   NAVIGATION GOES HERE %>
+        <%# </section> %>
         <section>
           <%= yield %>
         </section>

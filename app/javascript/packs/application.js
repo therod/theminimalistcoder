@@ -8,9 +8,7 @@ import { Turbo } from "@hotwired/turbo-rails"
 window.Turbo = Turbo
 require("channels")
 
-// Stylesheets
-// require('normalize.css/normalize.css');
-// require('stylesheets/application.scss');
-
 // Stimulus
 import "controllers"
+
+import "stylesheets/application"
