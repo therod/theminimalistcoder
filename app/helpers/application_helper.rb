@@ -1,14 +1,10 @@
 module ApplicationHelper
-  def page_title(title)
-    if title
-      title
-    else
-      'Rodrigo Hänggi: theminimalistcoder'
-    end
+  def original_url
+    request.url
   end
 
   def formatted_date(date)
-    date.strftime("%-d. %B %Y")
+    date.strftime("%B %d, %Y")
   end
 
   def markdown(body)

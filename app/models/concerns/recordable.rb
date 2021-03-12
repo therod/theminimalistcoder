@@ -16,8 +16,12 @@ module Recordable
     date.strftime('%Y%m%d').to_i
   end
 
+  def date
+    created_at
+  end
+
   def created_at
-    Time.zone.parse(metadata[:created_at] || @date_str).to_date
+    Time.zone.parse(metadata[:created_at] || @date_str)
   end
 
   def updated_at

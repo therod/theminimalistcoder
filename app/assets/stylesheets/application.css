@@ -13,3 +13,200 @@
  *= require_tree .
  *= require_self
  */
+
+:root {
+  --rgb-black: 0, 0, 0;
+  --rgb-white: 255, 255, 255;
+  --rgb-almost-black: 35, 28, 51;
+  --rgb-almost-white: 236, 233, 230;
+  --rgb-gray: 116, 116, 128;
+  --rgb-medium-gray: 226, 221, 215;
+  --rgb-light-gray: 251, 250, 249;
+  --rgb-neutral-light-gray: 244, 243, 245;
+  --rgb-teal: 157, 255, 236;
+  --rgb-blue: 0, 116, 228;
+  --rgb-purple: 85, 34, 250;
+  --rgb-green: 41, 152, 80;
+  --rgb-red: 201, 36, 0;
+  --rgb-canary: 255, 245, 202;
+  --rgb-yellow: 255, 214, 10;
+  --rgb-yellow-gradient-middle: 255, 245, 205;
+  --rgb-peach: 255, 229, 218;
+  --rgb-orange: 248, 121, 23;
+  --rgb-coral: 249, 92, 92;
+  --rgb-background: var(--rgb-white);
+  --rgb-ink: var(--rgb-almost-black);
+  --rgb-overlay: var(--rgb-white);
+  --color-black: rgb(var(--rgb-black));
+  --color-almost-black: rgb(var(--rgb-almost-black));
+  --color-primary: rgb(var(--rgb-teal));
+  --color-secondary: rgb(var(--rgb-blue));
+  --color-tertiary: rgb(var(--rgb-purple));
+  --color-positive: rgb(var(--rgb-green));
+  --color-negative: rgb(var(--rgb-red));
+  --color-coral: rgb(var(--rgb-coral));
+  --color-disabled: rgb(var(--rgb-gray));
+  --color-always-white: rgb(var(--rgb-white));
+  --color-bg--main: rgb(var(--rgb-background));
+  --color-bg--main-transparent: rgba(var(--rgb-background), 0);
+  --color-bg--main-thin: rgba(var(--rgb-background), 0.5);
+  --color-bg--main-thick: rgba(var(--rgb-background), 0.95);
+  --color-bg--main-reversed: rgb(var(--rgb-ink));
+  --color-bg--surface: rgba(var(--rgb-medium-gray), 0.4);
+  --color-bg--surface-opaque: rgb(var(--rgb-medium-gray));
+  --color-bg--surface-glint: rgba(var(--rgb-medium-gray), 0.15);
+  --color-bg--surface-glint-transparent: rgba(var(--rgb-light-gray), 0);
+  --color-bg--surface-glint-opaque: rgb(var(--rgb-light-gray));
+  --color-bg--surface-glint-thick: rgb(var(--rgb-light-gray), 0.9);
+  --color-bg--neutral: rgb(var(--rgb-neutral-light-gray));
+  --color-bg--positive: rgba(var(--rgb-green), 0.25);
+  --color-bg--positive-glint: rgba(var(--rgb-green), 0.15);
+  --color-bg--negative: rgb(var(--rgb-red), 0.25);
+  --color-bg--negative-glint: rgb(var(--rgb-red), 0.15);
+  --color-bg--flash-notice: rgba(var(--rgb-ink), 0.75);
+  --color-bg--flash-notice-glint: rgba(var(--rgb-ink), 0.65);
+  --color-bg--primary: rgba(var(--rgb-teal), 0.15);
+  --color-bg--primary-glint: rgba(var(--rgb-teal), 0.05);
+  --color-bg--secondary: rgba(var(--rgb-blue), 0.15);
+  --color-bg--secondary-glint: rgba(var(--rgb-blue), 0.05);
+  --color-bg--secondary-opaque: #E0EAF9;
+  --color-bg--secondary-glint-opaque: #F4F8FE;
+  --color-bg--tertiary: rgba(var(--rgb-purple), 0.15);
+  --color-bg--tertiary-glint: rgba(var(--rgb-purple), 0.05);
+  --color-bg--warning: rgb(var(--rgb-canary));
+  --color-bg--warning-glint: rgb(var(--rgb-peach));
+  --color-bg--warning-urgent: rgb(var(--rgb-orange), 0.33);
+  --color-bg--collection: rgba(var(--rgb-green), 0.25);
+  --color-bg--collection-glint: rgba(var(--rgb-teal), 0.1);
+  --color-bg--collection-opaque: #D7EFDE;
+  --color-bg--collection-glint-opaque: #F2FDF9;
+  --color-bg--world-primary: #8edacd;
+  --color-bg--world-secondary: #4c63e1;
+  --color-bg--world-tertiary: #6550f0;
+  --color-bg--highlight: rgba(var(--rgb-yellow), 0.25);
+  --color-bg--overlay: rgb(var(--rgb-overlay));
+  --color-bg--overlay-dark: rgb(var(--rgb-almost-black), 0.95);
+  --color-bg--receded: rgb(var(--rgb-ink), 0.03);
+  --color-bg--receded-on-isolated-content: rgb(var(--rgb-ink), 0.03);
+  --color-bg--card: #fff;
+  --color-bg--sheet: var(--color-bg--main);
+  --color-bg--sheet-transparent: var(--color-bg--main-transparent);
+  --color-bg--entry-sheet: var(--color-bg--main);
+  --color-bg--message-content: #fff;
+  --color-bg--popup: rgba(var(--rgb-ink), 0.25);
+  --color-bg--tooltip: rgb(var(--rgb-almost-black));
+  --color-bg--go-button: rgba(var(--rgb-ink), 0.2);
+  --color-bg--note: rgba(var(--rgb-yellow), 0.35);
+  --color-bg--note-glint: rgba(var(--rgb-yellow), 0.15);
+  --color-bg--note-opaque: #FFF6C8;
+  --color-bg--thread: #FAF9F7;
+  --color-bg--note-blend: rgb(var(--rgb-yellow-gradient-middle));
+  --color-txt: rgb(var(--rgb-ink));
+  --color-txt--reversed: rgb(var(--rgb-background));
+  --color-txt--subtle: rgba(var(--rgb-ink), 0.66);
+  --color-txt--subtle-reversed: rgba(var(--rgb-background), 0.66);
+  --color-txt--action: rgb(var(--rgb-blue));
+  --color-txt--placeholder: rgba(var(--rgb-ink), 0.60);
+  --color-txt--on-message-content: rgb(var(--rgb-almost-black));
+  --color-txt--subtle-on-message-content: rgba(var(--rgb-almost-black), 0.66);
+  --color-border: rgba(var(--rgb-ink), 0.15);
+  --color-border--reversed: rgba(var(--rgb-almost-white), 0.25);
+  --color-border--light: rgba(var(--rgb-ink), 0.05);
+  --color-border--heavy: rgba(var(--rgb-ink), 0.5);
+  --color-border--solid: rgb(var(--rgb-ink));
+  --color-border--popup: rgba(var(--rgb-black), 0.15);
+  --color-shadow: rgba(var(--rgb-medium-gray), 0.5);
+  --color-shadow--light: rgba(var(--rgb-medium-gray), 0.3);
+  --color-shadow--dark: rgba(var(--rgb-black), 0.1);
+  --color-focus-ring: #a4d2ff;
+  --color-unread: rgb(var(--rgb-orange));
+  --color-quote-toggle: #0068c8;
+  --color-tertiary--contrast: rgb(var(--rgb-purple));
+  --color-collection: rgb(var(--rgb-green))
+}
+
+:root[data-color-scheme="dark"] {
+  --rgb-almost-black: 27, 39, 51;
+  --rgb-gray: 116, 116, 128;
+  --rgb-medium-gray: 51, 60, 71;
+  --rgb-light-gray: 39, 50, 62;
+  --rgb-neutral-light-gray: 39, 50, 62;
+  --rgb-blue: 80, 162, 255;
+  --rgb-purple: 134, 126, 255;
+  --rgb-peach: 242, 165, 117;
+  --rgb-green: 105, 240, 174;
+  --rgb-red: 255, 120, 120;
+  --rgb-yellow: 251, 225, 144;
+  --rgb-yellow-gradient-middle: 225, 203, 133;
+  --rgb-orange: 255, 184, 92;
+  --rgb-coral: 222, 137, 131;
+  --rgb-background: var(--rgb-almost-black);
+  --rgb-ink: var(--rgb-almost-white);
+  --rgb-overlay: 32, 44, 56
+}
+
+:root {
+  --content-width: 98rem;
+  --body-padding: 6.4rem;
+  --page-padding: 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family--mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  --font-size-base: 11px;
+  --font-size-xx-small: 1.1rem;
+  --font-size-x-small: 1.2rem;
+  --font-size-small: 1.4rem;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 1.8rem;
+  --font-size-x-large: 2.4rem;
+  --font-size-xx-large: 3.4rem;
+  --base-space: 1.25em;
+  --half-space: calc(var(--base-space) / 2);
+  --quarter-space: calc(var(--base-space) / 4);
+  --double-space: calc(var(--base-space) * 2)
+}
+
+@media (min-width: 60em) {
+  :root {
+    --font-size-xx-small: 1.2rem;
+    --font-size-x-small: 1.4rem;
+    --font-size-small: 1.6rem;
+    --font-size-medium: 1.8rem;
+    --font-size-large: 2rem;
+    --font-size-x-large: 2.8rem;
+    --font-size-xx-large: 4rem
+  }
+}
+
+
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: 0.2em;
+  color: var(--color-txt) !important;
+  box-shadow: 5px 5px 7px var(--color-shadow);
+  padding:1.5em
+}
+
+.card--list {
+  min-height: 10em;
+  padding-bottom: 4em;
+  overflow: hidden;
+  position:relative
+}
+
+.push--top {
+  margin-top:var(--base-space) !important
+}
+
+.push--bottom {
+  margin-bottom:var(--base-space) !important
+}
+
+.card__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-indent: -9999px;
+  z-index:1
+}

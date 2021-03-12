@@ -1,13 +1,12 @@
 class ArticlesController < ApplicationController
   def index
-    @title = 'Rodrigo Hänggi – Articles on research, design, coding, movement and philosophy'
+    @title = 'Rodrigo Hänggi'
     @articles = Article.all
 
     respond_to do |format|
       format.html
-      format.rss { render layout: false }
+      format.atom
     end
-
   end
 
   def show

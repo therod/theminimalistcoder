@@ -4,17 +4,13 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
-require("turbolinks").start()
+import { Turbo } from "@hotwired/turbo-rails"
+window.Turbo = Turbo
 require("channels")
 
 // Stylesheets
-require('normalize.css/normalize.css');
-require('stylesheets/application.scss');
+// require('normalize.css/normalize.css');
+// require('stylesheets/application.scss');
 
 // Stimulus
-import { Application } from "stimulus"
-import { definitionsFromContext } from "stimulus/webpack-helpers"
-
-const application = Application.start()
-const context = require.context("controllers", true, /\.js$/)
-application.load(definitionsFromContext(context))
+import "controllers"

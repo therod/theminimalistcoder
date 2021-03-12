@@ -1,8 +1,8 @@
 ---
 title: "Current Workout Routine"
 description: "Breakdown of my current workout routine."
-created_at: '2021-01-11'
-updated_at: '2021-01-11'
+created_at: '2021-01-11T15:51:32Z'
+updated_at: '2021-01-11T15:51:32Z'
 published: true
 ---
 

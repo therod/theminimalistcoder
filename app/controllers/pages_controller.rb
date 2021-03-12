@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-    @title = 'Rodrigo Hänggi – Researcher, designer, software writer, mover, hobby philosopher and lifelong learner.'
+    @title = 'Rodrigo Hänggi'
   end
 
   def talks
