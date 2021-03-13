@@ -1,8 +1,3 @@
-const purgecss = require("purgecss")({
-  content: ["./app/views/**/*.html.erb"],
-  defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
-})
-
 let environment = {
   plugins: [
     require('postcss-import'),
