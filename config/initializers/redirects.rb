@@ -7,5 +7,6 @@ Theminimalistcoder::Application.configure do
     r301 '/commonplace/jobs-to-be-done', '/articles/jobs-to-be-done'
     r301 '/commonplace/movement', '/articles/movement'
     r301 '/commonplace/on-designing-and-writing-software', '/articles/on-designing-and-writing-software'
+    r301 '/books', '/articles/books'
   end
 end
