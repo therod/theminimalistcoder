@@ -2,6 +2,7 @@ class ArticlesController < ApplicationController
   def index
     @title = 'Rodrigo Hänggi'
     @articles = Article.all
+    @description = "Researcher, designer, software writer, mover, hobby philosopher and lifelong learner."
 
     respond_to do |format|
       format.html

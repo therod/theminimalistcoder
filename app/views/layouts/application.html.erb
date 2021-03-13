@@ -22,9 +22,6 @@
     <meta property="og:title" content="<%= @title %>">
     <meta property="og:description" content="<%= @description %>">
     <meta property="og:image" content="<%= asset_url 'apple-touch-icon.png' %>">
-
-    <%# <%= csrf_meta_tags %1> %>
-    <%# <%= csp_meta_tag %1> %>
   </head>
 
   <body>
@@ -37,15 +34,20 @@
           <% end %>
         </header>
 
-        <%# <section> %>
-        <%#   NAVIGATION GOES HERE %>
-        <%# </section> %>
-
         <section>
           <%= yield %>
         </section>
+
+        <footer class="pt-8">
+          <p class="text-sm text-center text-gray-500">
+          <%= link_to "Mail", "mailto:rodrigo@codegestalt.com", target: "_BLANK" %>,
+          <%= link_to "Twitter", "https://twitter.com/therod", target: "_BLANK" %>,
+          <%= link_to "LinkedIn", "https://www.linkedin.com/in/rodrigo-hänggi/", target: "_BLANK" %>
+          ·
+          <%= link_to "RSS feed", articles_url(format: :atom) %>
+          </p>
+        </footer>
       </div>
     </main>
-
   </body>
 </html>
