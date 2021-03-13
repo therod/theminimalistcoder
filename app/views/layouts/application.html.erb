@@ -2,19 +2,15 @@
 <html>
   <head>
     <title><%= @title %></title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
     <%= javascript_pack_tag "application" %>
     <%= stylesheet_pack_tag "application" %>
-
     <%= auto_discovery_link_tag :atom, articles_url(format: :atom), title: 'Feed' %>
-
     <link rel="apple-touch-icon" sizes="300x300" href="<%= asset_url 'apple-touch-icon.png' %>">
     <link rel="icon" type="image/png" sizes="300x300" href="<%= asset_url 'apple-touch-icon.png' %>">
-
     <meta name="description" content="<%= @description %>">
-
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="<%= asset_url 'rodrigo-haenggi.jpg' %>">
     <meta property="og:type" content="article">
