@@ -5,6 +5,10 @@ Rails.application.routes.draw do
     }
   end
 
+  constraints(:host => /theminimalistcoder.com/) do
+    match "/(*path)" => redirect {|params, req| "https://rodrigohaenggi.com/#{params[:path]}"},  via: [:get, :post]
+  end
+
   root 'articles#index'
   resources :articles, param: :slug, only: %i[index show]
 
