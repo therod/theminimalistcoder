@@ -34,13 +34,12 @@
           <%= yield %>
         </section>
 
-        <footer class="pt-8">
+        <footer class="mt-12 mb-8">
           <p class="text-sm text-center text-gray-500">
-          <%= link_to "Mail", "mailto:rodrigo@codegestalt.com", target: "_BLANK" %>,
-          <%= link_to "Twitter", "https://twitter.com/therod", target: "_BLANK" %>,
-          <%= link_to "LinkedIn", "https://www.linkedin.com/in/rodrigo-hänggi/", target: "_BLANK" %>
-          ·
-          <%= link_to "RSS feed", articles_url(format: :atom) %>
+          Get in touch with me via
+          <%= link_to "Mail", "mailto:rodrigo@codegestalt.com", target: "_BLANK", class: "underline" %>,
+          <%= link_to "Twitter", "https://twitter.com/therod", target: "_BLANK", class: "underline" %> or
+          <%= link_to "LinkedIn", "https://www.linkedin.com/in/rodrigo-hänggi/", target: "_BLANK", class: "underline" %>
           </p>
         </footer>
       </div>

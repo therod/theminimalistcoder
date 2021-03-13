@@ -11,8 +11,14 @@ html
   text-indent: -99999px
   z-index: 1
 
+.card
+  @apply relative p-8 pb-24 mb-8 border border-gray-300 border-solid rounded shadow-lg
+
+.card--subscribe
+  @apply pb-6 pt-6 w-3/4 ml-auto mr-auto transform -rotate-1 mb-12 text-center
+
 .btn
-  @apply px-4 py-2 font-medium text-blue-600 border border-blue-600 border-solid rounded-full
+  @apply px-4 py-2 font-medium text-blue-400 border border-blue-400 border-solid rounded-full
 
 
 .html-content
@@ -39,7 +45,7 @@ html
     @apply text-xl font-bold
 
   a
-    @apply text-blue-600 underline
+    @apply text-blue-400 underline
 
   ul, ol
     @apply ml-6 mr-6 mb-6
