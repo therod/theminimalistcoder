@@ -8,13 +8,13 @@ published: true
 
 We all know the phenomenon: You start watching a YouTube video, only to find yourself wondering how the fuck you ended up watching a guy build a [primitive forge blower](https://www.youtube.com/watch?v=VVV4xeWBIxE) 3 hours later.
 
-My friends and I like to call this “falling into the **black hole of YouTube**”.
+My friends and I like to call this “falling into the *black hole of YouTube*”.
 
 Years back I used to block YouTube and other distracting sites completely using the [hosts](https://en.wikipedia.org/wiki/Hosts_(file)) file on my computer. But after a while I started missing the brilliant [talks](https://www.youtube.com/watch?v=f-wWBGo6a2w) and [documentaries](https://www.youtube.com/watch?v=1t0CkzD-Bv8) that can be found next to all of the cat videos.
 
 I started looking for a solution that would allow me to watch specific videos, while minimizing the chance of getting sucked into said black hole.
 
-The solution I came up with is very straightforward and comes in the form of a Chrome plugin called [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm/related?hl=en). It blocks Ads by default but also **allows you to block specific HTML elements on any web page**.
+The solution I came up with is very straightforward and comes in the form of a Chrome plugin called [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm/related?hl=en). It blocks Ads by default but also *allows you to block specific HTML elements on any web page*.
 
 *My YouTube startpage before...*
 

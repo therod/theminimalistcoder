@@ -5,10 +5,11 @@ created_at: "2018-04-03"
 updated_at: '2021-01-11'
 published: true
 ---
-## Introduction
-*“Customers are not interested in your solution. They are only interested in their problems.”* So what job is your product or service solving? How does it make your customers' lives better?
+### Introduction
 
-![Progress Jobs to be Done](https://secure.meetupstatic.com/photos/event/d/b/0/5/600_463196069.jpeg)
+> “Customers are not interested in your solution. They are only interested in their problems.” So what job is your product or service solving? How does it make your customers' lives better?
+
+![Progress Jobs to be Done](https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/mario-jtbd.jpg)
 
 Deeply inspired by Alan Klements' "[When Coffee and Kale Compete](http://www.whencoffeeandkalecompete.com)" and Kathy Sierras' "[Badass: Making Users Awesome](http://shop.oreilly.com/product/0636920036593.do)" we want to bring a new way of thinking to how we develop products. By focusing on the desire every customer has to improve themselves and how customers image their lives being better when they have the right solution.
 
@@ -18,7 +19,7 @@ If you live in Switzerland make sure to [join our Meetup Group](https://www.meet
 
 ---
 
-## Understanding Jobs to be Done
+### Understanding Jobs to be Done
 A collection of videos & resources that helped me the most in understanding #JTBD.
 
 ### Introduction by Bob Moesta
@@ -27,12 +28,12 @@ A collection of videos & resources that helped me the most in understanding #JTB
 </div>
 
 > Growth comes from the struggling moments that we choose, to make things better.
-> If there's no struggle, there is no growth. __I can create the best thing in the world, but if they are not struggling, they are never going to get that thing.__  – Bob Moesta
+> If there's no struggle, there is no growth. I can create the best thing in the world, but if they are not struggling, they are never going to get that thing. – Bob Moesta
 
 > I can learn more in ten interviews than in a thousand surveys. – Bob Moesta
 
 
-## Customer Interviews
+### Customer Interviews
 
 One of the most helpful tools in the #JTBD area is the customer interview. [Mastering Jobs-To-Be-Done Interview](http://learn.jobstobedone.org/courses/JTBDinterviews) is the best way to start to learn about how to conduct #JTBD style interviews yourself.
 The course costs 300$ USD and is totally worth it.
@@ -45,11 +46,9 @@ The course costs 300$ USD and is totally worth it.
 ### Conducting interviews
 Before each interview I like to quickly skim through the [Jobs-to-be-Done Handbook](https://www.amazon.de/Jobs-be-Done-Handbook-techniques-application/dp/1499339232/ref=sr_1_4?ie=UTF8&qid=1516729033&sr=8-4&keywords=jobs+to+be+done). It's a great refresher.
 
-![Jobs-to-be-Done Handbook Image](https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/jtbd-handbook.jpg)
-
 ---
 
-## Additional Resources
+### Additional Resources
 
 ### Bob Moesta - Inside the Customer Mind
 Inside the Customer Mind: Jobs-to-be-Done Theory with Bob Moesta, a great interview.
@@ -57,6 +56,7 @@ Inside the Customer Mind: Jobs-to-be-Done Theory with Bob Moesta, a great interv
 <div class="soundcloud-container">
   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/424245450&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </div>
+
 > It's not a process it's not steps. People think the process is the magic bullet and it's the thing that is letting everybody down.
 > Because they haven't done the reps on the skill. They feel like: "if I study how to ride a bike, I will know how to ride one." No, you have to fall of the bike a few times, you have to do these things and learn how to get good at these things, we don't have to just study these things.
 > To be a good innovator you have to learn these skills, not necessarily just the process.
