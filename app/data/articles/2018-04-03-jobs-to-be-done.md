@@ -1,11 +1,10 @@
 ---
 title: "Jobs to be Done"
-description: "Customers are not interested in your solution. They are only interested in their problems. So what job is your product or service solving? How does it make your customers’ lives better? "
+description: "Customers are not interested in your solution. They are only interested in their problems. So what job is your product or service solving? How does it make your customers’ lives better? Let's find out..."
 created_at: "2018-04-03"
 updated_at: '2021-01-11'
 published: true
 ---
-### Introduction
 
 > “Customers are not interested in your solution. They are only interested in their problems.” So what job is your product or service solving? How does it make your customers' lives better?
 
@@ -23,7 +22,7 @@ If you live in Switzerland make sure to [join our Meetup Group](https://www.meet
 A collection of videos & resources that helped me the most in understanding #JTBD.
 
 ### Introduction by Bob Moesta
-<div class="video-container">
+<div class="container video-container">
   <iframe src="https://www.youtube.com/embed/f2l75aAJo44?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -38,7 +37,7 @@ A collection of videos & resources that helped me the most in understanding #JTB
 One of the most helpful tools in the #JTBD area is the customer interview. [Mastering Jobs-To-Be-Done Interview](http://learn.jobstobedone.org/courses/JTBDinterviews) is the best way to start to learn about how to conduct #JTBD style interviews yourself.
 The course costs 300$ USD and is totally worth it.
 
-<div class="video-container">
+<div class="container video-container">
   <iframe src="https://player.vimeo.com/video/81153746" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
@@ -48,12 +47,10 @@ Before each interview I like to quickly skim through the [Jobs-to-be-Done Handbo
 
 ---
 
-### Additional Resources
-
 ### Bob Moesta - Inside the Customer Mind
 Inside the Customer Mind: Jobs-to-be-Done Theory with Bob Moesta, a great interview.
 
-<div class="soundcloud-container">
+<div class="container soundcloud-container">
   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/424245450&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </div>
 
@@ -65,7 +62,7 @@ Inside the Customer Mind: Jobs-to-be-Done Theory with Bob Moesta, a great interv
 ### Jason Fried - Jobs-to-be-Done at Basecamp
 Interview with Jason Fried of Basecamp on how they apply #JTBD to improve their product.
 
-<div class="soundcloud-container">
+<div class="container soundcloud-container">
   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/309279765&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </div>
 
@@ -74,9 +71,10 @@ This is a great [blog post](https://m.signalvnoise.com/keep-digging/) by Ryan th
 As you get more used to interviewing people over time, you will instinctively know where to dig deeper.
 
 ---
-## My learnings
 
-### Explain JTBD before the project starts
+### My learnings
+
+### Explain JTBD before the project starts:
 
 Some principles and ideas behind JTBD are very profound and deep.
 It can take a while until these finally "click" in your head and start to make sense.

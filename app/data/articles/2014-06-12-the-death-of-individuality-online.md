@@ -1,6 +1,6 @@
 ---
 title: "The death of individuality online"
-description: "The web is an amazing tool that allows us to freely express ourselves. Don't keep yourself confined to a system just for the sake of convenience."
+description: "The web is an amazing tool that allows us to freely express ourselves. Don't keep yourself confined to a system just for the sake of convenience..."
 created_at: '2014-06-12'
 updated_at: '2014-06-12'
 published: true

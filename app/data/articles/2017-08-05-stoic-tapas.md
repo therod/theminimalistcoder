@@ -1,12 +1,12 @@
 ---
 title: "Stoic Tapas"
-description: "Adopting a life philosophy can have a huge impact on your life, I chose Stoicism."
+description: "Adopting a life philosophy can be seen as a tool which can have a positive impact on your life. One school of philosophy that resonated with me the most Stoicism. Here is a quick summary of the most important tenets when it comes to practicing it..."
 created_at: '2017-08-05'
 updated_at: '2017-08-05'
 published: true
 ---
 
-## Be content
+### Be content
 Be content with what you already have.
 Do not make your happiness depend on possessions or achievements. Wanting to have
 what you already have will make you more grateful and happy on a daily basis.
@@ -15,7 +15,7 @@ Don't believe me? Try [practicing poverty](/practicing-poverty).
 > "You ask what is the proper limit to a person's wealth? First, having what is essential, and second, having what is enough."   
 > – Seneca
 
-## Everything is neutral
+### Everything is neutral
 Ever heard people say: *"Looks like bad weather today"* before it's going to rain?
 But why? Rain has no motivation. Or does it get up in the morning just to fuck with your
 hiking weekend? Of course not! So how can we say that rain is bad?
@@ -24,7 +24,7 @@ Everything in the world is neutral. There is no good or bad. Only your own
 perception of things cause things to be either good or bad. And labelling things
 as either good or bad will cause a lot of unhappiness in our lives.
 
-## Focus on what you can control
+### Focus on what you can control
 Separate your life in two sections.
 Things that you can control and things that you can't control.
 
@@ -38,7 +38,7 @@ or decide to make the best out of the situation and relax by reading a book.
 Here are some more things that you can't control: *The mood of your boss, the economy,
 the circumstances you were brought up in, other peoples opinion about you, the fucking weather.*
 
-## Turn the obstacle upside down
+### Turn the obstacle upside down
 
 > "The impediment to action advances action. What stands in the way becomes the way."   
 > – Marcus Aurelius
@@ -63,7 +63,7 @@ And the more you turn the obstacle upside down the more you realize that there i
 again, no such thing as good or bad.
 There is only your perception of it and you decide how to deal with it.
 
-## Assume voluntary discomfort
+### Assume voluntary discomfort
 
 Make your life artificially difficult and uncomfortable for a set period of time
 in order to get the perspective that you are trying to avoid.
@@ -85,7 +85,7 @@ experienced what you've dreaded but suffered no ill effect form it.
 > "We suffer more often in imagination than in reality"   
 > - Seneca
 
-## Emotions are created internally
+### Emotions are created internally
 Emotions come from within and we cannot control when or how they appear. What we can control is how we react or act on these emotions.
 
 > "Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom."   
@@ -97,11 +97,11 @@ things happening outside of you, focus instead on what happens inside you and ho
 
 You are always in control.
 
-## Care less
+### Care less
 Don't ignore everything that is going on in your life, but stop caring about the things you cannot control.
 Free up your internal resources to focus your time and mental energy on things that truly matter.
 
-## Time
+### Time
 The most precious asset is not money but time. You can always earn money back
 but once a single minute of your life has passed it's gone forever.
 

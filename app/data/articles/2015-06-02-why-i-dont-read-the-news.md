@@ -1,6 +1,6 @@
 ---
 title: "Why I don't read the news"
-description: "A short article on why I try to avoid news like the plague."
+description: "Henry David Thoreau was ahead of his time when he wrote Walden. This is a short article on why I try to avoid news like the plague..."
 created_at: '2015-06-02'
 updated_at: '2015-06-02'
 published: true

@@ -1,6 +1,6 @@
 ---
 title: "My Current Workout Routine"
-description: "Breakdown of my current workout routine."
+description: "Four years ago I started moving more, exploring the limits of my physical body. This is a breakdown of my current workout routine and some of my thoughts on movement..."
 created_at: '2021-01-11T15:51:32Z'
 updated_at: '2021-01-11T15:51:32Z'
 published: true

@@ -1,6 +1,6 @@
 ---
 title: "Escaping the YouTube black hole"
-description: "YouTube can be a blessing and a curse at the same time. Reclaim your time with this simple hack."
+description: "YouTube can be a blessing and a curse at the same time. I've always struggled with that platform in terms of consuming too much stuff. On one hand you can watch amazing documentaries, on the other hand the recommended list tries to keep your attention on the plattform as long as possible. Let's reclaim our time using a simple hack..."
 created_at: '2020-03-06'
 updated_at: '2020-03-06'
 published: true
