@@ -36,6 +36,10 @@ module Recordable
     [slug]
   end
 
+  def og_image
+    metadata[:og_image] || nil
+  end
+
   def metadata
     load_content
     @metadata
