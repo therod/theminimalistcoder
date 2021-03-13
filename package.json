@@ -4,7 +4,6 @@
   "dependencies": {
     "@rails/webpacker": "5.2.1",
     "autoprefixer": "^10.2.5",
-    "install": "^0.13.0",
     "postcss": "^8.2.8",
     "purgecss": "^4.0.2",
     "tailwindcss": "^2.0.3"
