@@ -1,1 +1,1 @@
-Source code for my blog [over here](https://theminimalistcoder.com).
+Source code used for my personal blog which can be found [over here](https://rodrigohaenggi.com).

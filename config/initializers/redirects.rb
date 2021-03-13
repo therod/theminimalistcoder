@@ -1,4 +1,4 @@
-Theminimalistcoder::Application.configure do
+Blog::Application.configure do
   config.middleware.insert_before(Rack::Runtime, Rack::Rewrite) do
     r301 '/pages/talks', '/articles/minimalism-interview-srf'
     r301 '/talks', '/articles/minimalism-interview-srf'
