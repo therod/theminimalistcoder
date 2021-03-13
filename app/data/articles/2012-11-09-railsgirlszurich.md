@@ -1,6 +1,7 @@
 ---
 title: "Rails Girls Zurich 2012, thoughts"
 description: "My thoughts and insights on coaching at Rails Girls for the first time."
+og_image: 'https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/unnamed.jpg'
 created_at: '2012-11-09'
 updated_at: '2012-11-09'
 published: true

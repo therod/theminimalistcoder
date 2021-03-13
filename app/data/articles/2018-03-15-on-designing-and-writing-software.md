@@ -1,6 +1,7 @@
 ---
 title: "On Designing and Writing Software"
 description: "I've found @DHHs new series \"On Writing Software Well\" quite inspiring. So much so that I decided to start my own series where I try to capture everything that I've learned about designing and writing software..."
+og_image: 'https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/Screen-Shot-2021-03-14-at-00.31.12.jpg'
 created_at: "2018-03-20"
 updated_at: "2018-03-20"
 published: true

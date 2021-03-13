@@ -1,6 +1,7 @@
 ---
 title: "Workspace (June 2015 Edition)"
 description: "A guest post about my current workspace that I've written for deskhunt.com"
+og_image: 'https://theminimalistcoder.s3.amazonaws.com/post-assets/2015-06-05/image_001.jpg'
 created_at: '2015-06-06'
 updated_at: '2015-06-06'
 published: true

@@ -1,6 +1,7 @@
 ---
 title: "Jobs to be Done"
 description: "Customers are not interested in your solution. They are only interested in their problems. So what job is your product or service solving? How does it make your customers’ lives better? Let's find out..."
+og_image: 'https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/mario-jtbd.jpg'
 created_at: "2018-04-03"
 updated_at: '2021-01-11'
 published: true
