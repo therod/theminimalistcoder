@@ -11,6 +11,7 @@ gem 'sprockets', '~> 4.0'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
+gem 'rack-rewrite', '~> 1.5.0'
 gem 'hotwire-rails'
 
 gem 'kramdown'
