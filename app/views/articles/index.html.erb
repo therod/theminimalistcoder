@@ -1,5 +1,5 @@
 <% @articles.each do |article| %>
-  <article class="relative p-8 pb-24 mb-8 border border-gray-300 border-solid rounded">
+  <article class="relative p-8 pb-24 mb-8 border border-gray-300 border-solid rounded shadow-lg">
     <header>
       <p class="mb-2 text-center text-gray-500"><%= formatted_date(article.created_at) %></p>
       <h2 class="mb-5 text-3xl font-bold text-center"><%= article.title %></h2>
