@@ -10,4 +10,5 @@
 
 // Stimulus
 // import "controllers"
+import "stylesheets/tailwind"
 import "stylesheets/application"
