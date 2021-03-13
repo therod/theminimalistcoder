@@ -12,12 +12,12 @@
     <link rel="icon" type="image/png" sizes="300x300" href="<%= asset_url 'apple-touch-icon.png' %>">
     <meta name="description" content="<%= @description %>">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="<%= asset_url 'rodrigo-haenggi.jpg' %>">
+    <meta name="twitter:image" content="<%= @og_image || asset_url('rodrigo-haenggi.jpg') %>">
     <meta property="og:type" content="article">
     <meta property="og:url" content="<%= original_url %>">
     <meta property="og:title" content="<%= @title %>">
     <meta property="og:description" content="<%= @description %>">
-    <meta property="og:image" content="<%= asset_url 'rodrigo-haenggi.jpg' %>">
+    <meta property="og:image" content="<%= @og_image || asset_url('rodrigo-haenggi.jpg') %>">
   </head>
 
   <body>

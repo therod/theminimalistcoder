@@ -1,6 +1,7 @@
 ---
 title: "My Current Workout Routine"
 description: "Four years ago I started moving more, exploring the limits of my physical body. This is a breakdown of my current workout routine and some of my thoughts on movement..."
+og_image: 'https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/Screen-Shot-2021-03-14-at-00.23.57.jpg'
 created_at: '2021-01-11T15:51:32Z'
 updated_at: '2021-01-11T15:51:32Z'
 published: true

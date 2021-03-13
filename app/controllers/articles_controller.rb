@@ -12,6 +12,7 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find_by(params[:slug])
+    @og_image = @article.og_image
 
     @title = @article.title
     @description = @article.description
