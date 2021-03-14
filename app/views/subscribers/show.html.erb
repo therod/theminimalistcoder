@@ -1,4 +1,22 @@
-<section class="card card--subscribe">
-  <h1>Almost done</h1>
-  <p>Check your email for the confirmation link</p>
-</section>
+<% if @subscriber.subscribed %>
+  <section class="card card--subscribe">
+    <h1 class="mb-4 text-3xl font-bold">You're a subscriber.</h1>
+    <p class="text-lg pb-14" >
+    Just so you know – I might not send every post to the mailing list.
+    You can always subscribe to the <%= link_to "RSS feed", articles_url(format: :atom), class: "underline" %> if you don't want to miss anything. 😉
+    </p>
+    <div class="absolute inset-x-0 bottom-0 z-0 p-8 text-center">
+      <%= link_to "See all articles", root_url, class: 'btn' %>
+    </div>
+  </section>
+
+  <p class="text-center">
+    <%= link_to "Unsubscribe", subscriber_unsubscribe_path(subscriber_token: @subscriber.token), class: 'underline text-base text-gray-600 text-center' %>
+  </p>
+
+<% else %>
+  <section class="card card--subscribe">
+    <h1 class="mb-4 text-3xl font-bold">Almost done.</h1>
+    <p class="mb-4 text-lg">Check your email for the confirmation link. 📫</p>
+  </section>
+<% end %>

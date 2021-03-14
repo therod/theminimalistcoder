@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2021_03_13_215751) do
   create_table "subscribers", force: :cascade do |t|
     t.string "email", null: false
     t.string "token", null: false
-    t.boolean "opted_in", default: false
+    t.boolean "subscribed", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

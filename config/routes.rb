@@ -8,7 +8,10 @@ Rails.application.routes.draw do
   root 'articles#index'
   resources :articles, param: :slug, only: %i[index show]
 
-  resources :subscribers, param: :token, only: %i[create show update destroy]
+  resources :subscribers, param: :token, only: %i[create show] do
+    get '/confirmed', to: 'subscribers#confirm'
+    get '/unsubscribe', to: 'subscribers#unsubscribe'
+  end
 
   get '/sitemapindex.xml', to: 'sitemaps#index', as: :sitemaps
   get '/sitemap.xml', to: 'sitemaps#show', as: :sitemap
