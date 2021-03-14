@@ -11,7 +11,7 @@ Instead of offering the usual “10 simple step to …” advice, I want to shar
 
 Becoming a minimalist is not a one time thing that you do by selling everything you own over the weekend [or by blowing up your condo](https://www.youtube.com/watch?v=C0xBX4xF3rs).
 
-Minimalism is a constant process of looking at the things in your life and deciding what deserves to have space in it an what doesn’t. It’s a difficult process, especially since the world we live in constantly tries to tells us that we can acquire happiness by buying shit we don’t need.
+*Minimalism is a constant process of looking at the things in your life and deciding what deserves to have space in it an what doesn’t.* It’s a difficult process, especially since the world we live in constantly tries to tells us that we can acquire happiness by buying shit we don’t need.
 
 Thankfully there are frameworks (some of them are thousands of years old) that can help us overcome all the superficial noise of modern society.
 

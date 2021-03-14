@@ -7,7 +7,7 @@ updated_at: '2021-01-11'
 published: true
 ---
 
-> “Customers are not interested in your solution. They are only interested in their problems.” So what job is your product or service solving? How does it make your customers' lives better?
+*“Customers are not interested in your solution. They are only interested in their problems.”* So what job is your product or service solving? How does it make your customers' lives better?
 
 ![Progress Jobs to be Done](https://theminimalistcoder.s3-eu-west-1.amazonaws.com/public/mario-jtbd.jpg)
 

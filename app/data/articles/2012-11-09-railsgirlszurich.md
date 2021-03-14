@@ -18,7 +18,7 @@ While the organisers and coaches did a great job, there were still
 some things that bothered me personally and I think could be improved.
 This feedback is strictly targeted at the event that happened on
 November 2. and 3. in Zurich. I am aware that every Rails Girls event
-is unique and different in each country, so these *issues* may be completely
+is unique and different in each country, so these issues may be completely
 irrelevant if compared to any other event.   
 
 <b>Disclaimer</b>: The opinions written down here are my own. You don’t have
@@ -38,7 +38,7 @@ A reminder on which the following 4 points are based.
 
 <b>I am reading the Lean Startup, you probably never heard of it:</b>
 I know, talk about startups is completely “hip” at the moment and you
-can’t attend a single *technology* event without at least one guy
+can’t attend a single technology event without at least one guy
 preaching
 about the Lean Startup or other business related bullshit. Most of
 these guys think that programmers don’t spend enough time sleeping
@@ -59,7 +59,7 @@ By leaving the buzz talk at home for once we get a lot more time for the things 
 like a basic explanation of what exactly it is that we'll be doing today.
 This event for once isn't about startups, it's about programming!
 
-Also for the love of sanity, leave *Value Proposition* or other
+Also for the love of sanity, leave Value Proposition or other
 buzzwords out of the keynote. Try to show the girls what simple
 techniques they can use that help them build their own ideas and not some kind of elevator pitch.
 
@@ -79,7 +79,7 @@ Have you ever heard of the 5 year old method? The basic idea behind
 this method is to try to explain concepts (like how the internet works
 for example) in a way
 that even a five year old could “get it”. One great example of this
-method was the German show *Die Sendung mit der Maus* that tried to
+method was the German show Die Sendung mit der Maus that tried to
 explain complicated concepts
 in a simple, playful and visual way. Just quickly set aside 9 minutes
 of your time and watch [this video](http://www.youtube.com/watch?v=vfXsdbnPjX4) to get a better idea
@@ -119,7 +119,7 @@ delivers it to the “Web Server”. It then starts preparing your
 ready to be consumed.```
 
 Ok, now you're all like:
-*Meh, you just made a simple concept even simpler, how does that help anyone?*
+Meh, you just made a simple concept even simpler, how does that help anyone?
 
 If there is one thing that I have learned in life, it is this simple fact:
 
@@ -166,14 +166,14 @@ plus because you are now basically teaching how to convey complicated
 concepts in a more simplistic fashion.
 
 Also by doing the programming exercise after the group introduction
-you won’t pull the groups out of *THE ZONE&#8482;* so that they can
+you won’t pull the groups out of THE ZONE&#8482; so that they can
 keep working open ended.
 This was a huge bummer for our group since we achieved an amazing
 state of flow but got interrupted because we had to do the bento
 exercise which at this point was more disturbing than informative.
 
 <b>Rails Girls will be called Java Girls from today on!</b>
-Not really. But why exactly is it called *RailsGirls*? This important
+Not really. But why exactly is it called RailsGirls? This important
 philosophical fact also got lost during the event.
 I think it’s not called Rails Girls because of the Rails Framework but
 because of the awesome community surrounding it.
@@ -183,7 +183,7 @@ general (lovely)
 weirdness surrounding the Rails & Ruby community. This is probably one
 of the main reasons why I fell in love with Ruby & Rails in the first
 place.
-I want to share that love with everyone at Rails Girls, and so should you! *So let's quickly recap.*
+I want to share that love with everyone at Rails Girls, and so should you! So let's quickly recap.
 
 <b>1)</b> Leave the buzz talk at home and focus on programming for once.
 

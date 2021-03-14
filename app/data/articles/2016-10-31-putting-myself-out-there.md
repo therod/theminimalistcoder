@@ -15,7 +15,7 @@ From [Julia
 Cameron](http://juliacameronlive.com/basic-tools/morning-pages/)
 
 > Morning Pages are three pages of longhand, stream of consciousness writing,
-done first thing in the morning. *There is no wrong way to do Morning Pages*–
+done first thing in the morning. There is no wrong way to do Morning Pages–
 they are not high art. They are not even “writing.” They are about
 anything and everything that crosses your mind– and they are for your eyes
 only. Morning Pages provoke, clarify, comfort, cajole, prioritize and

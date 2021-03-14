@@ -25,11 +25,11 @@ Most of the time I wasn’t able to focus on work because my body would constant
 Somewhen in February I discovered Bulletproof Coffee along with the Bulletprooof Diet and was able to loose around 6 Kilos within a short period of time.
 
 The curious thing about the whole Bulletproof thing was that I ate less than on the slow carb diet but at the same time didn’t feel tired or hungry during most of the day.
-At first I thought it was because of the *magic* mixture of coconut oil and butter combined with freshly roasted coffee.
+At first I thought it was because of the "magic" mixture of coconut oil and butter combined with freshly roasted coffee.
 
 I did some research on why this was happening and stumbled upon something called the Ketogenic diet (also formerly known as the Atkins diet).
 
-> ***Disclaimer:** I don’t want to endorse Bulletproof Coffee here. I respect Dave Asprey and without him I probably wouldn’t be where I am today (diet wise). But do yourself a favour and instead of buying his stuff online just support your local coffee roaster by buying wet-processed & freshly roasted coffee beans and use plain coconut oil with butter. It works perfectly and you don’t have to buy into the whole marketing.*
+> **Disclaimer:** I don’t want to endorse Bulletproof Coffee here. I respect Dave Asprey and without him I probably wouldn’t be where I am today (diet wise). But do yourself a favour and instead of buying his stuff online just support your local coffee roaster by buying wet-processed & freshly roasted coffee beans and use plain coconut oil with butter. It works perfectly and you don’t have to buy into the whole marketing.
 
 
 ### The Ketogenic diet in a nutshell
@@ -55,7 +55,7 @@ But in a modern, developed society those dire times seldomly come and turn into 
 
 The brain needs a constant source of energy to function or otherwise the body will fall into a coma.
 
-And now you’re probably thinking: *“Hold on a second – so you’re saying that if I don’t eat regularly I will fall into a coma? That doesn’t make any sense. What about the people that are fasting? They don’t tip over after not eating for a few days and fall into a coma!”*
+And now you’re probably thinking: “Hold on a second – so you’re saying that if I don’t eat regularly I will fall into a coma? That doesn’t make any sense. What about the people that are fasting? They don’t tip over after not eating for a few days and fall into a coma!”
 
 That’s correct – it turns out that the body has a way to tap into those fat-reserves and use the excess-fat as a substitute energy source.
 
@@ -80,8 +80,8 @@ Wouldn’t there be a deficit?
 
 In short: The body doesn’t need carbohydrates at all. Yep, you read that right: Zero, nada, none whatsoever. [Even if you’re an ultra runner you don’t need carbohydrates](https://www.youtube.com/watch?v=96VZFklUM_Q). Just make sure that you get most of your calorie intake from fat (80%) and protein (15%) and you’re good to go.
 
-> ***Disclaimer number 2**: I’m not a nutritional expert.
-Everything that I’ve just written down here is my knowledge after reading two books about the subject. I can guarantee you that this diet won’t work for everyone. When it comes to loosing weight (and basically anything else in life) there is no silver bullet. If it doesn’t work dont mope around – pick yourself up, experiment with other things, research and adapt. Only you have the power to change yourself, nobody can do it for you.*
+> **Disclaimer number 2**: I’m not a nutritional expert.
+Everything that I’ve just written down here is my knowledge after reading two books about the subject. I can guarantee you that this diet won’t work for everyone. When it comes to loosing weight (and basically anything else in life) there is no silver bullet. If it doesn’t work dont mope around – pick yourself up, experiment with other things, research and adapt. Only you have the power to change yourself, nobody can do it for you.
 
 
 ### My Results
@@ -98,7 +98,7 @@ So here’s a short list of things that have improved for me after living a Keto
 
 And I was able to accomplish all of this with one simple habit change: **Giving up carbohydrates.**
 
-Don’t get the wrong impression – *staying below 20g of carbs every day is hard*. The inital adoption phase was hard. And it was hard giving up pizza, pasta and my beloved cereal.
+Don’t get the wrong impression – staying below 20g of carbs every day is hard. The inital adoption phase was hard. And it was hard giving up pizza, pasta and my beloved cereal.
 
 But in the end you have to ask yourself: Is your best health and productivity worth trading in for that slice of pizza?
 

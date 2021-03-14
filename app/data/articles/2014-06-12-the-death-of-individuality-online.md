@@ -12,11 +12,11 @@ According to Lanier there are a lot of factors that contribute to this decline. 
 > People reduce themselves to the predefined contents of checkboxes and drop-down relationship statuses.
 
 This part of the book resonated strongly with me and made me completely question my relationship and interaction with modern social media. 
-Going through my Facebook profile, I started asking myself: "*which of the almost 200 people listed on here can I really call Friends?*"
+Going through my Facebook profile, I started asking myself: "which of the almost 200 people listed on here can I really call Friends?"
 
 We live in a time where we are connected like never before, but couldn't be further apart from each other at the same time.
 
-Do we really *know* these people that post pictures of beach vistas, kittens and shiny new guitars? Or are we just the fuel to a system that allows us to share insignificant information just as easily as it is to consume it and therefore continue the downward spiral of not knowing what exactly it is, that makes each of us an individual?
+Do we really know these people that post pictures of beach vistas, kittens and shiny new guitars? Or are we just the fuel to a system that allows us to share insignificant information just as easily as it is to consume it and therefore continue the downward spiral of not knowing what exactly it is, that makes each of us an individual?
 
 Do we really become more "social" by pushing a button with the word "Like" on it? Or is it yet again just another quick way for us to get a dopamine fix like so [many other things][3]?
 

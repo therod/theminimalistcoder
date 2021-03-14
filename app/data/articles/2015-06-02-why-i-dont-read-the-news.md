@@ -7,11 +7,11 @@ published: true
 ---
 As I walk through the train I once more notice the myriads of free newspapers lying around everywhere.  I sit down and the young lady that joined me shortly afterwards, asks me if I finished reading the newspaper located on the seat next to me. I pick it up and hand it to her. 
 
-*"Here take it, It's not mine and I don't intend to read it anyways."*  *"Already up to date on all the news huh?"* she asks with a grin on her face. "*Something like that I guess*" I tell her as I turn my attention back to my book. 
+"Here take it, It's not mine and I don't intend to read it anyways."  "Already up to date on all the news huh?" she asks with a grin on her face. "Something like that I guess" I tell her as I turn my attention back to my book. 
 
 > The truth is that I don't read the news. 
 
-Well, to be completely honest with you: I *TRY* no to read the news. Because there are times where I have to force myself not to. And it's not because I have the feeling that something important is happening in the world and I'm missing out. No, the reason is much simpler. When I do read a newspaper it's because I'm simply bored. And I guess most of the people that I see commuting on the train have a reason quite similar to mine. 
+Well, to be completely honest with you: I **TRY** no to read the news. Because there are times where I have to force myself not to. And it's not because I have the feeling that something important is happening in the world and I'm missing out. No, the reason is much simpler. When I do read a newspaper it's because I'm simply bored. And I guess most of the people that I see commuting on the train have a reason quite similar to mine. 
 Why be preoccupied with your own thoughts and worries if you can be reading about those of others. At least then they're not yours anymore.
 
 Not much seems to have changed since Thoreau built his little hut next to a pond somewhere in Massachusetts almost 200 years ago.
@@ -30,6 +30,6 @@ And by focusing I don't mean reading every new information that comes in about t
 A good example for this were the NSA revelations. Every day (and still today) you would hear about yet another program that got revealed or some experts opinion about it. Since I deemed it important to me I started digging deeper into the topic. Actively looking for information outside the daily news bubble. I stumbled upon the blog of Glenn Greenwald (the guy that got contacted by Snowden) and read about other stories which suggest that we somehow knew that surveillance on a mass scale must have been going on. 
 Sadly, most of these stories were written off as crazy conspiracy theories. But the revelations finally confirmed those assumptions. I started reading a lot of books about hacking, cypherpunks and public surveillance. Actively building my own opinion and background knowledge. Yes, building your opinion takes a wee more effort than just picking one that has been prepared for you by others, but it's also way more satisfying in the long run.
 
-*In a nutshell: I encourage you to acquire information about news & topics that are important to you by yourself, instead of just consuming the brain-dead meals that have been pre-packaged for you by the mass media.*
+In a nutshell: *I encourage you to acquire information about news & topics that are important to you by yourself, instead of just consuming the brain-dead meals that have been pre-packaged for you by the mass media.*
 
 It's also a good way to loosen the grip of influence that the mass media has on you. Think you're not being influenced? [Think](https://www.youtube.com/watch?v=XtcucHPkFkg) and then [think again](https://www.youtube.com/watch?v=cgkQXJ3mugY) some more.
