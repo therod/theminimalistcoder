@@ -23,12 +23,15 @@ class SubscribersController < ApplicationController
     @subscriber = Subscriber.find_by(token: params[:subscriber_token])
     @subscriber.update(subscribed: true)
 
+    NotifyBasecamp.send("[New Subscriber] #{@subscriber.email} subscribed! 🥳")
+
     render 'subscribers/show.html.erb'
   end
 
   def unsubscribe
     @subscriber = Subscriber.find_by(token: params[:subscriber_token])
     @subscriber.update(subscribed: false)
+    NotifyBasecamp.send("[Lost Subscriber] #{@subscriber.email} unsubscribed! 😢")
   end
 
   private
