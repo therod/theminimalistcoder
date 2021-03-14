@@ -1,0 +1,7 @@
+<div class="message-content">
+  <p>
+  You‘re almost subscribed to updates from my <%= link_to "personal Blog", "https://rodrigohaenggi.com", target: "_BLANK" %>.<br>
+    If you want to get notified whenever I decide to send something new, click the button below to confirm.
+  </p>
+  <%= link_to "Confirm subscription", subscriber_confirmed_url(subscriber_token: @subscriber.token), class: 'btn', style: "", target: "_blank", rel: 'noreferrer' %>
+</div>

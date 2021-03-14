@@ -7,6 +7,10 @@ class SubscribersController < ApplicationController
       @subscriber.save
     end
 
+    unless @subscriber.subscribed
+      SubscriberMailer.double_opt_in_email(@subscriber).deliver_now
+    end
+
     redirect_to subscriber_path(@subscriber.token)
   end
 
