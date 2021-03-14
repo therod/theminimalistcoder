@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'postmark-rails'
 gem 'rack-rewrite', '~> 1.5.0'
+gem 'rack-attack'
 gem 'kramdown'
 
 group :development, :test do
