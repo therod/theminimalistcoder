@@ -7,7 +7,6 @@ gem 'rails', '~> 6.1.3'
 gem 'pg', '~> 1.1'
 gem 'puma'
 gem 'webpacker', '>= 5.2.1'
-gem 'sprockets', '~> 4.0'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'postmark-rails'

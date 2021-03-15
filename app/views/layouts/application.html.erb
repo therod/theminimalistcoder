@@ -8,16 +8,16 @@
     <%= javascript_pack_tag "application" %>
     <%= stylesheet_pack_tag "application" %>
     <%= auto_discovery_link_tag :atom, articles_url(format: :atom), title: 'Feed' %>
-    <link rel="apple-touch-icon" sizes="300x300" href="<%= asset_url 'apple-touch-icon.png' %>">
-    <link rel="icon" type="image/png" sizes="300x300" href="<%= asset_url 'apple-touch-icon.png' %>">
+    <link rel="apple-touch-icon" sizes="300x300" href="<%= asset_pack_url 'media/images/apple-touch-icon.png' %>">
+    <link rel="icon" type="image/png" sizes="300x300" href="<%= asset_pack_url 'media/images/apple-touch-icon.png' %>">
     <meta name="description" content="<%= @description %>">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="<%= @og_image || asset_url('rodrigo-haenggi.jpg') %>">
+    <meta name="twitter:image" content="<%= @og_image || asset_pack_url('media/images/rodrigo-haenggi.jpg') %>">
     <meta property="og:type" content="article">
     <meta property="og:url" content="<%= original_url %>">
     <meta property="og:title" content="<%= @title %>">
     <meta property="og:description" content="<%= @description %>">
-    <meta property="og:image" content="<%= @og_image || asset_url('rodrigo-haenggi.jpg') %>">
+    <meta property="og:image" content="<%= @og_image || asset_pack_url('media/images/rodrigo-haenggi.jpg') %>">
   </head>
 
   <body>
@@ -25,7 +25,7 @@
       <div class="max-w-2xl ml-auto mr-auto">
         <header class="mt-12 mb-12 text-center">
           <%= link_to root_url, class: 'no-underline' do %>
-            <%= image_tag "rodrigo-haenggi.jpg", size: "80x80", class: "rounded-full inline-flex" %>
+            <%= image_pack_tag "rodrigo-haenggi.jpg", size: "80x80", class: "rounded-full inline-flex" %>
             <h1 class="mt-2 text-base tracking-widest text-gray-500 uppercase">Rodrigo Hänggi</h1>
           <% end %>
         </header>
