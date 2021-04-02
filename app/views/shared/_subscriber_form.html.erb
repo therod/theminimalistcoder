@@ -1,6 +1,7 @@
 <section class="card card--subscribe">
   <div>
     <%= form_for @subscriber, url: subscribers_path do |form| %>
+       <%= form.invisible_captcha :topic %>
       <%= form.label :email, "Subscribe below to get future articles <br> directly into your inbox".html_safe , class: 'font-bold mb-2 block' %>
       <div class="flex w-full mb-1">
         <%= form.text_field :email, placeholder: "Type your email...", required: true, class: 'border mt-2 mb-2 text-md px-3 py-2 rounded-l-full w-2/3 focus:outline-none focus:border-blue-400' %>

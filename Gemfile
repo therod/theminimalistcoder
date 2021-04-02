@@ -14,11 +14,14 @@ gem 'rack-rewrite', '~> 1.5.0'
 gem 'rack-attack'
 gem 'kramdown'
 
+gem 'invisible_captcha'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
+  gem 'pry-rails'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'

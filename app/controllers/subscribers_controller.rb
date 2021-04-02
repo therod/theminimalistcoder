@@ -1,4 +1,6 @@
 class SubscribersController < ApplicationController
+  invisible_captcha only: [:create], honeypot: :topic, on_spam: :spam_callback
+
   def create
     @subscriber = Subscriber.find_or_initialize_by(email: subscriber_params[:email])
 
@@ -38,5 +40,9 @@ class SubscribersController < ApplicationController
 
   def subscriber_params
     params.require(:subscriber).permit(:email)
+  end
+
+  def spam_callback
+    redirect_to root_path
   end
 end
